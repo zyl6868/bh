@@ -1,0 +1,67 @@
+* {margin:0;padding:0;}
+a {color:#7ecef4;}
+.inline_block{display:inline-block;}
+.school_name {height:100px;background:#ffffff;margin-top:18px;}
+.school_name img {height:100px;}
+.class_nav {height:60px;position:relative;overflow:hidden;margin-top:18px;}
+.class_nav .class_nav_opacity {width:100%;position:absolute;top:0;left:0;height:60px;background:#ffffff;opacity:0.8;filter:Alpha(opacity=80);}
+.class_nav_list {position:relative;float:left;top:18px;left:50%;}
+.class_nav_list .ac a {background:#11ADE6;border-radius:3px;color:#ffffff;}
+.class_nav_list li {float:left;position:relative;margin:0 50px;left:-50%;}
+.class_nav_list li a {display:block;width:70px;text-align:center;line-height:22px;height:22px;font-size:14px;color:#333333;}
+
+.width_left{display:inline-block;width:180px;padding-right:20px;text-align:right;}
+.gap{margin:15px 0;}
+.border__>span{margin-top:7px;border:1px solid #dcdcdc;display:inline-block;line-height:28px;height:28px;padding:0 7px;}
+.bg_fff{background-color:#fff;}
+.main {width:1200px;margin:18px auto;}
+
+.main_head {margin-top: 18px;margin-bottom:18px;text-align: center;position:relative;height:59px;line-height:59px;border-bottom:1px solid #f5f5f5;}
+.main_head a{position:absolute;left:0;top:15px;background:#cccccc;color:white;display:inline-block;line-height:30px;width:80px;text-align:center;padding:0;}
+.main_head a:hover{background-color:#23aee3;}
+.main .write_pen{cursor:text;text-align:center;width:798px;padding-top:11.5px;display:inline-block;border:1px dashed #dcdcdc;}
+.main .write_pen>i{width:26px;height:24px;display:inline-block;background:url("../images/ico.png") no-repeat -97px -640px;}
+/* 收件人 */
+.consignee>div{line-height:41px;display:inline-block;}
+.consignee>span{line-height:41px;float:left;display:inline-block;}
+.consignee ul.ul_1 {position:relative;display:block;}
+.consignee ul.ul_1 li {float:left;margin-right:7px;}
+.consignee ul.ul_1 li input{margin:-3px 5px 0 0;}
+.consignee ul.ul_1 li select{width:110px;height:30px;-webkit-border-radius:0;-moz-border-radius:0;border-radius:0;}
+
+.consignee ul.ul_2{min-height:40px;display:none;margin-bottom:10px;padding:0 7px;background:#f5f5f5;width:800px;border-top:1px solid #7ecef4;}
+.consignee ul.ul_2 li{cursor:pointer;margin:10px 5px;line-height:20px;float:left;width:70px;text-align:center;}
+input[type=checkbox]{margin-right:7px;}
+/* 通知内容 */
+textarea{width:798px;height:378px;border:1px dashed #dcdcdc;}
+/* 添加照片 */
+/*#add_images{margin:10px 0;}*/
+/*#add_images ul{width:800px;}*/
+/*#add_images ul li{position:relative;width:178px;height:118px;border:1px solid #7ecef4;float:left;margin:7px 18px 7px 0;}*/
+/*#add_images i.remove_images{position:absolute;top:7px;right:7px;z-index:1;width:20px;height:20px;background:url("../images/ico.png") -460px -680px no-repeat;cursor:pointer;}*/
+/*#add_images b{cursor:pointer;width:28px;height:28px;position:absolute;left:76px;top:27px;background:url("../images/add.jpg") no-repeat;}*/
+/*#add_images .gray{position:absolute;top:75px;width:100%;text-align:center;}*/
+/* 按钮 */
+button{background:#10ade5;}
+.btn_class{padding:40px;margin-left:160px;}
+.btn_class a{margin-right:15px;}
+.btn_class #seed{background-color:#10ade5;}
+.btn_class #seed:hover{background:rgb(126, 206, 244);}
+.btn_class .btn{width:90px;line-height:40px;height:40px;}
+.choose{padding:0 5px;}
+.choose_stu{display:none;border:1px solid #DCDCDC;position:absolute;width:600px;top: 41px;background:white;z-index:5;}
+.choose_stu>span{position:absolute;top:-4px;left:266px;display:inline-block;width:7px;height:4px;background:url("../images/ico.png") -42px -860px no-repeat white;}
+.choose_stu li{line-height:21px;cursor:pointer;float:left;width:70px;margin:10px 5px;text-align:center;}
+.bg_blue_{background:#d7f2fd;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+.title_txt{width:798px;height:24px;border:none;text-align:center;font-weight:400;font-size:20px;}
+.img_add{width:800px;margin-left:200px;margin-top:10px;}
+.addImg{margin-top:10px;}
+.send,.send_,.save,.save_{background-color:#10ade5;border:1px solid #10ade5;color:white;}
+.save:hover,.send:hover,.save_:hover,.send_:hover{background-color:#0f9dd0;}
+.title__txt{position: relative;height:35.5px}
+/*.title_txt_{position: absolute;right: -120px;margin-top:20px;padding-left:24px;background: url(../images/ico_pub.png) no-repeat -130px -240px;line-height: 20px;}*/
+.gap{position:relative;margin-bottom:5px;}
+/*#Remind_message{position:absolute;top:-30px;left:250px;}*/
+.max_length_txt{position:absolute;right:195px;bottom:-33px;}
+.lineH{line-height:49px;}
+.consignee{margin-top:8px;margin-bottom:-15px;}

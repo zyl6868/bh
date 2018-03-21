@@ -1,0 +1,288 @@
+@charset "UTF-8";
+/**
+ *
+ * @authors 赵博文
+ * @date    2017-03-31 15:15:38
+ * @version 1.0.0
+ */
+
+html, body, div, img, ul, ol, li {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #36b7e6;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    min-height: 540px;
+    min-width: 1200px;
+    width: 100%;
+}
+
+#header {
+    position: relative;
+    width: 1200px;
+    margin: 0 auto;
+    height: 10%;
+}
+
+#header img {
+    height: 1rem;
+    margin-left: 30px;
+    vertical-align: middle;
+}
+
+#header ul {
+    bottom: 50%;
+    float: right;
+    height: 30px;
+    line-height: 20px;
+    margin-right: 30px;
+    margin-top: -15px;
+    padding: 5px 0;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+
+#header li {
+    height: 20px;
+    float: left;
+    font-size: 14px;
+    margin: 0 5px;
+}
+
+#login {
+    float: left;
+    vertical-align: middle;
+    height: 17px;
+    background: url(../images/homePage/use.png) 1px 0 no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+    width: 17px;
+}
+
+#download {
+    float: left;
+    width: 19px;
+    height: 17px;
+    background: url(../images/homePage/use.png) -14px 0 no-repeat;
+    display: inline-block;
+    position: relative;
+    top: 3px;
+}
+
+#header a:hover #login {
+    background-position: 1px -17px;
+}
+
+#header a:hover #download {
+    background-position: -14px -17px;
+}
+
+#header a:hover {
+    color: #36b7e6;
+}
+
+/*
+\\\ 内容
+ */
+.page {
+    height: 100%;
+}
+
+.image {
+    overflow: scroll;
+}
+
+.image img {
+    vertical-align: middle;
+}
+
+#content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#firstPage {
+    position: relative;
+}
+
+#lastPage .image {
+    height: 95%;
+}
+
+/* 轮播图片设置 */
+#carousel {
+    width: 300%;
+    height: 90%;
+    overflow: hidden;
+}
+
+#carousel li.image {
+    float: left;
+    width: 33.3333%;
+    height: 100%;
+}
+
+/* 轮播圆点 横向 */
+#dots {
+    bottom: 15%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#dots li.active {
+    background: #fff;
+    opacity: 1;
+}
+
+#dots li {
+    display: inline-block;
+    -moz-transition: background .5s, opacity .5s;
+    -webkit-transition: background .5s, opacity .5s;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    cursor: pointer;
+    height: .4rem;
+    height: 14px \9;
+    width: .4rem;
+    width: 14px \9;
+    margin: 0 .2rem;
+    opacity: .4;
+    text-align: center;
+    transition: background .5s, opacity .5s;
+}
+
+/* 纵向圆点 */
+#section-btn {
+    z-index: 1;
+    width: 14px;
+    position: fixed;
+    right: 5%;
+    top: 50%;
+    height: 11rem;
+    margin-top: -5.5rem;
+    /*bottom: 0%;*/
+}
+
+#section-btn li.on {
+    background: #37c7a1;
+    opacity: 1;
+}
+
+#section-btn li {
+    -moz-transition: background .5s, opacity .5s;
+    -webkit-transition: background .5s, opacity .5s;
+    background: #000;
+    border-radius: 50%;
+    cursor: pointer;
+    display: inline-block;
+    height: .5rem;
+    height: 14px \9;
+    width: .5rem;
+    width: 14px \9;
+    margin-bottom: .2rem;
+    margin-bottom: 14px \9;
+    opacity: .2;
+    text-align: center;
+    transition: background .5s, opacity .5s;
+}
+
+/*
+\\\ 页脚
+ */
+#footer {
+    position: relative;
+    width: 1200px;
+    height: 5%;
+    margin: 0 auto;
+}
+
+#footer .count1 {
+    font-size: 0.4rem;
+    float: left;
+}
+
+#footer .count2 {
+    font-size: 14px;
+    float: right;
+}
+
+#footer .count2 a {
+    color: #999;
+}
+
+#alttext-image {
+    vertical-align: sub;
+}
+
+#barcodeL {
+    background: url(../images/barcode.jpg) no-repeat;
+    vertical-align: middle;
+    cursor: pointer;
+    height: 18px;
+    width: 18px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+#barcode {
+    position: absolute;
+    bottom: 37px;
+    left: 93px;
+}
+
+.gnn_QRCode{
+    width: 360px;
+    height: 400px;
+    position: absolute;
+    /*bottom: -400px;*/
+    right: 240px;
+    background-color: #fff;
+    text-align: center;
+    transform: scale(0);
+    animation: one 1s forwards;
+}
+@keyframes one {
+    100%{
+        transform: scale(1);
+    }
+}
+.gnn_QRCode h2{
+    font-weight: normal;
+    margin: 0;
+    font-size: 16px;
+    height: 70px;
+    line-height: 70px;
+}
+.gnn_QRCode hr{
+    margin: 0 0 0 -130px;
+    width: 260px;
+    border-bottom-color:#d7f2fc ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.gnn_QRCode .gnn_text:hover{
+    cursor: pointer;
+}

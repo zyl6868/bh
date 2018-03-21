@@ -1,0 +1,95 @@
+#app {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-overflow-scrolling: touch;
+  height: 100%;
+  width: 100%;
+  background-color: #f9f9f9;
+  font-size: 13px;
+}
+@font-face {
+  font-family: 'iconfont';
+  src: url('../assets/iconfont/iconfont.eot');
+  src: url('../assets/iconfont/iconfont.eot?#iefix') format('embedded-opentype'),
+  url('../assets/iconfont/iconfont.woff') format('woff'),
+  url('../assets/iconfont/iconfont.ttf') format('truetype'),
+  url('../assets/iconfont/iconfont.svg#iconfont') format('svg');
+}
+.iconfont{
+  font-family:"iconfont" !important;
+  font-size:16px;
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-overflow-scrolling: touch;
+  -webkit-box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+}
+body, p, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, hr, input, legend, form, th, td {
+  margin: 0;
+  padding: 0
+}
+a, img, button, input, textarea {
+  -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #333;
+}
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.fl {
+  float: left;
+}
+.fr {
+  float: right;
+}
+.mint-indicator {
+  position: relative;
+  z-index: 100;
+}
+.mint-indicator-wrapper {
+  background-color: rgba(255, 255, 255, 0.7);
+}
+.mint-indicator-spin .mint-spinner-snake {
+  border-top-color: #007ef9!important;
+  border-bottom-color: #007ef9!important;
+  border-left-color: #007ef9!important;
+}
+.mint-msgbox-btns {
+  height: 50px!important;
+  line-height: 50px!important;
+}
+.mint-msgbox-btns .mint-msgbox-confirm {
+  font-size: 14px;
+}
+.mint-msgbox-btns .mint-msgbox-cancel {
+  font-size: 14px;
+}
+em.light {
+  color: red;
+}

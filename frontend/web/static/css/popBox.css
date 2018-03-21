@@ -1,0 +1,122 @@
+@charset "UTF-8";
+.popBox .popCont{ position:relative;padding:20px 0 75px; color: #444}
+.popBox .popBtnArea{ height:40px;position:absolute;bottom:0;left:0;width:100%;padding-top:10px;border-top:1px solid #eee;text-align:center}
+.popBox .popBtnArea button{ width:80px;margin:0 8px; padding: 0;}
+.popBox .okBtn{ border:1px solid #10ade5; background-color:#fff; color:#10ade5}
+.popBox .okBtn:hover{background-color:#10ade5; color:#fff}
+.popBox .okBtn:active{background-color:#0f9dd0; color:#fff}
+.popBox .cancelBtn{border:1px solid #ccc; background-color:#fff; color:#888}
+.popBox .cancelBtn:hover{background-color:#ccc; color:#fff}
+.popBox .cancelBtn:active{background-color:#bbb; color:#fff}
+
+
+/*弹框副标题-jw*/
+.popBox .subTitleBar{ height: 40px; line-height: 40px; border-bottom: 1px dashed #10ADE5;}
+.popBox .subTitleBar h5{color:#444; font-size: 16px}
+.popBox .subTitleBar .subTitle_r{ height:40px;position:absolute;right:0;top:20px;text-align:right}
+
+/*错误提示*/
+.errorBox{position:absolute;z-index:1000;max-width:300px;font-size:16px;padding:10px 10px;background-color:#f97373;color:#fff;opacity:0;filter:Alpha(opacity=0);border-radius:3px}
+
+/*操作成功*/
+.successBox{position:absolute;z-index:500;padding:20px 20px;background-color:#00cacf;color:#fff;border:10px solid #fff;font-size:16px;border-radius:10px;opacity:0.9;filter:Alpha(opacity=90)}
+
+/*验证错误提示*/
+.validation_errorBox{position:absolute;z-index:1000;max-width:300px;height:26px;font-size:16px;padding:8px 20px 8px 15px;background-color:#f00;opacity:0;filter:Alpha(opacity=0);border-radius:4px}
+.validation_errorBox .formErrorContent{ color:#fff}
+
+
+/*--------------------------------------------------------------------------*/
+/*试题篮确认框--作业 jw*/
+.bskt_conf_hmwk_Box .chapter_sel{ height: 200px}
+.bskt_conf_hmwk_Box .chapter_sel .cha_box{ float: left; overflow: auto}
+.bskt_conf_hmwk_Box .chapter_sel .cha_l{ width: 370px}
+.bskt_conf_hmwk_Box .chapter_sel .cha_l,.chapter_sel .cha_r{height: 180px; border: 1px solid #dcdcdc; padding: 10px 0}
+.bskt_conf_hmwk_Box .chapter_sel .cha_r{ width: 325px}
+.bskt_conf_hmwk_Box .chapter_sel .cha_c{width:90px; text-align: center }
+
+
+/*教师-作业统计图表弹窗原题目*/
+.statistics_topic_box{ width:600px; min-height:300px; position:absolute; background-color:#fff; border:1px solid #CCC; box-shadow:1px 1px 1px 1px #ccc; padding:20px}
+.statistics_topic_box .arrow{ left:90px}
+.statistics_topic_box .v_r_arrow{ display:none}
+.statistics_topic_box_l .arrow{ left:488px}
+.statistics_topic_box .delBoxBtn{ position:absolute; height:20px; line-height:20px; width:20px; text-align:center; top:5px; right:5px; font-size:16px; }
+
+/*弹窗*/
+/*学校-教师管理-重置密码*/
+.reset_passwordBox .new_sch_con{padding-bottom: 25px}
+.reset_passwordBox .password_d{border: dashed 1px #DDDDDD;border-right: 0;width: 294px;margin:0 auto;}
+.reset_passwordBox .password_d span{float: left;width: 48px;height: 48px;text-align: center;color: #666;line-height: 48px;border-right: dashed 1px #DDD;}
+
+/*学校-教师管理-离校提醒*/
+.confirmBox{text-align: center;}
+.confirmBox .new_sch_con h5{color: #F9726F;font-size: 18px;padding-bottom: 10px}
+/*学校-教师管理-校领导个人信息*/
+.informInfoBox .new_sch_con .row{position: relative;padding-left: 26px;margin-bottom: 15px;line-height: 38px;}
+.informInfoBox .new_sch_con .row dt{position: absolute;width: 75px;text-align: right;}
+.informInfoBox .new_sch_con .row dt em{color:#F87374 }
+.informInfoBox .new_sch_con .row dd{margin-left: 80px;text-align: left}
+.informInfoBox .new_sch_con .row .input_txt{width: 298px;height: 34px;line-height: 34px;border: solid 1px #DCDCDC}
+/*学校-教师管理-校领导个人信息-编辑*/
+.leaderInfo_editBox .new_sch_con .row{position: relative;padding-left: 26px;margin-bottom: 15px;line-height: 38px;}
+.leaderInfo_editBox .new_sch_con .row dt{position: absolute;width: 75px;text-align: right;}
+.leaderInfo_editBox .new_sch_con .row dt em{color:#F87374 }
+.leaderInfo_editBox .new_sch_con .row dd{margin-left: 80px;text-align: left}
+.leaderInfo_editBox .new_sch_con .row dd .chkbox{float: left;padding-right: 10px;}
+.leaderInfo_editBox .new_sch_con .row .input_txt{width: 298px;height: 34px;line-height: 34px;border: solid 1px #DCDCDC}
+/*学校-教师管理-添加校领导*/
+.leaderInfoBox .new_sch_con .sUI_searchBar .text{width: 237px;}
+.leaderInfoBox .new_sch_con .search_box .result{margin-top: 20px;}
+.leaderInfoBox .new_sch_con .search_box .result p{color: #F97373}
+.leaderInfoBox .new_sch_con .search_box .result .exist{margin: 15px 0;text-align: center;}
+.leaderInfoBox .new_sch_con .search_box .result .exist span{}
+.leaderInfoBox .new_sch_con .search_box .result .exist span.phone{padding-left: 23px;}
+.leaderInfoBox .new_sch_con .search_box .result .exist a.btnsave{border-radius:3px;margin-left: 10px;border: solid 1px #DCDCDC;text-align: center;width: 78px;height: 28px;line-height: 28px;display: inline-block;*display: inline;*zoom:1;}
+
+.leaderInfoBox .new_sch_con .row{position: relative;padding-left: 26px;margin-bottom: 15px;line-height: 38px;}
+.leaderInfoBox .new_sch_con .row dt{position: absolute;width: 70px;text-align: right;}
+.leaderInfoBox .new_sch_con .row dt em{color:#F87374 }
+.leaderInfoBox .new_sch_con .row dd{margin-left: 80px;text-align: left}
+.leaderInfoBox .new_sch_con .row .input_txt{width: 298px;height: 34px;line-height: 34px;border: solid 1px #DCDCDC}
+/*添加校领导*/
+.leaderInfoBox .new_sch_con .addtype{width: 245px;margin:0 auto 24px;}
+.leaderInfoBox .new_sch_con{padding: 25px 0 0;text-align: center;}
+.leaderInfoBox .new_sch_con h5{font-size:18px;line-height: 30px;margin-bottom: 25px;}
+.leaderInfoBox .new_sch_con .addtype .chkbox{float: left;margin-right: 38px;line-height: 38px;}
+.leaderInfoBox .new_sch_con .addtype .chkbox input{margin-right: 10px;}
+.leaderInfoBox .new_sch_con .sel{width: 100px;}
+
+/*题目纠错*/
+.correctionBox label{ margin-right: 15px}
+
+
+/*布置作业弹出框*/
+.form_list .formL,.form_list .formR{float:left;line-height:30px;}
+.popBox .form_work_pre{padding-top: 10px;}
+.popBox .form_work_pre .row{padding-bottom:0;}
+.popBox .form_work_pre .row .formL{padding:14px 20px 0 10px;color:#3BAEF3;}
+.popBox .form_list .formR{max-width:430px;}
+.myclass_table{width:490px;padding-bottom:10px;line-height:30px;}
+.myclass_table dt{width:145px;height:40px;/*background:#D1EDFF;*/text-align:center;line-height:40px;float:left;cursor:pointer;}
+.myclass_table dt.bg_f{background-color: #fff}
+.myclass_table dd{margin-left:206px;}
+.myclass_table dd i{background: url(../images/strp.png)no-repeat;visibility:hidden;margin:8px -27px 0 0;}
+.myclass_table dd .edit_box{width:160px;height:36px;padding-left:5px;}
+.popBox .form_list .work_row{padding-left:65px;}
+.popBox .form_list .work_face{padding-top:14px;}
+.popBox .form_list .formL_face{width:150px;}
+.popBox .form_list .formL .face_pic{position:relative;top:14px;right:25px;}
+.form_list .formL label{text-align:right;display: inline-block;vertical-align:middle;min-width:2em;overflow: hidden;}
+.popBox .form_list .formR_text{line-height:24px;padding:10px 20px 0 0;}
+.popBox .form_list{padding:20px 0 0}
+.popBox .form_list .row{ padding-bottom:10px}
+.popBox .form_list .formL label{ height:40px;line-height:40px;width:160px;padding-right:15px}
+.popBox .form_list .formR{max-width:430px;*max-width:425px}
+.popBox .form_list .formR .text{ padding:9px 5px;width:283px}
+.ac dt{background-color:#4EBBFF;color:#fff;}
+.myclass_table.ac dd i{display:inline-block;position:relative;right:21px;visibility:visible;}
+
+
+
+

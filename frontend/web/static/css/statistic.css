@@ -1,0 +1,96 @@
+﻿.school_name{ height: 100px; background-color: #fff}
+.currency_hg {height: 60px;}
+.container .item{ background-color: #fff; margin-bottom: 18px}
+.gobackBtn{position: absolute;top: 15px;left: 0;}
+
+.title_pannel {height: 40px;line-height: 40px;background:none;padding:0 25px 0 25px;border:none}
+
+/*导航*/
+.class_nav{height:60px; position:relative; overflow:hidden; margin-top: 18px}
+.class_nav_list{position:relative;top:18px; left:40px}
+.class_nav_list li{float:left; position:relative; margin:0 10px;}
+.class_nav .class_nav_opacity{width:100%; position:absolute; top:0; left:0; height:60px;background-color:#fff;opacity:0.8;filter:Alpha(opacity=80)}
+.class_nav_list li a{display:block; width:90px; text-align:center; line-height:22px; height:22px; font-size:14px; color:#333;}
+.class_nav_list .ac a{background-color: #11ADE6;border-radius: 3px;color: #fff}
+
+/*学科 年级 类型 单选*/
+.classes_file_list{position: relative;}
+.classes_file_list a{color: #888}
+.classes_file_list a.sel_ac{ font-weight: bold; color: #333}
+.classes_file_list .form_l{ width: 70px;}
+.classes_file_list .form_r{ margin-left: 70px}
+.classes_file_list ul{ width: 90%}
+.classes_file_list ul li{float: left;padding-right: 25px;}
+.classes_file_list .moreContShow{width: 780px;position: relative;}
+.classes_file_list .put_qust_btn{position: absolute; right: 0;top:7px;}
+/*选择考试*/
+.sel_test_bar{ background-color: #fff;}
+.sel_test_bar .sUI_formList{ padding:10px 0 0 0}
+.sel_test_bar a{ color: #888}
+.sel_test_bar .sel_ac{ font-weight: bold; color:#333}
+.sel_test_bar .testList li{ float: left; margin-right: 10px}
+
+.sch_subject_list ul li{border:1px solid #8CDF99;margin-right: 10px;padding:0 7px}
+.sch_subject_list ul .all_subject{ border-width: 0}
+.sch_subject_list ul li a{text-align: center; color: #888}
+.title_pannel{border-bottom: 1px dashed #7ECDF6;}
+
+/*选择课程 select*/
+.sel_classes{ position: relative}
+.sel_classes h5{ height: 30px; line-height: 30px; color: #10ADE5}
+.sel_classes button{ position: absolute; top:15px; right: 10px}
+.sel_classes .sch_mag_homes{ position: absolute; top:55px; left: -1px; width: 230px; background-color: #fff; border: 1px solid #f5f5f5; padding: 15px; z-index: 10}
+.sch_mag_homes dl{ clear: both; overflow: hidden; padding-bottom: 5px}
+.sch_mag_homes dt:hover{cursor: pointer;color: #7ECEF4}
+.sch_mag_homes dd{ float: left; color: #888; margin-right: 10px; cursor: pointer}
+.sch_mag_homes dd:hover{ color: #333}
+.sch_mag_homes dd.sel_ac{ color: #10ADE5}
+.currency_hg .favbar{line-height: 60px;margin-right: 25px;}
+.currency_hg .favbar a {color: #333;}
+
+/*学校人员管理-教师*/
+.left_menu{float: left;width: 260px;background-color: #fff}
+.left_menu li{border-bottom: solid 1px #F5F5F5;}
+.tch_detail{padding-left: 25px;line-height: 60px}
+.left_menu li a{ display:block; text-indent:-4px;color: #666;height: 40px;line-height: 40px;text-align: center; border-left: 4px solid #fff}
+.left_menu li .cur{display: block; border-left: 4px solid #10ADE5;color:#11AEE5;}
+
+
+.test_title{height: 60px; line-height: 60px; text-align: center; font-size: 16px}
+.statistic .echarts_bar .tabItem{ padding: 0}
+.echarts_bar .title_pannel{ border-bottom: 1px dashed #10ADE5; padding-bottom:6px}
+.echarts_bar .echarts_item{ background-color: #fff; margin-bottom: 18px; padding: 10px 25px}
+.echarts_bar .echarts_item h5{ font-size: 16px; line-height: 40px}
+.echarts_bar .echarts_item .chart{ height:260px;}
+/*管宁宁添加于2016/4/15 17：25 修改BUG 796*/
+.echarts_bar .echarts_item th,.echarts_bar .echarts_item td{padding: 0 10px;text-align: center}
+
+/*教师对比*/
+.subList_con{ padding-top: 20px}
+.subList_con li { float:left;border: 1px solid #DCDCDC;margin:0 10px 10px 0;padding: 0 7px; line-height: 24px; position: relative}
+.subList_con li .arrow{ display: none}
+.subList_con .sel_ac{background-color: #11ADE6;color: #fff;border-radius: 3px;border: 1px solid #fff}
+.subList_con .sel_ac a{color: #fff;}
+.subList_con .sel_ac .arrow{display: block; top:30px;left:50%; margin-left: -3px; z-index: 10}
+
+.echarts_item select{ padding: 5px }
+.subject_table{ position: relative; border-top: 1px solid #10ADE5}
+.subject_table table td,.subject_table table th{ height: 40px; border:1px solid #dcdcdc}
+.echart_bar{ background-color: #fff}
+.echart_bar .chart{ height:260px; margin-bottom: 30px}
+.echart_bar .chart h6{ height: 40px; line-height: 40px; background-color: #d7f2fc; font-size: 16px; text-indent: 25px}
+.tableWrap{overflow: auto;padding:25px 0;overflow-Y: hidden;}
+.score_overview table td{ border: 1px solid #dcdcdc; text-align: center}
+.classes_score_level h6{ height: 60px; background-color: #f5f5f5; line-height: 60px; text-indent: 25px; margin-top: 25px}
+
+.single_table{ width: 99%; border: 1px solid #dcdcdc}
+.single_table td{ font-size: 20px}
+.single_table span{font-size: 14px}
+
+/*在线成绩*/
+.online_table td{height: 40px}
+.online_table{ text-align: center}
+
+.sUI_table_border th, .sUI_table_border td {
+    border: 1px solid #dcdcdc;
+}

@@ -1,0 +1,260 @@
+﻿.platform_question_search .seFile{border-bottom:1px solid #F5F5F5;padding:10px 0 25px;}
+
+.currency_hg{height: 60px;}
+.currency_hg1{height: 80px;}
+/*选题篮*/
+.currency_hg1 .pd25{ padding-top: 10px}
+
+
+
+
+/*学科 年级 类型 单选*/
+.classes_file_list{position: relative;}
+.classes_file_list a{color: #888}
+.classes_file_list a.sel_ac{ font-weight: bold; color: #333}
+.classes_file_list .form_l{ width: 70px;}
+.classes_file_list .form_r{ margin-left: 70px}
+.classes_file_list ul{ width: 90%}
+.classes_file_list ul li{float: left;padding-right: 25px;}
+.classes_file_list .moreContShow{width: 780px;position: relative;}
+.classes_file_list .put_ques{position: absolute; right: 0;top:28px;}
+
+.platform .treeWrap{ min-height:80px;max-height: 600px;overflow:auto}
+.platform .tab_pannel{ height: 60px; line-height: 60px}
+.platform .addmemor_btn{ margin-right: 25px}
+.platform .favbar a{ color: #333}
+.platform .favbar a:hover{ color: #10ADE5}
+
+/*选择课程 select*/
+.platform .sel_classes{ position: relative}
+.platform .sel_classes h5{ font-size:16px;height: 30px; line-height: 30px; color: #10ADE5}
+.platform .sel_classes button{ position: absolute; top:15px; right: 10px}
+.platform .sel_classes .sel_classesBar{ position: absolute; top:55px; left: -1px; width: 230px; background-color: #fff; border: 1px solid #f5f5f5; padding: 15px; z-index: 10}
+.platform .sel_classesBar dl{ clear: both; overflow: hidden; padding-bottom: 5px}
+.platform .sel_classesBar dd{ float: left; color: #888; margin-right: 10px; cursor: pointer}
+.platform .sel_classesBar dd:hover{ color: #333}
+.platform .sel_classesBar dd.sel_ac{ color: #10ADE5}
+
+
+
+/*导航*/
+.class_nav{height:60px; position:relative; overflow:hidden; margin-top: 18px}
+.class_nav_list{position:relative;top:18px; left:40px}
+.class_nav_list li{float:left; position:relative; margin:0 10px;}
+.class_nav .class_nav_opacity{width:100%; position:absolute; top:0; left:0; height:60px;background-color:#fff;opacity:0.8;filter:Alpha(opacity=80)}
+.class_nav_list li a{display:block; width:90px; text-align:center; line-height:22px; height:22px; font-size:14px; color:#333;}
+.class_nav_list .ac a{background-color: #11ADE6;border-radius: 3px;color: #fff}
+
+/*作业标题*/
+.homework_title{ position: relative}
+.homework_title h4{ height: 60px; line-height: 60px; text-align: center; font-size: 20px}
+.homework_title .return_btn{ position: absolute; left:0; top:15px}
+
+.platform_question_search .seFile{border-bottom:1px solid #F5F5F5;padding:13px 0 25px; margin-bottom: 8px}
+.platform_question_bank .sUI_searchBar{ margin-left: 20px}
+.platform_question_bank .sUI_searchBar input{ width: 240px}
+
+.platform_question_bank .put_ques{position: absolute; right: 0;top:28px;}
+.platform_question_bank	 h5 a{color: #17AFE6;font-size: 16px;}
+.platform_question_bank	 h5{font-size: 16px;}
+.platform_question_bank .no_btm_boder{border-bottom:0;}
+
+.platform_question_bank .cls_file_pannel{width: 890px;}
+.platform_question_bank .cls_lf_list .file_cls{width: 45px;height: 52px;background: url(../images/ico.png) no-repeat -680px -200px;position: absolute; left: 28px; top:23px;}
+.platform_question_bank .cls_lf_list .in_troduces span{color: #ABABAB}
+
+.platform_question_bank .cls_lf_list .picture{background-position:-440px -200px;}
+.platform_question_bank .cls_lf_list .ppt{background-position:-360px -200px;}
+.platform_question_bank .cls_lf_list .video{background-position:-520px -201px}
+.platform_question_bank .cls_lf_list .word{background-position:-600px -200px}
+.platform_question_bank .cls_lf_list h5 a{display:block; text-overflow:ellipsis; white-space:nowrap; overflow:hidden; color:#555;font-size: 16px;width: 500px; word-wrap: normal}
+.platform_question_bank .cls_lf_list h5 a:hover{color: #40B8EB}
+.platform_question_bank .cls_lf_list{width: 800px;}
+.platform_question_bank .cls_rg_list a{float: left;text-align:center;color: #666;line-height: 35px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;width:90px; font-size:12px}
+.platform_question_bank .cls_rg_list a i{width: 37px;height: 25px;background-image: url(../images/ico.png)}
+.platform_question_bank .cls_rg_list .download i{background-position: -198px -720px;}
+.platform_question_bank .cls_rg_list .fav i{background-position: -294px -720px;}
+.platform_question_bank .cls_rg_list .read i{background-position: -100px -720px;}
+.platform_question_bank .cls_rg_list .cur i{background-image: url(../images/ico_hover.png)}
+
+.platform_question_bank .cls_rg_list{border-left: 1px solid #F5F5F5;padding:0 15px 0 35px; position: absolute; top:13px; right: 0;width: 270px;}
+.platform_question_bank .cls_rList li{background-color: #fff;padding: 25px 20px 0 90px;}
+.platform_question_bank .clsoption_list span{margin-right: 20px}
+.platform_question_bank .clsoption_list span i{background: url(../images/ico_hover.png) no-repeat;width: 23px;height: 19px;padding-right: 10px;}
+.platform_question_bank .clsoption_list span .bq1{background-position: -100px -820px;}
+.platform_question_bank .clsoption_list span a{ cursor:pointer;color: #656764;}
+.platform_question_bank .clsoption_list span .download i{background-position: -259px -720px;}
+.platform_question_bank .clsoption_list span .fav i{background-position: -340px -720px;}
+.platform_question_bank .clsoption_list span .read i{background-position: -160px -720px;}
+.platform_question_bank .clsoption_list span a.cur{color:#10ADE5;}
+.platform_question_bank .sort_a {background-color: #11ADE6;width: 110px;height: 40px;line-height: 40px;text-align: center;color: #fff;}
+
+
+/*平台_搜索 jw*/
+.classes_file_list{position: relative;}
+.classes_file_list a{color: #888}
+.classes_file_list a.sel_ac{ font-weight: bold; color: #333}
+.classes_file_list .form_l{ width: 70px;}
+.classes_file_list .form_r{ margin-left: 70px}
+.classes_file_list ul{ width: 90%}
+.classes_file_list ul li{float: left;padding-right: 25px;}
+.classes_file_list .moreContShow{width: 780px;position: relative;}
+.classes_file_list .put_ques{position: absolute; right: 0;top:28px;}
+
+/**视频列表ljr*/
+.platform_video_list .video_topics_con h5{height: 77px;line-height: 77px;overflow:hidden;font-size: 16px}
+.platform_video_list .video_topics_con .pd25{padding: 25px}
+.platform_video_list .video_topics_con h6{ color: #444}
+.platform_video_list .video_topics_con .form_list .formL{width:160px;position: relative;z-index: 1;height: 90px;float: left;}
+.platform_video_list .video_topics_con .form_list .formL img{width: 160px;height:90px }
+.platform_video_list .video_topics_con .form_list .formL .play_mask{position: absolute;z-index: 1;left: 0;top:0;width: 100%;height: 100%;background-color:#333;opacity:.3;filter:Alpha(opacity=.3)}
+.platform_video_list .video_topics_con .form_list .formL .play_mask i{display: block;position: absolute;z-index: 2;top:50%;left:50%;margin:-23px 0 0 -22px;background: url(../images/ico_play.jpg) no-repeat;width:44px;height: 45px}
+.platform_video_list .video_topics_con .form_list .formR{color:#758086;margin-left: 20px;width:840px;border-right: 1px solid #F1F1F1;position: relative;float: left; min-height:135px}
+.platform_video_list .video_topics_con .form_list .formR h6{line-height: 20px;padding-right: 25px;}
+.platform_video_list .video_topics_con .form_list .formR p{line-height: 27px;margin-top: 10px;padding-right: 25px;}
+.platform_video_list .video_topics_con .form_list .qr_code{float: left;margin-left: 25px}
+.platform_video_list .video_topics_con .form_list .qr_code span{display: block;text-align: center;line-height: 25px}
+.platform_video_list .video_topics_con .form_list .qr_code img{display: block;margin-top: 10px;width: 102px;height: 102px;}
+
+/*视频详情ljr*/
+.platform_video_detail .platform_detail_con .return_btn{position: relative;top:20px;}
+.platform_video_detail .video_topics_con .video_detail_form{border:0;padding:0;margin-top: 40px;background-color: #333}
+.platform_video_detail .video_detail_form .formL{width:861px;height: 640px;float: left;}
+.platform_video_detail .video_detail_form .formR{background-color: #262626;margin-left: 10px;width:268px;border:0;height: 640px;float:left;}
+.platform_video_detail .video_detail_form .formR h5{height: 44px; line-height: 44px;border-bottom: 1px solid #363636;padding-left: 6px;color: #738088}
+.platform_video_detail .video_detail_form .formR .menu{ padding:0 10px;margin-top:30px;height: 565px;overflow-y: auto;}
+.platform_video_detail .video_detail_form .formR .menu li{padding-left:20px;height: 30px;line-height: 30px;cursor: pointer; position:relative;z-index: 1;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;padding-right: 22px;color: #99999B}
+.platform_video_detail .video_detail_form .formR .menu li_space{height: 37px;border-left:1px solid #999; }
+.platform_video_detail .video_detail_form .formR .menu li:hover{background-color:#444;color:#fff}
+.platform_video_detail .video_detail_form .formR .menu li:hover,.video_detail_form .formR .menu li.play{ color:#4aacf3}
+.platform_video_detail .video_detail_form .formR .menu li:hover i,.video_detail_form .formR .menu li.play i{background: url(../images/play_statei.png) no-repeat}
+
+.platform_video_detail .video_detail_form .formR .menu li span{display: inline-block;padding:0 16px 0 11px}
+.platform_video_detail .video_detail_form .formR .menu li i{display:block;width: 11px;height: 11px;background: url(../images/dot.jpg) no-repeat;position: absolute;z-index: 2;left:6px;top:10px;}
+
+.platform_video_detail .video_topics_con .topics li{margin-top: 37px}
+.platform_video_detail .video_topics_con .topics li span.blue{color:#899AA4}
+.platform_video_detail .video_topics_con .paper{margin-bottom: 45px;margin-top: 40px}
+.platform_video_detail .video_topics_con .paper .pass{line-height:30px;}
+.platform_video_detail .video_topics_con .paper p{padding:0 0 0 10px;}
+.platform_video_detail .video_topics_con .paper span.blue{color:#889BA8 !important}
+.platform_video_detail .video_topics_con .paper span.mrow{line-height: 30px;color:#999 !important}
+.platform_video_detail .video_topics_con .paper .asnumber{float: left;width: 39px}
+.platform_video_detail .video_topics_con .paper .answerscon{line-height:30px;padding-left: 37px;color:#999;display: inline-block}
+.platform_video_detail .video_topics_con .answerscon .pass{padding-left:52px}
+
+/*知识点选题*/
+
+/*视频库-真题列表*/
+.platform_video_topic_list .seFile{border-bottom:1px solid #F5F5F5;padding-bottom: 25px; padding-top: 10px;margin-bottom: 13px;}
+.platform_video_topic_list .classes_file_list .moreContShow{width: 1064px}
+.platform_video_topic_list .test_questions{overflow: hidden;}
+.platform_video_topic_list .test_questions ul{width: 1300px;min-height: 585px}
+.platform_video_topic_list .test_questions .test_ques_list{margin:0 33px 18px 0;width: 491px;float: left;border: 1px solid #fff;background-color: #fff;height: 98px;}
+.platform_video_topic_list .test_questions .test_ques_list:hover{border: 1px solid #10ADE4;}
+.platform_video_topic_list .test_questions .test_ques_list .cls_lf_list {width: 420px;padding-top: 23px}
+.platform_video_topic_list .test_questions .test_ques_list .cls_lf_list .video{background-position: -520px -201px;}
+.platform_video_topic_list .test_questions .cls_lf_list .file_cls{width: 45px;height: 52px;background: url(../images/ico.png) no-repeat;position: absolute;left: 20px;top: 23px;}
+.platform_video_topic_list .test_questions .test_ques_list .cls_lf_list h5 a{width: 420px;white-space:nowrap; overflow:hidden; text-overflow:ellipsis;float: left;color: #666}
+.platform_video_topic_list .test_questions .test_ques_list .cls_lf_list h5 a:hover{color:#10ADE4}
+.platform_video_topic_list .test_questions .test_ques_list .cls_lf_list .in_troduces{color: #909090}
+
+/*平台作业 jw*/
+.platform_hmwk_list .hmwk_list li{ background-color: #fff; margin-bottom: 18px; padding:15px 25px 15px 85px; line-height:30px; position: relative}
+.platform_hmwk_list .hmwk_list li h5{ font-size: 16px;}
+.platform_hmwk_list .hmwk_list li h5 a,.platform_hmwk_list .hmwk_list li h5 em a{ color: #333;font-size:16px}
+.platform_hmwk_list .hmwk_list li h5 a:hover,.platform_hmwk_list .hmwk_list li h5 em a:hover{ color: #10ade5;font-size:16px}
+.platform_hmwk_list .hmwk_list li h5 em,.platform_hmwk_list .hmwk_list li h5 em a{ font-weight: bold}
+.platform_hmwk_list .hmwk_list li .hmwk_cls{ width: 50px;height: 52px; position: absolute; left:25px;top:20px;background: url(../images/ico.png) no-repeat; }
+.platform_hmwk_list .hmwk_list li .owner_img{ width:40px; height:40px; border-radius:50%; margin-right:10px; vertical-align: middle}
+.platform_hmwk_list .hmwk_list li .hmwk_word{ background-position: -600px -200px }
+.platform_hmwk_list .hmwk_list li .hmwk_pic{ background-position: -440px -200px}
+
+
+
+/*班内答疑jw*/
+.platform_answering_question .QA_list{background-color: #f5f5f5}
+.platform_answering_question .QA_list h4{ font-size: 18px}
+.platform_answering_question .QA_list .solve .solve_ico{ background-position:-500px -680px}
+.platform_answering_question .QA_list li .solve_ico{display: inline-block; height: 20px;width: 20px; background:url(../images/ico.png) -180px -680px}
+.platform_answering_question .QA_list .sUI_pannel .pannel_l{ width: 90%}
+.platform_answering_question .QA_list li{padding:25px; background-color: #fff; margin-bottom: 18px}
+.platform_answering_question .QA_list .answer_list li .cont img{ margin-right:6px; margin-top:6px}
+.platform_answering_question .QA_list .answer_list li .cont{ width: 75%}
+.platform_answering_question .QA_list .answer_list li .cont p{ text-align: left}
+.platform_answering_question .QA_list .answer_list .answer_student sub{ background-position:-40px -1040px }
+.platform_answering_question .QA_list .answer_list .answer_teacher sub{ background-position:-20px -1040px}
+.platform_answering_question .QA_list .answer_list .answer_example sub{ background-position:-60px -1040px}
+.platform_answering_question .QA_list .answer_list .bestAnswer .cont{min-height: 110px}
+.platform_answering_question .QA_list .answer_list .bestAnswer .best_ico{ position: absolute; width: 120px; height: 100px; background: url(../images/ico.png) -20px -880px; right: 30px; top:10px}
+.platform_answering_question .QA_list .answer_list li .report{ color:#10ade5; position: absolute; right: 0; top: 0 }
+.platform_answering_question .QA_list .answer_list li sub{ width:14px; height:14px;position: absolute; left: 24px; top: 24px; background:url(../images/ico.png) }
+.platform_answering_question .QA_list .answer_list li{ padding: 0 0 20px 60px;border-bottom: 1px dashed #ccc; background: none; }
+.platform_answering_question .answer_list{ padding:20px}
+.platform_answering_question .answer_testList li{float:left}
+.platform_answering_question .answer_testList{float:left; margin-right:20px}
+.platform_answering_question .answerBox .editor .userHeadPic{ width: 40px; height: 40px; border-radius: 50%}
+.platform_answering_question .answerBox .editor textarea{ width: 97%; height: 100px; display: block; margin-bottom: 10px}
+.platform_answering_question .answerBox .upImgFile li{ padding: 0}
+.platform_answering_question .answerBox{border-top:#7ecef4 solid 1px; position:relative; margin-top:10px; background-color: #f6f6f6; padding:18px 0}
+.platform_answering_question .asker_bar{ margin: 10px 0}
+.platform_answering_question .asker_bar em{display:inline-block}
+.platform_answering_question .askerList img{ width: 40px; height: 40px;border-radius: 50%;}
+.platform_answering_question .askerList{ display: inline-block; vertical-align: middle}
+.platform_answering_question .box_tab{width:98%; position:relative; left:-10px}
+.platform_answering_question .classes_file_list{ position: relative; padding: 0}
+.platform_answering_question .classes_file_list ul li i{width: 20px;height:20px;background:url(../images/ico.png) no-repeat;margin-right: 10px;}
+.platform_answering_question .classes_file_list ul li .already_solved{background-position: -500px -680px;}
+.platform_answering_question .classes_file_list ul li .unresolved{background-position: -180px -680px;}
+.platform_answering_question .classes_file_list .form_r{ width: 600px; position: relative}
+.platform_answering_question .classify .i_askBtn{ position: absolute; top:15px; right:0}
+.platform_answering_question .searchBar{ text-align: center; padding:10px 0 20px;}
+.platform_answering_question .open_answer .answerM{ display:none}
+.platform_answering_question .open_answer .answerW{ display:block;}/*显示答案*/
+.platform_answering_question .open_ask .answerM{ display:block}
+.platform_answering_question .open_ask .answerW{ display:none;}/*显示回答*/
+.platform_answering_question .QA_txt{line-height:29px; color:#666;font-size:14px;}
+.platform_answering_question .userInfo h5{ font-size: 18px}
+.platform_answering_question .userInfo img{ border-radius: 50%; float: left; margin-right: 20px}
+.platform_answering_question .userInfo p{ color:#999}
+.platform_answering_question .userInfo{height: 80px; border-bottom: 1px dashed #ccc}
+
+
+
+
+/*作业预览*/
+.platform_hmwk_veiw_ele .homework_title{ position: relative}
+.platform_hmwk_veiw_ele .homework_title h4{ height: 60px; width: 70%; margin: 0 auto; line-height: 60px; text-align: center; font-size: 20px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.platform_hmwk_veiw_ele .homework_title .return_btn{ position: absolute; left:0; top:15px}
+.platform_hmwk_veiw_ele .homwork_info{ font-family:"宋体" }
+.platform_hmwk_veiw_ele .homwork_info p{line-height: 30px; color: #888}
+.platform_hmwk_veiw_ele .homwork_info p em{ font-weight: bold;color:#444}
+
+.homwork_info{position:relative}
+.homwork_info button{width:108px;height:38px;border:1px solid #0fade5;position:absolute}
+.homwork_info .collect,.homwork_info .sc{color:#0fade5;background-color:#fff;right:25px;top:25px}
+.homwork_info .arrange,.homwork_info .bz{color:#fff;background-color:#0fade5;right:25px;top:75px}
+.homwork_info button:hover{box-shadow:0 0 5px 0 #61d6ff}
+
+.tch_suggestion{padding:35px 25px 35px 25px}
+.tch_suggestion .formL{float:left;width:400px;position:relative;height:320px}
+.tch_suggestion .formL p{font-size:18px;line-height:2.4;color:rgb(102,102,102);text-align:left}
+.tch_suggestion .formL p em{font-size:36px;line-height:1.8}
+.tch_suggestion .formL img{position:absolute;left:80px;bottom:-35px}
+
+.tch_suggestion .formR{float:left;width:740px;padding-left:10px;position:relative;height:320px}
+.tch_suggestion .formR .textareaBox{width:740px;position:relative;height:320px;margin:0;padding:0;}
+.tch_suggestion .formR .textareaBox .textarea{width:728px;height:228px;border:1px solid #CCC !important}
+.tch_suggestion .formR .textareaBox .btnArea{position:relative;width:740px;height:80px}
+.tch_suggestion .formR .textareaBox .btnArea .txtCount{position:absolute;right:10px;color:rgb(102,102,102)}
+.tch_suggestion .formR .textareaBox .btnArea .sendBtn{float:right;margin:40px 0 0 0;width:120px;height:40px;background-color:#0fade5}
+.tch_suggestion .formR .textareaBox .btnArea .sendBtn:hover{box-shadow:0 0 5px 0 #61d6ff}
+
+/*试题库 作业库 课件库 增加"新"标识 管宁宁 2016-04-27*/
+.platform_question_search .news,.platform_question_bank .news,.platform_hmwk_list .news,.platform_question_chapter .news,.platform_question_point .news{
+    background: white url("../images/ico.png") no-repeat -980px -1080px;
+}
+.platform_question_search .news,.platform_question_chapter .news,.platform_question_point .news{
+    background-color:  #d7f2fc;
+}
+.sUI_tab .tabList li a{font-size:14px;}

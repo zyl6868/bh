@@ -1,0 +1,127 @@
+@charset "UTF-8";
+.popBox .popCont{ position:relative;padding:20px 0 75px; color: #444}
+.popBox .popBtnArea{ height:40px;position:absolute;bottom:0;left:0;width:100%;padding-top:10px;border-top:1px solid #eee;text-align:center}
+.popBox .popBtnArea button{ width:80px;margin:0 8px; padding: 0;}
+.popBox .okBtn{ border:1px solid #10ade5; background:#fff; color:#10ade5}
+.popBox .okBtn:hover{background:#10ade5; color:#fff}
+.popBox .okBtn:active{background:#0f9dd0; color:#fff}
+.popBox .cancelBtn{border:1px solid #ccc; background:#fff; color:#888}
+.popBox .cancelBtn:hover{background:#ccc; color:#fff}
+.popBox .cancelBtn:active{background:#bbb; color:#fff}
+
+
+/*弹框副标题-jw*/
+.popBox .subTitleBar{ height: 40px; line-height: 40px; border-bottom: 1px dashed #10ADE5;}
+.popBox .subTitleBar h5{color:#444; font-size: 16px}
+.popBox .subTitleBar .subTitle_r{ height:40px;position:absolute;right:0;top:20px;text-align:right}
+
+/*错误提示*/
+.errorBox{position:absolute;z-index:1000;max-width:300px;font-size:16px;padding:10px 10px;background:#f97373;color:#fff;opacity:0;filter:Alpha(opacity=0);border-radius:3px}
+
+/*操作成功*/
+.successBox{position:absolute;z-index:500;padding:20px 20px;background:#00cacf;color:#fff;border:10px solid #fff;font-size:16px;border-radius:10px;opacity:0.9;filter:Alpha(opacity=90)}
+
+/*验证错误提示*/
+.validation_errorBox{position:absolute;z-index:1000;max-width:300px;height:26px;font-size:16px;padding:8px 20px 8px 15px;background:red;opacity:0;filter:Alpha(opacity=0);border-radius:4px}
+.validation_errorBox .formErrorContent{ color:#fff}
+
+
+/*--------------------------------------------------------------------------*/
+/*试题篮确认框--作业 jw*/
+.bskt_conf_hmwk_Box .chapter_sel{ height: 200px}
+.bskt_conf_hmwk_Box .chapter_sel .cha_box{ float: left; overflow: auto}
+.bskt_conf_hmwk_Box .chapter_sel .cha_l{ width: 370px}
+.bskt_conf_hmwk_Box .chapter_sel .cha_l,.chapter_sel .cha_r{height: 180px; border: 1px solid #dcdcdc; padding: 10px 0}
+.bskt_conf_hmwk_Box .chapter_sel .cha_r{ width: 325px}
+.bskt_conf_hmwk_Box .chapter_sel .cha_c{ padding: 0 15px}
+
+
+/*教师-作业统计图表弹窗原题目*/
+.statistics_topic_box{ width:600px; min-height:300px; position:absolute; background:#fff; border:1px solid #CCC; box-shadow:1px 1px 1px 1px #ccc; padding:20px}
+.statistics_topic_box .arrow{ left:90px}
+.statistics_topic_box .v_r_arrow{ display:none}
+.statistics_topic_box_l .arrow{ left:488px}
+.statistics_topic_box .delBoxBtn{ position:absolute; height:20px; line-height:20px; width:20px; text-align:center; top:5px; right:5px; font-size:16px; }
+
+/*弹窗*/
+/*学校-教师管理-重置密码*/
+.reset_passwordBox .subTitleBar{ border:none}
+.reset_passwordBox .subTitleBar h5{ text-align: center; height: 40px; line-height: 40px}
+.reset_passwordBox .password_d{border: dashed 1px #DDDDDD;border-right: 0;width: 294px;margin:0 auto;}
+.reset_passwordBox .password_d span{float: left;width: 48px;height: 48px;text-align: center;color: #666;line-height: 48px;border-right: dashed 1px #DDD;}
+
+
+/*学校-教师管理-离校提醒*/
+.confirmBox{text-align: center;}
+.confirmBox .new_sch_con h5{color: #F9726F;font-size: 18px;padding-bottom: 10px}
+
+/*学校-教师管理-教师个人信息*/
+.infoBox .new_sch_con .row{position: relative;margin-bottom: 15px;line-height: 38px;}
+.infoBox .new_sch_con .row dt{position: absolute;width:85px;text-align: right; top:0; left: 0}
+.infoBox .new_sch_con .row dt em{color:#F87374 }
+.infoBox .new_sch_con .row dd{margin-left: 85px;text-align: left; line-height: 40px}
+.infoBox .new_sch_con .row dd span{ margin-right:30px; display: inline-block}
+.infoBox .new_sch_con .row .input_txt{width: 298px;height: 34px;line-height: 34px;border: solid 1px #DCDCDC;}
+
+/*学校-教师管理-校领导个人信息-编辑*/
+.leaderInfo_editBox .new_sch_con .row{position: relative;padding-left: 26px;margin-bottom: 15px;line-height: 38px;}
+.leaderInfo_editBox .new_sch_con .row dt{position: absolute;width: 75px;text-align: right;}
+.leaderInfo_editBox .new_sch_con .row dt em{color:#F87374 }
+.leaderInfo_editBox .new_sch_con .row dd{margin-left:90px;text-align: left}
+.leaderInfo_editBox .new_sch_con .row dd .chkbox{float: left;padding-right: 10px;}
+.leaderInfo_editBox .new_sch_con .row .input_txt{width: 298px;height: 34px;line-height: 34px;border: solid 1px #DCDCDC}
+
+/*学校-教师管理-编辑教师信息*/
+.editInfoBox .new_sch_con .sUI_searchBar .text{width: 237px;}
+.editInfoBox .new_sch_con .search_box .result{margin-top: 20px;}
+.editInfoBox .new_sch_con .search_box .result p{color: #F97373}
+.editInfoBox .new_sch_con .search_box .result .exist{margin: 15px 0;text-align: center;}
+.editInfoBox .new_sch_con .search_box .result .exist span{}
+.editInfoBox .new_sch_con .search_box .result .exist span.phone{padding-left: 23px;}
+.editInfoBox .new_sch_con .search_box .result .exist a.btnsave{border-radius:3px;margin-left: 10px;border: solid 1px #DCDCDC;text-align: center;width: 78px;height: 28px;line-height: 28px;display: inline-block;*display: inline;*zoom:1;}
+
+.editInfoBox .new_sch_con .row{position: relative;margin-bottom: 15px;line-height: 38px;}
+.editInfoBox .new_sch_con .row dt{position: absolute;width: 85px;text-align: right;}
+.editInfoBox .new_sch_con .row dt em{color:#F87374 }
+.editInfoBox .new_sch_con .row dd{margin-left:90px;text-align: left}
+.editInfoBox .new_sch_con .row .input_txt{width: 298px;height: 34px;line-height: 34px;border: solid 1px #DCDCDC; padding: 0 5px}
+
+.editInfoBox .new_sch_con .addtype{width: 245px;margin:0 auto 24px;}
+.editInfoBox .new_sch_con{padding: 25px 0 0}
+.editInfoBox .new_sch_con .addtype .chkbox{float: left;margin-right: 38px;line-height: 38px;}
+.editInfoBox .new_sch_con .addtype .chkbox input{margin-right: 10px;}
+.editInfoBox .new_sch_con .sel{width: 100px;}
+
+/*上传excel文件*/
+.importExcelBox h5{ font-size: 16px; text-align:center;padding-bottom: 30px}
+.importExcelBox h5 i{ height: 40px; width: 40px; background-position:-600px -680px }
+.importExcelBox .reUploadFileBtn{line-height: 30px;color: #10ade5; cursor: pointer;display: inline-block; height: 30px; width: 60px;position: relative; margin-left: 10px}
+.importExcelBox .reUploadFileBtn .file{ width: 60px; top:0; left: 0}
+.importExcelBox .up_error_text{ display: none}
+
+.importExcelBox .add_error h5 i{height: 40px; width: 40px; background-position:-640px -680px }
+.importExcelBox .add_error .up_error_text{ display: block}
+.importExcelBox .add_error .excel_add_btn{ display: none}
+.importExcelBox .add_error .reUploadFileBtn{ text-align: center; height: 40px; line-height: 40px; border-radius: 3px; width: 100px; background: #10ade5; color: #fff}
+.importExcelBox .add_error .file{height: 40px; width: 100px}
+.importExcelBox .upload_error .up_error_text{ display: none}
+
+/*系统姓名比对*/
+.sys_userName_box{ width:350px; padding: 15px; border: 1px solid #dcdcdc; background: #fff }
+.sys_userName_box table{ width: 100%}
+.sys_userName_box table tr{ cursor: pointer}
+.sys_userName_box table .trAc{ border: 1px solid #10ade5}
+.sys_userName_box table th{ height: 30px; line-height: 30px; background:#f5f5f5 }
+.sys_userName_box table td{height: 30px; line-height: 30px; text-align: center}
+
+
+/*创建考试弹框*/
+.examConBox .sch_exam_con{border-bottom: 1px solid #F5F5F5}
+.examConBox .exam_list{padding: 20px 0 0 0}
+.examConBox .exam_list .exam_name{display:block;margin:0 auto}
+.examConBox .exam_list .subject_list{border: 1px solid #DCDCDC;overflow-y:auto;height: 138px;margin-top: 10px;padding: 20px}
+.examConBox .exam_grade label{float: left;width: 170px}
+.examConBox .backstage{margin-top: 14px;color: #898989}
+.examConBox .backstage i{height: 20px; width: 20px; background: url(../images/ico.png) -20px -680px;padding-right: 10px;position: relative;top:-1px;}
+
+

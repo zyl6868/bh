@@ -1,0 +1,294 @@
+*{margin:0;padding:0;}
+/*选项栏*/
+.container{width:1200px;margin:18px auto;float:none;}
+.tch_head ul{float:left;}
+.tch_head ul li{float:left;width:70px;height:22px;padding:19px 31px 19px 32px}
+.tch_head ul li a{float:left;width:70px;height:22px;line-height:22px;text-align:center;border-radius:3px;color:#333}
+.tch_head ul li .ac{background-color:#0fade5;color:#fff}
+button.btn40:hover{background-color:#00a0e9;}
+/*主体*/
+.main{width:1200px;margin:0 auto}
+.bg_fff{background:white;}
+.main_left{width:910px;float:left;margin-bottom:40px;}
+/*选项卡*/
+ul.main_tab{width:910px;height:60px;line-height:60px;border-bottom:1px solid #f5f5f5;margin-bottom: 18px;}
+ul.main_tab li{float:left;width:110px;text-align:center;border-right:1px solid #f5f5f5;}
+ul.main_tab li#select{border-top:4px solid #10ade5;line-height:56px;}
+/*收入明细*/
+div.class_fff .page{text-align:center;margin-top:30px;}
+div.class_fff .page input{margin:0 5px;}
+div.class_fff .page a{margin:0 5px;}
+/*我的等级*/
+.tab_fff ul li a,.tab_3_fff ul li a{font-size:16px;margin:0 2px;}
+/*收入明细 && 我的等级共用*/
+.conversion{text-align:right;}
+.ranking{margin-bottom: 20px;}
+.ranking span{margin-right: 20px;cursor: pointer}
+.ranking .select{color:#2eb7e8;}
+
+
+div.class_fff{padding:30px 50px;}
+.tab_fff{padding:27px 110px 47px;}
+div.class_fff table,.tab_fff table{width:100%;text-align:center;}
+div.class_fff table thead tr,.tab_fff table thead tr{background:#d7f2fc;height:40px;line-height:40px;}
+div.class_fff table tbody tr,.tab_fff table tbody tr{line-height:60px;height:60px;border-bottom:1px solid #dcdcdc;}
+/*积分商城*/
+.tab_3_fff{min-height:500px;padding:54px 0 54px 110px;}
+.mag_title {position: relative;height: 42px;background-color: white;text-align: center;padding-top: 18px;border-bottom: 18px solid whitesmoke; }
+.gobackBtn {position: absolute;top: 15px;left: 0;}
+
+/*strong{font-weight:bold;}*/
+li.img_name{text-align:center;padding: 0 5px;}
+.table li.rol_{margin-top:50px;width:222px;margin-right:20px;height:316px;}
+button.btn40{background:#11ade6;border:1px solid #11ade6;}
+/*右侧我的积分*/
+.main_right{float:right;width:260px;}
+.main_right .myScores{background:white;}
+.main_right .title_pannel{width:100%;line-height:40px;height:40px;background:#d7f2fc;}
+.main_right .title_pannel i {width: 20px;height: 18px;margin:-5px 5px 0 15px;background: url("../images/ico.png") -379px -641px;}
+/*#main_right .title_pannel:hover i{background: url("../images/ico_hover.png") -379px -641px;}*/
+.main_right .title_pannel a{width: 16px;height: 16px;margin:12px;float:right;display:block;background:url("../images/ico.png") -380px -714px;}
+.main_right ul.score{position:relative;height:58px;padding-bottom:12px;border-bottom:1px solid rgb(220, 220, 220);}
+.main_right .scores li{color:rgb(136,136,136);width:50%;height:58px;float:left;text-align:center;}
+.main_right .scores li span{font-size:21px;display:block;margin-bottom:10px;}
+.main_right .scores i.scoreArrow{position: absolute;left: 100px;bottom: -1px;width: 11px;height: 7px;background: url(../images/ico.png) -540px -860px;}
+.main_right p{padding:8px 0;}
+.main_right .percent{width:206px;height:14px;border:1px solid rgb(126, 206, 244);position:relative;}
+.main_right .percentRate{z-index:21;overflow:hidden;background-color: rgb(15, 173, 229);position:absolute;height:14px;line-height:14px;}
+.main_right .percentRate .percentNumWhite{position: absolute;left: 60px;top: 0;color:white;height: 14px;width: 100px;}
+.percentNumBlue {z-index:20;position: absolute;left: 60px;top: -5px;color:rgb(15, 173, 229);height: 14px;width: 100px;}
+/*#confirm_integral_main{padding:30px 35px 0px;}*/
+.main_tab a{color:black;}
+.select_income a{color:#10ade5;}
+.update a{cursor:default;}
+.cursor_def{cursor:default;}
+.margin_{margin-top:10px;margin-bottom:20px;}
+.mg_bo{margin-bottom: 10px;}
+.tab_fff table{margin-top:24px}
+.confirm_integral{position:absolute;background-color:white;width:1000px;height:420px;border:1px solid #dcdcdc;z-index:999;}
+.confirm_integral_header{text-indent:10px;background:#10ade5;line-height:30px;color:white;}
+.confirm_integral_header i{background:url("../images/remove.png") no-repeat 9px 9px;float:right;height:30px;width:30px;cursor:pointer;}
+.confirm_integral_header i:hover{background-color:#0D90BF;}
+.integralAddress_main{padding:30px 35px 0;}
+ul.addressMessage.left{width:330px;float:left;margin-top:10px;}
+ul.addressMessage.left li{margin:10px 0;display:inline-block;}
+ul.addressMessage.right{background:url("../images/promptMessage.jpg") no-repeat;float:right;width:525px;height:100px;padding-top:80px;padding-left:60px;color:#999;}
+ul.addressMessage input{width:210px;}
+ul.addressMessage textarea{width:200px;height:40px;border:1px solid #aaa;}
+span.addressMessage{display:inline-block;width:80px;text-align:right;}
+span.warn{display:inline-block;color:white;background:#feca2f;border-radius:50%;width:15px;height:15px;line-height:15px;text-align:center;}
+p.warnMessage{margin-left:75px;font-size:12px;}
+.confirm{border-color:#10ade5;margin-right:70px;}
+.confirm:hover{color:white;background-color:#10ade5;}
+.btn_cancel{border-color:#ccc;color:#ccc;}
+.btn_cancel:hover{background-color:#ccc;color:white;}
+.button_{width:90px;line-height:26px;border:1px solid;display:inline-block;text-align:center;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px;}
+.btn_class{width:300px;margin-left:30px;margin-top:15px;}
+.giftMessage{margin-left:290px;margin-top:30px;}
+/*积分说明2016.11.11*/
+.scoresWarn{
+    margin-top:25px;
+}
+.scoresWarn .title_pannel i{
+    background:url("../images/scoresWarn.png") no-repeat;
+}
+.scoresWarn .title_pannel:hover i{
+    background:url("../images/scoresWarn.png") no-repeat;
+}
+.scoresWarn .scores{
+    background: white;
+}
+button.btngray{
+    background-color: #BABABA;
+    color:#fff;
+    border: 1px solid #BABABA;
+}
+.whyIcon{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background: url(../images/whyIcon.png) no-repeat center center;
+    margin-bottom: 6px;
+    margin-left: 5px;
+}
+/*教师我的学米*/
+#xuemi {
+    margin-top: 30px;
+}
+
+.year {
+    position: relative;
+    top: -35px;
+    margin-right: 30px;
+    height: 76px;
+    line-height: 76px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 18px;
+    width: 76px;
+    border-radius: 50%;
+    background: rgb(16, 173, 229);
+    border: 3px solid rgb(255, 255, 255);
+}
+
+.start {
+    margin-left: 1px;
+}
+
+.line {
+    display: inline-block;
+    width: 3px;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: -5px;
+    background-color: #d7f2fc;
+}
+
+.month {
+    margin-bottom: 5px;
+}
+
+.month div {
+    margin-left: -5px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-radius: 50%;
+    background-color: #7ecef4;
+    text-align: center;
+}
+
+.month p {
+    width: 325px;
+    height: 50px;
+    line-height: 50px;
+    margin-top: -5px;
+    margin-left: 20px;
+    padding-left: 25px;
+    color: #666666;
+    background: url(../images/frame.png) no-repeat;
+}
+
+.month .count1 {
+    display: inline-block;
+    width: 75px;
+}
+
+.month .count2 {
+    color: #10ade5;
+    font-size: 20px;
+    display: inline-block;
+    width: 65px;
+}
+
+.month .expend {
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    background: #10ade5;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.month .expend:hover {
+    background-color: #0F9DD0;
+}
+
+.month .convert {
+    margin-left: 10px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    color: #10ade5;
+    text-decoration: none;
+    background: #fff;
+    border: 1px solid #10ade5;
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.month .convert:hover {
+    color: white;
+    background-color: #10ade5;
+}
+
+.clearfloat:after {
+    display: block;
+    clear: both;
+    content: "";
+    visibility: hidden;
+    height: 0
+}
+
+.clearfloat {
+    zoom: 1
+}
+
+#addMore {
+    color: #999;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 250px;
+}
+
+#addMore span {
+    font-size: 20px;
+}
+.learningLeft{
+    text-align: right;
+}
+.learningLeft img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-bottom:-16px;
+    border: 1px solid #ccc;
+}
+.learningRight{
+    text-align: left;
+    width: 208px;
+}
+
+#convertXM {
+    color: #666;
+    line-height: 30px;
+    padding: 10px 0;
+}
+
+#convertXM .convertNum {
+    color: #10ade5;
+    font-size: 20px;
+    padding: 0 7px;
+}
+
+#convertXM a {
+    margin-left: 5px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    background: #10ade5;
+    width: 190px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.foodsList {
+    width:220px;
+    height:160px;
+    position:relative;
+}
+
+.foodsList .vipLogo {
+    width: 27%;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

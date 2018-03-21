@@ -1,0 +1,261 @@
+﻿body{
+    background-color: #fff;
+    color:#666;
+}
+.header{
+    margin: 0 auto;
+    width: 1200px;
+    height: 90px;
+    line-height: 90px;
+    background:url("../images/index_icon.png") no-repeat ;
+    text-align: right;
+    font-size: 16px;
+}
+.gnn_container{
+    min-height: 600px;
+    background-color: #c8f1ff;
+}
+.gnn_container .content{
+    margin: 0 auto;
+    width: 1200px;
+    min-height: 600px;
+    background: url("../images/index_content.jpg") no-repeat;
+    text-align: right;
+}
+.gnn_container .content .loginbar{
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    padding: 40px 30px 0;
+    width: 300px;
+    height: 360px;
+    background-color: #fff;
+    position: relative;
+    top: 90px;
+    right: 70px;
+    text-align: left;
+    overflow: hidden;
+}
+.gnn_container .content .loginbar h1{
+    height: 45px;
+    font-size: 18px;
+}
+.gnn_container .content .loginbar .gnn_userName,.gnn_container .content .loginbar .gnn_password{
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    height: 40px;
+    line-height: 40px;
+    font-size: 0;
+}
+.gnn_container .content .loginbar label{
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    width: 40px;
+    height: 40px;
+    vertical-align: top;
+    background:#f5f5f5 url("../images/index_icon.png") no-repeat 0;
+}
+.gnn_container .content .loginbar .gnn_userName label{
+    background-position:0 -90px;
+}
+.gnn_container .content .loginbar .gnn_userName input,.gnn_container .content .loginbar .gnn_password input{
+    height: 25px;
+    line-height: 25px;
+    border:0px;
+    max-width: 73%;
+    width: 73%;
+    vertical-align: top;
+    padding-left: 10px;
+    position: relative;
+}
+.errorTxt {
+    margin-left: 10px;
+    height: 24px;
+    line-height: 20px;
+    width: 220px;
+    position: absolute;
+    top: 10px;
+    left:250px;
+}
+.greenPopup .formErrorContent{
+    background: none;
+}
+.gnn_container .content .loginbar span{
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    width: 28px;
+    height: 40px;
+    background: url("../images/index_icon.png") no-repeat -35px;
+}
+.gnn_container .content .loginbar span:hover{
+    cursor: pointer;
+}
+.gnn_container .content .loginbar .gnn_userName span{
+    background-position:-37px -89px;
+}
+.nameRelevant{
+    *height:15px;
+}
+.nameRelevant .nameReleLeft{
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    *float: left;
+}
+.nameRelevant .nameReleLeft input{
+    margin-right: 14px;
+}
+.nameRelevant a{
+    float: right;
+    color: #666;
+}
+.loginbar .loginButton{
+    margin-top: 20px;
+    height: 48px;
+    line-height: 48px;
+    background-color: #10ade5;
+    color: white;
+    border-radius: 5px;
+    font-size: 18px;
+    letter-spacing: 10px;
+    text-align: center;
+    width: 100%;
+}
+.loginbar .loginButton:hover{
+    cursor: pointer;
+}
+.loginbar .flowLayer{
+    width: 114px;
+    height: 114px;
+    position: absolute;
+    right: -6px;
+    bottom: -6px;
+    background: url(../images/index_icon.png) no-repeat 0 -192px;
+}
+.loginbar .flowLayer:hover{
+    cursor: pointer;
+}
+.loginbar .gnn_QRCode{
+    width: 360px;
+    height: 400px;
+    position: absolute;
+    bottom: -400px;
+    right: -360px;
+    background-color: #fff;
+    text-align: center;
+    transform: scale(0);
+    animation: one 1s forwards;
+}
+@keyframes one {
+    100%{
+        transform: scale(1);
+    }
+}
+.loginbar .gnn_QRCode h2{
+    font-size: 16px;
+    height: 70px;
+    line-height: 70px;
+}
+.loginbar .gnn_QRCode hr{
+    margin: 0 0 0 -130px;
+    width: 260px;
+    border-bottom-color:#d7f2fc ;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.loginbar .gnn_QRCode .triangle{
+    width: 0;
+    height: 0;
+    border-bottom: 56px solid #36b0e9;
+    border-left: 56px solid transparent;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+    z-index: 1;
+}
+.loginbar .gnn_QRCode .gnn_text{
+    width: 14px;
+    height: 14px;
+    background: url("../images/index_icon.png") no-repeat -90px -107px;
+    position: absolute;
+    bottom: 13px;
+    right: 13px;
+    z-index: 2;
+}
+.loginbar .gnn_QRCode .gnn_text:hover{
+    cursor: pointer;
+}
+.footer{
+    width: 1200px;
+    margin: 0 auto;
+}
+.footer .chapter{
+    font-size: 18px;
+    color: #666;
+    text-align: center;
+    line-height: 40px;
+    padding: 39px 0;
+    border-bottom: 1px solid #e5e5e5;
+}
+.footer .chapter strong{
+    color: #10ade5;
+    font-size: 24px;
+}
+.footer .address{
+    height: 60px;
+    line-height: 60px;
+}
+.footer .address .weChat{
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    *float: left;
+}
+.footer .address .weChat .weChatIcon{
+    display: inline-block;
+    *display:inline;
+    *zoom:1;
+    margin-left:10px;
+    vertical-align: middle;
+    width: 18px;
+    height: 18px;
+    background: url("../images/index_icon.png") no-repeat -66px -154px;
+    position: relative;
+}
+.footer .address .weChat .weChatIcon:hover{
+    cursor: pointer;
+}
+.footer .address .weChat .weChatBigIcon{
+    width: 196px;
+    height: 206px;
+    border: 1px solid #d7f2fc;
+    background-color: #fff;
+    position: absolute;
+    right: -208px;
+    bottom: 0;
+    text-align: center;
+}
+.footer .address .weChat .weChatBigIcon h1{
+    font-size: 16px;
+}
+.footer .address .weChat .weChatBigIcon:hover{
+    cursor: auto;
+}
+.footer .address .copyright{
+    float: right;
+}
+#logon {
+    margin-top: 27px;
+    display: inline-block;
+}
+
+#logon:hover {
+    text-decoration: underline !important;
+}
+
+.nameRelevant .forget:hover {
+    color: #10ade5
+}

@@ -1,0 +1,30 @@
+{
+  "name": "pos_online_baihai_v2_php",
+  "version": "1.0.0",
+  "description": "班海\r ===================================",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-changed": "^1.3.2",
+    "gulp-debug": "^2.1.2",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-plumber": "^1.1.0",
+    "gulp-tinypng": "^1.0.2",
+    "gulp-uglify-cli": "^0.1.7"
+  },
+  "scripts": {
+    "BH": "node node_modules/gulp/bin/gulp.js --gulpfile components/gulp/gulpfile.js BH",
+    "GLBH": "node node_modules/gulp/bin/gulp.js --gulpfile components/gulp/gulpfile.js GLBH"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://wangshimin@jupiter.src:7990/scm/posphp/pos_online_baihai_v2_php.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

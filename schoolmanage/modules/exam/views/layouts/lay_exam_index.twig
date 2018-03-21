@@ -1,0 +1,31 @@
+{#
+/**
+ * Created by wangchunlei
+ * User: Administrator
+ * Date: 14-9-19
+ * Time: 上午9:56
+ */
+/** @var $this Controller */
+$this->beginContent('@app/views/layouts/main.php');
+$this->blocks['bodyclass'] = "student";
+$this->registerCssFile(publicResources_new() . '/css/sch_mag.css');
+
+#}
+
+{{ void(this.beginContent('@app/views/layouts/main.twig')) }}
+{{ void(this.beginBlock('bodyclass')) }}student{{ void(this.endBlock()) }}
+
+<div class="col1200 school_name">
+</div>
+<div class="class_nav col1200">
+    <div class="class_nav_opacity"></div>
+    <ul class="class_nav_list clearfix">
+        <li class="ac"><a href="javascript:;">考务管理</a></li>
+        <li><a href="javascript:;">人员管理</a></li>
+        <li><a href="javascript:;">组织管理</a></li>
+        <li><a href="javascript:;">公示管理</a></li>
+    </ul>
+</div>
+{{ content|raw }}
+
+{{ void(this.endContent()) }}

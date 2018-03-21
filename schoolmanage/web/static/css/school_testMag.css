@@ -1,0 +1,231 @@
+.head h1 {
+    float: left;
+    width: 240px;
+    height: 60px;
+    font-size: 16px;
+    line-height: 60px;
+    color: #fff;
+    text-indent: 0;
+    background: url(../images/new_sprite.png)no-repeat -200px -633px;
+    padding-left: 160px;
+}
+.school_name {
+    height: 100px;
+    background: #fff;
+    margin-top: 18px;
+}
+.school_name h3 {
+    height: 100px;
+    line-height: 100px;
+    font-size: 24px;
+    text-align: center;
+}
+.class_nav {
+    height: 60px;
+    position: relative;
+    overflow: hidden;
+    margin-top: 18px;
+}
+.class_nav_opacity {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 60px;
+    background: #fff;
+    opacity: 0.8;
+    filter: Alpha(opacity=80);
+}
+.class_nav_list {
+    position: relative;
+    float: left;
+    top: 18px;
+    left: 50%;
+}
+.class_nav_list .ac a {
+    background: #11ADE6;
+    border-radius: 3px;
+    color: #fff;
+}
+.class_nav_list li {
+    float: left;
+    position: relative;
+    margin: 0 50px;
+    left: -50%;
+}
+.class_nav_list li a {
+    display: block;
+    width: 70px;
+    text-align: center;
+    line-height: 22px;
+    height: 22px;
+    font-size: 14px;
+    color: #333;
+}
+.head .userCenter, .logoff {
+    color: #fff;
+    margin-left: 20px;
+}
+.sch_mag_person .right_con .sch_content {
+    position: relative;
+    left: 36px;
+}
+.mag_title{
+    position: relative;
+    height:42px;
+    background-color: #fff;
+    margin-top:18px;
+    text-align: center;
+    padding-top:18px;
+}
+.mag_title button{
+    float: left;
+    height:26px;
+    width:70px;
+}
+.mag_title h4{
+    margin: auto;
+}
+.content_tab li{
+    float: left;
+    width:90px;
+    text-align: center;
+    height:40px;
+    line-height: 40px;
+}
+.content_tab li.ac{
+    color: #6CCBED;
+    border-top:4px solid #6CCBED;
+}
+.class_classification{
+    margin-top: 8px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-bottom: 1px dotted #B4E2F9;
+}
+.class_classification p{
+    float: left;
+    margin-left:15px;
+}
+.class_classification dl{
+    height:24px;
+    width:auto;
+    float: right;
+    border:1px solid #E7E7E7;
+    padding: 5px 10px;
+    margin-right:10px;
+}
+.class_classification dl dt,.class_classification dl dd{
+    float: left;
+}
+.class_classification dl dt{
+    margin-top:6px;
+    margin-right: 5px;
+    display: inline-block;
+    width:12px;
+    height:12px;
+    background: url(../images/class_imgs.png) no-repeat 0 -14px;
+}
+.class_classification dl dd{
+    color:#5EBFE8;
+}
+.table_con table td {
+    text-align: center;
+}
+.table_con .num em {
+    color: #10ACE5;
+    font-size: 16px;
+}
+.table_con .num{
+    margin-left: 15px;
+}
+.sch_mag_person .oper a, .school_mag_tch .oper span {
+    float: left;
+    color: #10ACE5;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+.fathers_td{
+    padding-left:10px;
+}
+.sUI_select_min i {
+    right: -22px;
+    top: 4px;
+    background-position: -40px -55px;
+}
+.sUI_select_min .sUI_selectList{
+    width:74px;
+}
+.sUI_select .sUI_selectList li a{
+    margin: 0 5px;
+}
+.table_con table td div.operate{
+    margin-left: 40px;
+}
+.table_con table td div.operate_stu{
+    margin-left:42px;
+}
+.container{
+    width:1150px;
+    padding:25px 25px 50px 25px;
+}
+* {margin:0;padding:0;}
+.alert {font:14px/24px "微软雅黑", tahoma, Arial, Verdana;width:600px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:absolute;background:#ffffff;outline:none;border:1px solid #dcdcdc;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;overflow:hidden;z-index:101}
+.alert_header {font-size:16px;width:100%;height:40px;line-height:40px;text-indent:15px;cursor:move;color:#ffffff;background:#10ade5;}
+.alert_header .alert_remove {width:11px;height:11px;position:absolute;right:10px;top:15px;z-index:101;cursor:pointer;background:url("../images/class_imgs.png") no-repeat -12px -15px}
+.alert_main p {margin:20px 0;}
+.alert_main i {padding-right:5px;padding-top:5px;vertical-align:middle;font-style:normal;height:16px;line-height:16px;display:inline-block;width:10px;text-align:center;color:red;}
+.alert_main .text_r {margin-left:70px;margin-right:10px;display:inline-block;text-align:left;text-indent:10px;}
+.alert_main .text_l {display:inline-block;text-align:right;width:120px;}
+.alert_main input[type=radio] {margin:0 5px;}
+.alert_main .seal_class {padding:0 30px}
+.alert_main .CheckedAll {padding-top:10px;border-top:1px solid #dcdcdc}
+.alert_main .seal_class input {margin:0 5px 0 10px;}
+.alert button {margin:0 3px;background:white;font-weight:bold;cursor:pointer;outline:none;width:80px;height:30px;border:1px solid;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.alert button#btn_1 {position:absolute;top:65px;right:25px;color:#10ade5;border-color:#cdcdcd;}
+.alert button:hover {background:#10ade5;color:white;}
+.alert input[type=text] {font-size:16px;outline:none;margin-left:10px;width:400px;height:30px;}
+.subject {margin:0 3px;height:36px;line-height:36px;display:inline-block;padding-left:8px;border:1px solid #cccccc;}
+.subject i {cursor:pointer;}
+.alert .btn_c {padding-left:210px;border-top:1px solid #dcdcdc;height:50px;}
+.alert .btn_c .btn_2 {margin-right:8px;margin-top:10px;float:left;border-color:#10ADE5;color:#10ade5}
+.alert .btn_c .btn_3 {margin-left:8px;margin-top:10px;float:left;border: 1px solid #ccc;background: #fff;color: #888;}
+.alert .btn_c .btn_3:hover{background-color:#ccc }
+.alert .btn_c .btn_2:hover,.alert .btn_c .btn_3:hover {color:white;}
+.class_name {color:#cccccc;}
+/*.alert #seal_class_btn {margin: auto auto 20px auto;background-color: #ccc;display: block;}*/
+.alert h4 {font-size:18px;text-align:center;margin:20px 0;}
+.alert p {margin-bottom:20px;line-height:25px;}
+.alert table.s_f {margin-left:30px;margin-bottom:30px;}
+.alert table.s_f td {width:140px;}
+.find_teacher{margin-top:-8px;}
+.alert_bg {background:rgba(5,5,5,0.2);position:absolute;z-index:100;top:0;}
+.alert_main .glass{display:inline-block;border:1px solid #ccc;width:300px;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;}
+.alert_main .glass input{border:0;width:250px;}
+.alert_main .glass span{display:inline-block;width:35px;height:25px;background: url("../images/sUI.png") 4px 4px no-repeat;cursor: pointer}
+.alert_main .no_find_name{color:red;margin-left:140px;}
+
+/*#alert_main #find_teacher{color:#ccc;}*/
+.alert_main .table_header{background:#f5f5f5;border-collapse:collapse;}
+.alert_main .find_name{margin-left:10px;margin-bottom:30px;}
+.alert_main tr{border-bottom:1px solid #ebebeb;line-height:35px;height:35px;}
+.alert_main td{text-align:center;}
+.alert_main td.long{width:160px;}
+.alert_main td.short{width:50px;}
+.alert_main h3{color:red;margin-top:30px;text-align:center;}
+.reset_passwordBox .subTitleBar h5 {text-align: center;height: 40px;line-height: 40px;}
+.reset_passwordBox .popCont .subTitleBar{border:none;}
+.space{margin-left:59px;}
+.radio_space{margin-right: 8px;}
+.sUI_select_min .sUI_select_t{margin-left: 8px;width: 58px;}
+.gobackBtn { position: absolute;top: 15px;left: 0;}
+.class_grade li{border-left: 1px solid #F5F5F5}
+.infoBox .new_sch_con .row dd{
+    height:40px;
+}
+.editInfoBox .new_sch_con .row{
+    height:38px;
+}
+.table_con .num em.inviteCode{
+    font-size: 24px;
+}

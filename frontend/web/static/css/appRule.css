@@ -1,0 +1,28 @@
+html, body {
+    width: 100%;
+}
+
+html, body, p, h3{
+    padding: 0;
+    margin: 0;
+}
+
+#content {
+    padding: 20px;
+    font-size: 12px;
+}
+
+h3 {
+    margin: 10px 0;
+    color: #0099ff;
+    font-weight: 400;
+}
+
+p {
+    margin: 4px 0;
+}
+
+.blue {
+    margin: 5px 0;
+    color: #10ade5;
+}

@@ -1,0 +1,35 @@
+html{background:url(../images/homePageBG.jpg) no-repeat center center #2c72b7;min-height:100%;background-size:cover}
+button:hover,.btn:hover,.a_button:hover{box-shadow: none}
+body{min-width:100%; padding:0}
+.body_BG{position:absolute;top:0;left:0;height:100%; width:100%}
+.home_top{height:60px; position:relative;}
+.home_top_BG{height:60px; width:100%;background:#999;filter:Alpha(opacity=10);opacity: 0.1; position:absolute; top:0; left:0;}
+h1{width:960px;text-indent:-9999px; overflow:hidden; height:60px; margin:0 auto; background:url(../images/home_sprite.png) no-repeat -199px -458px}
+.home_main{width:960px;height:350px;position:absolute; left:50%; top:50%; margin-left:-480px; margin-top:-175px}
+.home_main,.home_main a{color:#fff}
+h2{font-size:44px;padding-top:12px; text-indent:20px}
+h3{ width:247px; height:70px;background:url(../images/home_sprite.png) no-repeat}
+.home_main_l,.home_main_r{width:480px; height:350px; border:none 0}
+.home_main_l p{font-size:20px; height:40px; line-height:40px; text-indent:70px}
+.home_main_l .row1{ margin-top:45px; background:url(../images/home_sprite.png) no-repeat -254px -412px}
+.home_main_r{padding-left:60px;width:420px;background:url(../images/home_sprite.png) no-repeat -251px 0}
+.home_main_r{background:url(../images/home_sprite.png) no-repeat -251px -18px}
+.home_main_r p{position:relative}
+.home_main_r .text{padding: 10px 5px !important;}
+.home_main_r .errorTxt{left:220px}
+.home_main_r .formErrorContent{color:red; background:none; font-size:14px}
+.home_main_r .name,.home_main_r .pwd{color:#fff;width:238px;height:22px !important; padding-top:10px; padding-bottom:10px; border:none 0;background:url(../images/home_sprite.png) no-repeat}
+.home_main_r .name{background-position:0 -70px}
+.home_main_r .pwd{background-position:0 -122px}
+.home_main_r .mark{display:inline-block; height:16px; line-height:16px; padding-left:20px;background:url(../images/home_sprite.png) no-repeat -296px -368px}
+.home_main_r .chked{background-position:-296px -389px !important}
+.home_main_r .submitBtn,.home_main_r .logging_on{width:247px;height:60px !important;border:none 0;background:url(../images/home_sprite.png) !important}
+.home_main_r .submitBtn{background-position:0 -175px !important; margin:0}
+.home_main_r .submitBtn:hover{background-position: 0 -240px  !important; margin:0}
+.home_main_r .submitBtn:active{background-position: 0 -304px  !important; margin:0}
+.home_main_r .logging_on{ display:inline-block;background-position:0 -368px  !important; margin:0}
+.home_foot{height:80px;position:absolute; bottom:0;width:100%;left:0}
+.home_foot_BG{background:#fff;filter:Alpha(opacity=10);opacity:0.1;height:80px; width:100%;position:absolute;top:0; left:0;}
+.home_foot_cont{position:absolute;top:0;left:0;width:100%;height:60px;padding-top:20px;color:#FFF}
+.home_foot .icpCode{ color:#fff}
+.feedback,.signIn,.game_subject_link,.QQonlineServ{ display:none}

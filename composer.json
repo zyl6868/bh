@@ -1,0 +1,55 @@
+{
+  "name": "yiisoft/yii2-app-advanced",
+  "description": "Yii 2 Advanced Application Template",
+  "keywords": [
+    "yii2",
+    "framework",
+    "advanced",
+    "application template"
+  ],
+  "homepage": "http://www.yiiframework.com/",
+  "type": "project",
+  "license": "BSD-3-Clause",
+  "support": {
+    "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+    "forum": "http://www.yiiframework.com/forum/",
+    "wiki": "http://www.yiiframework.com/wiki/",
+    "irc": "irc://irc.freenode.net/yii",
+    "source": "https://github.com/yiisoft/yii2"
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.4.0",
+    "yiisoft/yii2": "~2.0.11",
+    "yiisoft/yii2-swiftmailer": "2.0.4",
+    "athari/yalinqo": "v2.3.0.0",
+    "camcima/camcima-soap-client": "dev-master",
+    "gregwar/image": "^2.0",
+    "aferrandini/phpqrcode": "^1.0",
+    "phpoffice/phpword": "^0.12.0",
+    "netresearch/jsonmapper": "^0.8.0",
+    "nategood/httpful": "^0.2.19",
+    "yiisoft/yii2-redis": "2.0.4",
+    "yiisoft/yii2-elasticsearch": "~2.0",
+    "yiisoft/yii2-twig": "^2.0",
+    "arogachev/yii2-excel": "^0.1.0",
+    "mithun12000/yii2-queue": "dev-master",
+    "mithun12000/yii2-process": "dev-master",
+    "whitemerry/phpkin": "^1.2"
+  },
+  "require-dev": {
+    "yiisoft/yii2-codeception": "2.0.4",
+    "yiisoft/yii2-debug": "2.0.4",
+    "yiisoft/yii2-gii": "2.0.4",
+    "yiisoft/yii2-faker": "2.0.3"
+  },
+  "config": {
+    "process-timeout": 1800
+  },
+  "extra": {
+    "asset-installer-paths": {
+      "npm-asset-library": "vendor/npm",
+      "bower-asset-library": "vendor/bower"
+    }
+  }
+}

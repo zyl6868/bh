@@ -1,0 +1,89 @@
+.class_grade {
+    padding-top: 18px;
+    font-size: 18px;
+}
+
+a.class_status {
+    border: 1px solid #DBDBDB;
+    padding-top: 0px;
+    margin-top: 15px;
+    width: 69px;
+    height: 29px;
+    line-height: 29px;
+    text-align: center;
+    cursor: pointer;
+}
+
+a.class_status i {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background: url(../images/ico.png) no-repeat -119px -644px;
+    margin-right: 7px;
+}
+
+img.sch_logo {
+    display: block;
+    width: auto;
+    height: 98px;
+    margin: auto;
+}
+
+h4.history {
+    margin-top: 39px;
+}
+
+p {
+    text-indent: 2em;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.content img {
+    cursor: pointer;
+}
+
+div.shade {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(6, 6, 6, 0.5);
+    z-index: 30;
+}
+
+div.shade div.img_big {
+    display: none;
+    position: relative;
+    z-index: 56;
+}
+
+div.shade div.img_big u {
+    width: 20px;
+    height: 20px;
+    background: url(../images/ico.png) no-repeat -380px -680px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    opacity: 0.5;
+}
+
+strong *, strong {
+    font-weight: 600;
+}
+
+em *, em, i *, i {
+    font-style: italic
+}
+.container img,.container table{
+    max-width:850px;
+}
+.container table td{
+    height:25px;
+}
+body{
+    text-align: left;
+}
+

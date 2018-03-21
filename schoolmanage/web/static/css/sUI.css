@@ -1,0 +1,124 @@
+.sUI_main{ width:800px; padding:30px 30px 300px 30px; border-right:1px solid #ccc;background:#fff}
+
+/*搜索条*/
+.sUI_searchBar{ display:inline-block;}
+.sUI_searchBar .searchBtn{ width:30px; height: 30px; min-width: 30px; padding: 0; background: url("../images/sUI.png") 4px 4px; position: relative;left: -36px; text-align: left; text-indent:-999px; overflow: hidden; box-shadow: none }
+.sUI_searchBar .text{ height:15px; width:150px; padding:7px 40px 7px 20px; border-radius:30px; box-shadow: inset 1px 1px 1px 0 #ddd}
+.sUI_searchBar .text:hover{ border-color: #10ade5}
+.sUI_searchBar_max .text{ height:20px; width:400px;}
+.sUI_searchBar_max .searchBtn{left: -42px;}
+
+
+
+/*表单结构*/
+.sUI_formList{ padding:20px 0}
+.sUI_formList .row{ position:relative; padding-bottom:10px; min-height:25px}
+.sUI_formList .row:before,.sUI_formList .row:after{content:"";display:block;overflow:hidden;visibility:hidden;font-size:0;line-height:0;width:0;height:0}
+.sUI_formList .row:after,.sUI_formList .row:after{clear:both}
+.sUI_formList .form_l{ width:90px;position:absolute; top:0; left:0; height:100%; text-align:right; line-height:36px;*line-height:42px}
+.sUI_formList .form_l b{ margin-right:5px; font-size:16px; color:#f00; display:inline-block; vertical-align:-3px}
+.sUI_formList .form_r{margin-left:90px; padding:0 10px; line-height:36px}
+.sUI_formList .form_r .form_r_cont{ padding-top:5px; line-height:24px}
+.sUI_formList2 .form_l{width:60px}
+.sUI_formList2 .form_r{margin-left:60px;}
+.sUI_formList6 .form_l{width:120px}
+.sUI_formList6 .form_r{margin-left:120px;}
+.sUI_formList_min{padding:0}
+.sUI_formList_min .row{ padding:0;line-height: 30px;}
+.sUI_formList_min .form_l{ height: 30px;line-height: 30px;}
+.sUI_formList_min .form_r{line-height: 30px;}
+/*分页*/
+.sUI_page{text-align:right;clear:both;margin-top:10px;margin-right:-10px}
+.sUI_page span,.sUI_page a{color:#666 !important;margin:0;padding:0 11px}
+.sUI_page a{display:inline-block;margin-right:10px;height:30px;line-height:30px;vertical-align:middle;color:#999;border:1px solid #ccc;text-align:center}
+.sUI_page .jumpBtn{width:30px;padding:0;background-image:url(../images/sUI.png);text-indent:50px;overflow:hidden}
+.sUI_page .next{background-position:-30px -76px}
+.sUI_page .next:hover{background:#4ebbff -30px -116px;}
+.sUI_page .prev{background-position:7px -76px}
+.sUI_page .prev:hover{background:#4ebbff 7px -116px;}
+.sUI_page span{display:inline-block;margin-right:2px;padding:3px 5px;vertical-align:middle;font-size:12px}
+.sUI_page a:hover,.sUI_page .current{background-color:#4ebbff;color:#FFF !important;height:32px;border-color:#4ebbff}
+.sUI_page .jumpInp{width:40px;height:30px;text-align:center}
+
+/*tab*/
+.sUI_tab .tabList li{float:left;border-right: 1px solid #f4f4f4;}
+.sUI_tab .tabList li a{display:block;*float:left;height:57px;line-height:57px;padding:0 20px;position:relative;border-top:3px solid #fff; color:#333}
+.sUI_tab .tabList li a:hover{color:#10ade5;}
+.sUI_tab .tabList li .ac{background:none;border-top:3px solid #10ade5; color:#10ade5}
+/*.sUI_tab .tabCont{border:1px solid #E7E7E7}*/
+.sUI_tab .tabCont .tabItem{position:relative}
+.sUI_tab_min .tabList li {margin-right:3px;}
+.sUI_tab_min .tabList li a{ height:24px; line-height:24px;padding:0 10px;}
+.sUI_tab_noborder .tabCont{ border:none;}
+.sUI_tab_noborder .tabList{ border-bottom: 1px solid #f4f4f4}
+.sUI_tab_noborder .tabList li .ac{margin-bottom: -1px; background: #fff}
+.sUI_tab_noborder .tabCont .tabItem{ padding:20px 0}
+
+/*通用pannel*/
+.sUI_pannel{ height:36px; line-height:36px; position:relative}
+.sUI_pannel_min{ height:24px; line-height:24px; font-size:12px}
+.sUI_pannel_bg{padding:0 10px}
+.sUI_pannel_border{border:1px solid #ccc; padding:0 10px}
+.sUI_pannel span{ margin-right:10px; display:inline-block}
+.sUI_pannel .pannel_l{float:left; height:100%}
+.sUI_pannel .pannel_r{ text-align:right; float: right; height:100%}
+.sUI_pannel .pannel_r span{ margin:0 0 0 10px;}
+.sUI_pannel .pannel_r .btn{ vertical-align: baseline; margin-right:25px}
+
+/*对话列表*/
+.sUI_dialog_list li{ padding-left:90px; min-height: 75px; position:relative; margin-bottom:18px; zoom:1}
+.sUI_dialog_list li .userHeadPic{ position:absolute; top:0; left:0; width:70px; height:70px; border-radius:50%}
+.sUI_dialog_list_border li{ border:1px solid #ccc; padding:20px 20px 20px 110px;}
+.sUI_dialog_list_border li .userHeadPic{top:20px; left:20px;}
+.sUI_dialog_list_outUserHeadPic li{ margin-left:90px; border:1px solid #ccc; padding:20px}
+.sUI_dialog_list_outUserHeadPic li .userHeadPic{ left:-90px}
+.sUI_dialog_list_min li{ padding-left:60px; min-height: 60px}
+.sUI_dialog_list_min li .userHeadPic{width:40px; height:40px;}
+
+.sUI_dialog_list_min.sUI_dialog_list_border li{ padding-left:80px;}
+
+.sUI_dialog_list_outUserHeadPic.sUI_dialog_list_min li{ margin-left:60px; padding:20px}
+.sUI_dialog_list_outUserHeadPic.sUI_dialog_list_min .userHeadPic{ left:-60px}
+
+/*用户列表*/
+.sUI_user_list{ margin-right:-13px}
+.sUI_user_list li{ width:50px; height:60px;float:left; font-size:12px;text-align:center; margin:0 13px 13px 0;  overflow:hidden;white-space:nowrap;text-overflow:ellipsis;color: #878787;}
+.sUI_user_list li a{display:block; line-height:30px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis; font-size:12px; text-align:center;color: #878787;}
+.sUI_user_list li a:hover{ color: #10ade5}
+.sUI_user_list li img{ display:block; margin:0 auto; height:40px; width:40px}
+.sUI_user_list li span{ width:100%;}
+.sUI_user_list_big li{float: left;padding-bottom: 10px;width: 70px;height: 87px;text-align: center;line-height: 35px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+.sUI_user_list_big li a img{width: 70px;height: 70px;border-radius: 50%;}
+
+
+/*select*/
+.sUI_select{ height: 40px; position: relative}
+.sUI_select .sUI_select_t{ display: block; height: 40px; line-height: 40px; color: #10ade5; text-align: center}
+.sUI_select i{ position: absolute; top:12px; right: 10px;background:url(../images/sUI.png) 0 -54px; cursor: pointer}
+.sUI_select .sUI_selectList{ position: absolute; top:40px; z-index: 10; left:-1px; background: #fff; width: 100%; border: 1px solid #ccc}
+.sUI_select .sUI_selectList li a{ display: block; text-indent: 20px; height: 30px; line-height: 30px;border-bottom: 1px solid #f5f5f5; color: #888}
+.sUI_select .sUI_selectList li a:hover{ color: #10ade5}
+.sUI_select_mid{ height:30px;}
+.sUI_select_mid .sUI_select_t{ height:30px; line-height:30px; text-indent:-5px}
+.sUI_select_mid i{ top:7px; right:6px}
+.sUI_select_mid .sUI_selectList{top:30px}
+
+.sUI_select_min{ height:24px; text-align: left;}
+.sUI_select_min i{ right: 0; top:4px; background-position: -40px -55px}
+.sUI_select_min .sUI_select_t{ height:24px; line-height:24px; text-align: left}
+.sUI_select_min .sUI_selectList{top:26px;}
+.sUI_select_min .sUI_selectList li a{ height:24px; line-height:24px; text-indent: 5px}
+
+/*table*/
+.sUI_table{ width:100%}
+.sUI_table em{ display: block; width: 90px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+.sUI_table th{ height:40px; background:#d7f2fc; color:#666; text-align:center; word-break: keep-all; white-space: nowrap}
+.sUI_table td{ height:60px; border-bottom:1px solid #dcdcdc; color:#888; word-break: keep-all; white-space: nowrap}
+.sUI_table_border th,.sUI_table_border td{ border: 1px solid #dcdcdc}
+.sUI_table tfoot td{ height: 40px}
+
+
+
+
+
+

@@ -1,0 +1,95 @@
+.audioBox {
+    margin: 5px 10px;
+    float: left;
+    position: relative;
+    display: inline-block;
+    height: 30px;
+}
+
+.audioBox .time {
+    line-height: 40px;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    right: 20px;
+    top: -1px;
+}
+
+.audioBox p {
+    width: 6px;
+    height: 6px;
+    border-radius: 40%;
+    position: absolute;
+    display: inline-block;
+    margin-left: 10%;
+    margin-top: 12%;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-right-color: white;
+}
+
+.audioBox p:before {
+    width: 8px;
+    height: 8px;
+    border-radius: 40%;
+    top: -2px;
+    left: 0;
+    position: absolute;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-right-color: white;
+    content: '';
+}
+
+.audioBox p:after {
+    left: 1px;
+    top: -3px;
+    width: 10px;
+    height: 10px;
+    border-radius: 40%;
+    position: absolute;
+    display: inline-block;
+    border: 1px solid rgba(255, 255, 255, 0);
+    border-right-color: white;
+    content: '';
+}
+
+.audioBox p.a:after {
+    border-right-color: rgba(255, 255, 255, 0);
+}
+
+.audioBox p.b:before {
+    border-right-color: rgba(255, 255, 255, 0);
+}
+
+.audioBox .cls-1, .cls-2 {
+    fill: #09f;
+}
+
+.audioBox .cls-2 {
+    fill-rule: evenodd;
+}
+
+video::-internal-media-controls-download-button {
+    display:none;
+}
+
+video::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+video::-webkit-media-controls-panel {
+    width: calc(100% + 30px);
+}
+
+
+audio::-internal-media-controls-download-button {
+    display:none;
+}
+
+audio::-webkit-media-controls-enclosure {
+    overflow:hidden;
+}
+
+audio::-webkit-media-controls-panel {
+    width: calc(100% + 30px);
+}

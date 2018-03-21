@@ -1,0 +1,38 @@
+body{padding:0}
+.head{margin:0; position:fixed; top:0; left:0; width:100%; z-index:20}
+a:hover{color:#333 !important}
+.classesMain .item{position:relative; overflow:hidden}
+
+.classesMain .itemA{background: url(../images/classes_img/itemA_top.png) no-repeat top center #396ed1}
+.classesMain .itemA .student{bottom:0; left:50%; margin-left:-670px}
+.classesMain .itemA .itemA_text{top:43%; left:50%; margin-left:-383px}
+.classesMain .itemA .itemA_link{top:70%}
+.classesMain .itemA .itemA_link a{color:#a5ffa4; font-size:24px; text-decoration:underline}
+.classesMain .classesName{height:100px;top:-20%; left:50%}
+.classesMain .classesName h1{padding:0 40px; background:#ffffef; line-height:100px; font-size:60px; color:#ff5d00}
+.classesMain .classesName .h1_l,.classesMain .classesName .h1_r{height:100px; width:40px; background:url(../images/classes_img/h1BG.png)}
+.classesMain .classesName .h1_r{background-position:-40px 0}
+.classesMain .itemB{background:#ffd33f}
+.classesMain .itemB .itemB_top{top:10%; left:50%; margin-left:-113px}
+.classesMain .itemB .itemB_bg{height:336px; width:1382px; background:url(../images/classes_img/itemB_bg.png); left:50%; top:30%; margin-left:-690px}
+.classesMain .itemB .itemB_bg .itemB_text{width:706px; height:81px; top:142px; left:50%; margin-left:-353px}
+.classesMain .itemB .itemB_link{top:80%}
+.classesMain .itemB .itemB_link a{color:#d97102; font-size:24px; text-decoration:underline}
+
+.classesMain .itemC{background:url(../images/classes_img/itemC_bg.png) no-repeat center 80px #9db700}
+.classesMain .itemC .itemC_text{left:-50%; margin-left:-350px; top:55%}
+.classesMain .itemC .itemC_link{top:80%}
+.classesMain .itemC .itemC_link a{color:#fff; font-size:24px; text-decoration:underline}
+
+.classesMain .itemD{background:url(../images/classes_img/itemD_bg.png) no-repeat center 60% #e1671c}
+.classesMain .itemD .itemD_text{left:50%; margin-left:-350px; top:-50%}
+.classesMain .itemD .itemD_link{top:90%}
+.classesMain .itemD .itemD_link a{color:#fff; font-size:24px; text-decoration:underline}
+
+.classesMain .itemE{background:url(../images/classes_img/itemE_bg.png) no-repeat center center #36afe6}
+.classesMain .itemE .itemE_text{left:50%; margin-left:-350px; top:15%; width:706px;height:0}
+.classesMain .itemE .item_gifBox{left:-30%; width:800px; height:550px; margin-left:-450px; top:32%}
+.classesMain .itemE .itemE_03{left:675px; margin-left:-206px; top:28%; display:none}
+.classesMain .itemE .itemE_link{top:92%}
+.classesMain .itemE .itemE_link a{color:#126d99; font-size:24px; text-decoration:underline}
+

@@ -1,0 +1,522 @@
+.student{background:url(../images/theme/theme03.jpg) no-repeat center top #eee}
+.resultList{border-bottom:1px solid #ddd}
+.resultList li{width:auto;background:#fff;margin:0 10px 10px 0}
+.resultList li a{padding:0 20px}
+.resultList li.ac{background:#6cd685;color:#fff}
+.resultList li.ac a{background-color:#6cd685 !important;color:#fff}
+.resultList li.ac:hover a{background:#1ed248 !important;color:#fff !important}
+.testClsList li{height:26px;line-height:26px;margin-bottom:0}
+.testClsList li a{padding:0 !important;margin-right:10px}
+.testClsList li:hover{background:none !important}
+.testClsList li:hover a{color:#6cd685 !important}
+.testClsList li.ac{background:none !important}
+.testClsList li.ac a{background:none !important;font-weight:bold;color:#6cd685 !important}
+.testClsList li.ac:hover a{background:none !important;color:#1ed248 !important}
+/*右侧*/
+.homepage .main_r .main_cont{padding:30px 10px 30px 30px}
+.main_r .total_QA_list{margin-right:-20px}
+.main_r .total_QA_list li{width:91px;border:1px solid #6cd685;height:118px;float:left;margin-right:20px;text-align:center}
+.main_r .total_QA_list li span{display:block;height:25px;padding-top:50px;border-bottom:1px solid #6cd685;color:#6cd685;font-size:14px;margin-bottom:10px;background:url(../images/new_sprite.png) no-repeat #e7ffed}
+.main_r .total_QA_list li .accept_ico{background-position:-235px -172px}
+.main_r .total_QA_list li .QA_ico{background-position:-315px -172px}
+.main_r .total_QA_list li .ask_ico{background-position:-155px -172px}
+.main_r .total_QA_list li{font-size:22px}
+.main_r .ta_student_list{margin-right:-20px;margin-top:20px}
+.main_r .ta_student_list li{text-align:center;width:50px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:13px;float:left;margin-right:17px;margin-bottom:17px}
+.main_r .ta_student_list li img{display:block}
+/*学生首页------------------------------------------------------------*/
+.student_home .main_l{padding-bottom:200px}
+.student_home .main_l .main_cont{ padding-top:30px}
+.student_home .QA_list{padding-left:160px;zoom:1}
+.student_home .QA_list dd{position:relative;padding-bottom:60px}
+.student_home .QA_list .dot_line{position:absolute;left:-55px;top:0;width:0;height:100%;border-left:2px solid #ddd}
+.student_home .QA_list .dot_line i{position:absolute;width:24px;height:24px;background:url(../images/ico.png) -88px -728px;left:-12px;top:-6px}
+.student_home .QA_list dt{left:25px;height:80px;line-height:80px;width:80px;background:url(../images/new_sprite.png) 0 -240px;text-align:center;font-size:36px;color:#fff;position:absolute}
+.student_home .QA_list dt em{width:80px;position:absolute;top:85px;font-size:14px;text-align:center;color:#999;height:20px;line-height:20px;left:0}
+.student_home .QA_list .QA_cont{border:1px solid #ddd;position:relative;border-radius:3px;padding:30px 10px 0 30px}
+.student_home .QA_list .QA_cont .arrow{position:absolute;width:16px;height:30px;background:url(../images/ico.png) -50px -526px;left:-16px;top:31px}
+.student_home .QA_list .QA_cont h5{font-size:18px}
+.student_home .QA_list .QA_cont .form_list{font-size:16px}
+.student_home .QA_list .QA_cont .form_list .row{padding:0;padding-top:20px}
+.student_home .QA_list .QA_cont .form_list .row_button{padding-top:0}
+.student_home .QA_list .QA_cont .form_list .row_button .formR{width:530px}
+.student_home .QA_list .QA_cont .form_list .choose_div{margin-bottom:10px}
+.student_home .QA_list .QA_cont .form_list .my_answer .formR{width:460px}
+.student_home .tch_read .time{padding-bottom:20px}
+.student_home .QA_list .QA_cont .form_list label{line-height:24px;text-align:left}
+.student_home .QA_list .QA_cont .form_list .formR{line-height:26px;width:500px}
+.student_home .QA_list .QA_cont .form_list .formR img{border:1px solid #ddd}
+.student_home .QA_list .QA_cont .form_list .formR textarea{width:510px;min-width:98%;height:100px}
+.student_home .QA_list .QA_cont .form_list .formR .answerBtn{border-radius:20px;height:35px !important;line-height:35px !important}
+.student_home .main_l .moreQA{position:absolute;width:60px;height:25px;padding-top:10px;background:url(../images/new_sprite.png) -90px -260px;color:#fff;text-align:center;left:106px;bottom:-22px}
+.student_home .main_l .emptyQA{background:#ddd;height:60px;width:60px;border-radius:30px;padding:0;line-height:60px}
+.student_home .main_l .QA_cont_imgBox{padding-top:20px}
+#revise .ico{width:20px;height:20px;display:inline-block;background:url(../images/ico.png) no-repeat -49px -329px;position:absolute;top:32px;right:380px;cursor:pointer}
+#revise .reviseStatus{top:24px;left:340px}
+#revise .reviseText{color:#586A7A;font-size:14px}
+/*首页end------------------------------------------------------------*/
+
+
+/*测验详情-在线答题*/
+.online_answer .noticeB p{float:right}
+.online_answer .noticeB p span{color:#333;font-size:12px;margin-right:10px}
+.online_answer .work_detais_cent h4{text-align:center;margin-top:10px}
+.online_answer .work_detais_cent .title_tab{text-align:right}
+.online_answer .work_detais_cent .title_tab span{margin-right:20px}
+.online_answer .work_detais_cent .ul_list{padding-left:10px}
+.online_answer .work_detais_cent .ul_list li{line-height:20px;font-size:12px;color:#333}
+.online_answer .btn_online{position:relative;text-align:center;margin-top:12px}
+.online_answer .btn_online div{position:absolute;right:0;top:0}
+.online_answer .stu_answer{color:#ec0909}
+.online_answer .time-item{background-color:#ddd;padding:6px}
+.online_answer .time-item strong{color:#06c}
+
+.time-item{background-color:#ddd;padding:6px}
+.time-item strong{color:#06c}
+.online_answer .btnD{text-align:center;padding-top:20px}
+/*测验管理--答题完毕*/
+.testPaperView .finish .red{color:#ee4d4e}
+.testPaperView .finish .finish_top{height:26px;line-height:26px;color:#333;font-size:12px;text-align:right;margin-bottom:10px}
+.testPaperView .finish .finish_bottom{margin-bottom:20px}
+.testPaperView .finish .finish_bottom .finish_b_l{float:left;width:510px}
+.testPaperView .finish .finish_bottom .finish_b_l p{color:#333;font-size:12px;text-align:left}
+.testPaperView .finish .finish_bottom .finish_b_r{float:left;width:308px;height:40px;background-color:#f0f9f3;text-align:center;line-height:40px}
+.testPaperView .finish .finish_bottom .finish_b_r p{text-align:center}
+.testPaperView .finish .finish_bottom .finish_b_r .g{color:#57c077;margin-right:40px}
+.testPaperView .finish .finish_bottom .finish_b_r .r{color:#ee4d4e}
+.testPaperView .paperArea .paper .wrong_right{position:absolute;top:10px;right:10px}
+.testPaperView .paperArea .paper .wrong_right em{width:30px;height:30px;display:inline-block}
+.testPaperView .paperArea .paper .wrong_right .right{background:url(../images/ico.png) no-repeat -85px -925px;margin-right:10px}
+.testPaperView .paperArea .paper .wrong_right .wrong{background:url(../images/ico.png) no-repeat -5px -925px}
+/*题目提送修改-答题完毕，计数放到下面独立一排-圆圆叫改的*/
+.testPaperView .finish .finishdisplay .finish_b_l{display:block;width:auto;float:none}
+.testPaperView .finish .finishdisplay .finish_b_r{display:block;width:auto;float:none;height:100px;line-height:100px;margin-top:20px}
+.testPaperView .finish .finishdisplay .finish_b_r p{width:auto;float:none}
+.testPaperView .finish .finishdisplay .finish_b_r p span{font-size:24px !important}
+/*测验管理--回答完毕*/
+.testPaperView .red{color:#ee4d4e}
+.testPaperView .paperArea .finish h3{color:#000;font-size:16px;text-align:center}
+.testPaperView .paperArea .finish p{color:#333;font-size:12px;text-align:right}
+.testPaperView .paperArea .finish p span{margin-left:24px}
+.testPaperView .paperArea .finish hr{border-top:#CCC solid 1px}
+.testPaperView hr{border-top:#CCC dashed 1px;margin-top:16px}
+.testPaperView .finish_t{position:relative;padding-top:20px}
+.testPaperView .finish_t h4{font-size:12px}
+.z{position:absolute;font-size:12px;color:#333;right:0;top:16px}
+.finish_t .title{height:40px;line-height:40px;text-align:center;background-color:#c9f4f5;font-size:12px;margin:20px 0}
+.finish_t .title a{color:#06c}
+.testPaperView .ul_list{padding-left:10px;margin-bottom:14px}
+.testPaperView .ul_list li{line-height:20px;font-size:12px;color:#333}
+.testPaperView .fraction{width:160px;height:52px;display:block;border-bottom:#CCC dashed 1px;font-size:48px;color:#ec0909;text-align:center;line-height:52px;margin-bottom:26px}
+.testPaperView .oneself{height:50px;padding:10px;padding-bottom:0;background-color:#efefef;margin-bottom:10px}
+.testPaperView .oneself p{float:left}
+.testPaperView .oneself p img{width:40px;height:40px;vertical-align:middle}
+.testPaperView .oneself .onese{margin-right:20px}
+.testPaperView .oneself .onese span{color:#06c}
+.testPaperView .oneself .correct span{color:#ec0909}
+.testPaperView .an_ul li{float:left;width:154px}
+.testPaperView .an_ul li .radio{margin-right:10px}
+.testPaperView .i_name{width:auto;color:#06c;vertical-align:baseline}
+.work_detais_cent{padding-top:10px}
+.overall_comm{padding-bottom:20px}
+.overall_comm li .formR{font-size:12px;padding-top:2px}
+.overall_comm .content{width:526px;height:100px;overflow-y:auto}
+.overall_comm .labelList{position:relative;top:7px}
+.overall_comm li{margin-bottom:0}
+/*考试详情*/
+.test_detail .form_list .formL label{width:100px}
+.test_detail .scoreSequence{position:absolute;top:200px;right:30px;height:60px;width:100px;padding-left:80px;background:url(../images/new_sprite.png) no-repeat}
+.test_detail .score_up{background-position:-380px -380px;color:#6cd685}
+.test_detail .score_down{background-position:-380px -320px;color:#f06a6a}
+.test_detail .scoreSequence span, .test_detail .scoreSequence em{font-size:48px;float:left;height:48px;line-height:48px;margin-top:8px}
+.test_detail .scoreSequence em{font-size:30px}
+.test_detail .teacherComd dt, .test_detail .teacherComd dd{float:left;clear:both}
+.teacherComd dd{margin-left:90px;margin-top:-40px}
+.test_detail .teacherComd dt{width:80px;text-align:right;padding-right:10px}
+.test_detail .commentCont b{font-size:18px}
+.my_test{position:relative}
+.my_test .testpaperList{border:#d7d7d7 solid 1px;padding:20px 24px 0 24px;position:relative}
+.my_test .testpaperList .testItem .testpaperClip{float:left;margin-right:10px;width:120px;height:90px;border:1px solid #ddd}
+.my_test .testpaperList .testItem{position:relative;padding-bottom:20px}
+.my_test .testpaperList .testItem h5{height:16px;font-size:16px;padding-top:10px;padding-bottom:7px}
+.my_test .testpaperList .testItem .toolsBtnBar{position:absolute;top:62px;left:130px}
+.my_test .testpaperList .testItem .toolsBtnBar button, .my_test .testpaperList .testItem .toolsBtnBar .btn, .my_test .testpaperList .testItem .toolsBtnBar .a_button{margin:0;margin-right:10px}
+.my_test .testpaperList .testItem .total_comt{position:absolute;top:103px;left:50px;background:#fff;border:1px solid #ddd;width:410px;padding:20px;z-index:100}
+.my_test .testpaperList .testItem .total_comt_upside{top:-130px}
+.my_test .testpaperList .testItem .total_comt_upside .arrow{top:auto;bottom:-10px;background-position:-130px -96px}
+.my_test .testpaperList .my_answer{padding-top:20px}
+.my_test .testpaperList .testItem .total_comt label{width:60px;line-height:24px}
+.my_test .testpaperList .testItem .total_comt .formR{width:325px;line-height:24px}
+
+
+/*考试详情科目zhn*/
+.testpaperList{margin-bottom:20px}
+.testpaperList em{width:56px;height:56px;overflow:hidden;background:url(../images/course.png) no-repeat;position:absolute;top:-1px;left:-1px;display:inline-block;z-index:20}
+.my_testBox .shuxue em{background-position:-104px -80px}
+.my_testBox .yuwen em{background-position:-23px -79px}
+.my_testBox .yingyu em{background-position:-183px -79px}
+.my_testBox .dili em{background-position:-264px -79px}
+.my_testBox .lishi em{background-position:-344px -79px}
+.my_testBox .zhengzhi em{background-position:-424px -79px}
+.my_testBox .wuli em{background-position:-503px -80px}
+.my_testBox .huaxue em{background-position:-583px -80px}
+.my_testBox .lizong em{background-position:-663px -80px}
+.my_testBox .wenzong em{background-position:-743px -80px}
+.my_testBox .shengwu em{background-position:-823px -80px}
+.my_testBox .kexue em{background-position:-904px -80px}/*科学*/
+.my_testBox .sixiangpinde em{background-position:-984px -80px}/*思想品德*/
+.my_testBox .xinxijishu em{background-position:-1062px -80px}/*信息技术*/
+
+
+.my_testBox hr{margin-top:10px;margin-left:-130px}
+.my_testBox .my_test{margin-bottom:20px}
+/*测验管理-题目推送样式的问题*/
+.research_materials .testClsList li.ac {background: #6cd685 !important;color: #fff;}
+
+
+
+
+/*考试管理-jw*/
+.test .testArea{margin-top:30px}
+.testArea{margin-top:30px}
+.testListWrap{position:relative}
+.testListWrap .objClip{display:block}
+.testListWrap .arrow{background-image:none}
+.testListWrap .testList{display:none}
+.showTestList{border-top:1px solid #ddd;padding-top:20px}
+.showTestList .arrow{right:45px;background-image:url(../images/ico.png)}
+.showTestList .objClip{display:none}
+.showTestList .testList{display:block}
+.testList{margin-right:-20px}
+.testList li{width:383px;margin-right:20px;margin-bottom:20px;height:92px;padding:20px;float:left;border:1px solid #ccc;position:relative}
+.testList li h5{height:30px;line-height:30px}
+.testList li button{width:78px;margin-right:5px}
+.testList li em{margin-right:26px}
+.testList li .test_detail{margin-bottom:10px}
+.testList li i{position:absolute;height:60px;width:60px;background:url(../images/course.png);top:-1px;right:-1px}
+.itemList .viewDetail i{background:url(../images/ico.png) no-repeat -90px -172px}
+.itemList .dis_viewDetail{color:#ddd !important;cursor:text}
+.itemList .dis_viewDetail i{background:url(../images/ico.png) no-repeat -90px -1172px}
+.itemList li{position:relative}
+.itemList li .status{color:#999999;position:absolute;right:30px;top:70px}
+.itemList li .clsSetupBox{width:500px;padding:10px 20px;border:1px solid #ddd;position:absolute;top:40px;right:125px;background:#fff;box-shadow:#ddd 0 0 3px;z-index:50}
+.itemList li .clsSetupBox i{position:absolute;width:20px;height:10px;top:-10px;right:60px;}
+.itemList li .clsSetupBox .form_list .formR{width:420px}
+.itemList li p{padding-top:20px}
+.itemList .test_score{color:#777777}
+.itemList .test_score em{color:#1ed248;margin-left:12px}
+/*作业-在线答题zhn*/
+.online_answer .writing{height:30px;line-height:30px;text-align:right;padding-top:10px}
+.online_answer .writing span{padding-left:20px;font-size:14px}
+/*作业列表zhn*/
+
+.sup_box{} 
+.sup_box .sup_ul li{padding:20px 22px;margin-bottom:20px}
+.sup_box .sup_ul li .sup_l{width:566px;border-right:#ccc dotted 1px !important}
+.sup_box .sup_ul li .sup_l h4{padding-bottom:20px;float:none;overflow: hidden; height: 30px; text-overflow: ellipsis; width: 565px; white-space:nowrap}
+.sup_box .sup_ul li .sup_l h4 .course{width:auto;padding-right:10px;line-height:12px;height:auto !important}
+.sup_box .sup_ul li .sup_l dl dd span{display:inline-block}
+.sup_box .sup_ul li .sup_r{width:190px}
+.sup_box .sup_ul .sup_li{border:#ccc solid 1px;height:auto;position:relative}
+.sup_box .sup_ul .sup_li p{padding:0;z-index:1}
+.sup_box .sup_ul li .sup_l dl dd em{vertical-align:top;color:#555555;padding-right:10px;font-size:14px;display: inline-block;}
+.sup_box .sup_ul .sup_li .course_i{width:60px;height:60px;overflow:hidden;position:absolute;right:0;top:0;background:url(../images/course.png) no-repeat}
+.sup_box .sup_ul .yuwen .course_i{background-position:-20px 0}
+.sup_box .sup_ul .shuxue .course_i{background-position:-100px 0}
+.sup_box .sup_ul .yingyu .course_i{background-position:-180px 0}
+.sup_box .sup_ul .dili .course_i{background-position:-260px 0}
+.sup_box .sup_ul .lishi .course_i{background-position:-340px 0}
+.sup_box .sup_ul .zhengzhi .course_i{background-position:-420px 0}
+.sup_box .sup_ul .wuli .course_i{background-position:-500px 0}
+.sup_box .sup_ul .huaxue .course_i{background-position:-580px 0}
+.sup_box .sup_ul .lizong .course_i{background-position:-660px 0}
+.sup_box .sup_ul .wenzong .course_i{background-position:-740px 0}
+.sup_box .sup_ul .shengwu .course_i{background-position:-820px 0}
+.sup_box .sup_ul li .sup_l dd .synopsis{width:486px;font-size:14px;color:#555555;padding-bottom:8px}
+.sup_box .sup_ul li .schedule{padding-top:20px}
+.sup_box .sup_ul .this{border:#0098f0 solid 1px}
+.sup_box .sup_ul .sup_r{text-align:center}
+.sup_box .sup_ul .sup_r .notice{background:none;color:#555555 !important;border-radius:4px;margin-bottom:12px;border:#7bccff solid 1px;height:40px !important;line-height:40px !important}
+.sup_box .sup_ul .sup_r .sup_box{margin-top:62px}
+.sup_box .sup_ul .sup_r .sup_box{*margin-top:0}
+.sup_box .sup_ul .sup_r .sup_box em{color:#aaaaaa}
+.sup_box .sup_ul .sup_r .notice:hover{color:#fff !important}
+.noJgBtn{background:none !important;color:#aaaaaa !important;border:none !important}
+.noJgBtn:hover{border:none !important;background:none !important;color:#aaaaaa !important}
+/*作业管理--作业详情*/
+.work_detail .form_list .submitBtnBar button{margin-right:5px !important}
+.work_detail .studentList .chkLabel{margin:-3px 0 0 0}
+.work_detail .questionArea{border:1px solid #ddd;padding:20px;margin-left:20px}
+.work_detail .stu_item{padding-bottom:20px}
+.test_class_this{height:112px;background-color:#e7ffed;line-height:112px;text-align:start;margin-top:20px}
+.test_class_this span{font-size:18px;color:#444;padding-left:18px}
+/*通知*/
+.notice .notice_list{margin-bottom:40px}
+.notice .notice_list li{line-height:33px;padding:0 10px 30px 10px;border-bottom:1px #ccc dashed;position:relative;width:98%}
+.notice .notice_list .notice_name{font-weight:bold}
+.notice .notice_list .notice_name em{margin-left:10px}
+.notice .notice_list .notice_time{position:absolute;top:20px;right:10px}
+.notice .notice_list p{padding-top:20px}
+.notice .notice_list .gray_d{padding-top:0}
+.notice .notice_list p span{display:inline-block;width:690px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.notice .notice_send_btn{position:absolute;top:55px;right:10px}
+.bg_gray_ll{background:#f4f4f4}
+.no_see{font-weight:bold}
+
+/*错题详情*/
+.digitalFile p .correct{margin-right:10px; display:inline-block}
+.digitalFile p .correct i{background:url(../images/ico.png) no-repeat;width:18px;height:12px;margin-left:6px}
+.digitalFile p .correct .right{background-position:-144px -894px}
+.digitalFile p .correct .halfWrong{background-position:-89px -1215px}
+.digitalFile p .correct .wrong{background-position:-144px -854px}
+.digitalFile .my_answer{margin-bottom:10px}
+
+
+/*我的私信*/
+.msg_mine li{border-bottom:1px dashed #e7e7e7;position:relative}
+.msg_mine li img{float:left;margin:30px 20px 25px 0}
+.msg_mine li p{width:720px;margin-left:100px;line-height:33px}
+.msg_mine li p img{margin:0 !important;float:none !important}
+.msg_mine .msg_from{padding-top:20px}
+.msg_mine .bottom_tab{position:absolute;bottom:19px;right:10px}
+.msg_mine li p a{margin-left:5px}
+/*.msg_mine .notice_list{margin-bottom:40px}*/
+.msg_mine li .msg_cent{font-weight:bold}
+.justifying .form_list .formL label{width:85px}
+/*私信对话详情*/
+.dailogBar .headPic{float:right;margin-top:10px}
+.dailogBar .textareaBox{width:630px;float:left;position:relative;left:120px}
+.chat_list{width:572px}
+.send_list .send_text{margin-top:40px;margin-left:118px}
+.chat{width:572px;border:#e0e0e0 solid 1px;padding:19px 29px;margin-left:117px;margin-bottom:20px}
+.chat b{width:21px;height:20px;position:absolute;display:inline-block;top:1px}
+.chat .pic{width:80px;height:80px;position:absolute;top:0;right:11px}
+.chat .colse{width:10px;height:10px;cursor:pointer;position:absolute;background:url(../images/ico.png) no-repeat -95px -95px;right:9px;top:9px}
+.chat p{line-height:24px}
+.chat p span{float:left}
+.look{margin-bottom:60px}
+.chat .s_l{right:-21px;background:url(../images/input_ico.png) -883px 0;top:-1px}
+.chat .pic{right:-110px;top:-1px}
+.chatbf{background-color:#f8f8f8;margin-left:118px}
+.chatbf .s_r{left:-21px;top:-1px;background:url(../images/input_ico.png) -920px 0}
+.chatbf .picL{left:-110px;top:-1px}
+.look{margin-top:60px}
+.look_smiling_facer .prompt{position:relative}
+.look_smiling_facer .prompt .number{width:26px;display:inline-block}
+.look_smiling_facer .btn{margin-right:119px;margin-top:10px}
+.course_deta_list{margin-top:40px}
+/*答疑管理*/
+.answer_questions .subTitle_r{position:relative}
+.answer_questions .TextBtn{position:relative;left:-6px}
+.answer_questions .make_testpaperList{padding-bottom:20px}
+.answer_questions .make_testpaperList .make_testpaperli{border-bottom:#ccc dashed 1px;padding-bottom:10px;margin-bottom:0}
+.answer_questions .make_testpaperList .test_tite{height:35px;line-height:35px}
+.answer_questions .test_tite h4{font-size:16px;color:#111111}
+.answer_questions .test_tite em{font-size:14px;color:#999999}
+.answer_questions .testpaperBox{color:#333333;font-size:14px}
+.answer_questions .testpaperBox img{margin-right:10px;border:1px #aaaaaa solid;margin-top:20px}
+.answer_questions .test_BoxBtn{margin-top:10px}
+.answer_questions .box_tab{width:98%;position:relative;left:-10px}
+.answer_questions .test_BoxBtn .comeFrom{font-size:14px;color:#ccc}
+.answer_questions .answer_testList{float:left;margin-right:20px}
+.answer_questions .answer_testList li{float:left}
+.answer_questions .box_btn a{font-size:14px;color:#555555 !important}
+.answer_questions .answerBox{border-top:#e0e0e0 solid 1px;position:relative;margin-top:4px;display:none}
+.answer_questions .open_answer .answerW{ display:block;}/*显示答案*/
+.answer_questions .open_answer .answerM{ display:none}
+.answer_questions .open_ask .answerW{ display:none;}/*显示回答*/
+.answer_questions .open_ask .answerM{ display:block}
+
+
+.answer_questions .answerBox textarea{width:99%;margin-top:-1px;margin-bottom:20px}
+.answer_questions .answer_list{padding-top:18px}
+.answer_questions .answer_list li{padding-left:50px;margin-bottom:18px}
+.answer_questions .answer_list li .answer_listL{margin-left:-50px;float:left;margin-right:18px}
+.answer_questions .answer_listR{width:800px}
+.answer_questions .answer_listR .answer_a em{color:#777777;font-size:14px}
+.answer_questions .answer_listR .answer_a span{width:72px;height:22px;background-color:#ff9c6b;line-height:22px;font-size:12px;color:#fff;text-align:center;display:inline-block;border-radius:10px;margin-left:10px}
+.answer_questions .answer_listR .answer_a{font-size:14px;color:#111111;margin-bottom:6px}
+.answer_questions .answer_listR .answer_a .put{background:none;color:#ff7c66;border:#ff9c6b solid 1px;cursor:pointer}
+.answer_questions .answer_listR .answer_a .put:hover{background-color:#ff9c6b;color:#fff}
+.BtnBox{margin-bottom:10px}
+.make_testpaperli{margin-top:20px}
+/*答疑提问*/
+.AQ_ask .form_list li{margin-right:10px}
+.AQ_ask .form_list .formR{width:85%}
+.AQ_ask .replen_list{padding-left:10px;margin-top:20px;padding-bottom:30px;border-bottom:1px #ccc dashed}
+.AQ_ask .replen_list h4{margin:10px 0 12px 0}
+.AQ_ask .replen_list textarea{width:100% !important;background:none}
+.AQ_ask .btnArea{width:268px;position:absolute;top:62px;right:-112px}
+.submit_b{text-align:left}
+.submit_b .chkLabel{margin-left:10px;vertical-align:text-top}
+/*错题详情*/
+.mistake_detail .stateBar{height:60px;text-indent:20px;line-height:60px;background:#d4fbda}
+.mistake_detail .stateBar button{float:right}
+.mistake_detail .question_list{margin-right:-10px}
+.mistake_detail .question_list li{width:265px;padding-left:15px;height:40px;line-height:40px;float:left;border:1px solid #ddd;margin-right:10px}
+.mistake_detail .question_list span{display:inline-block;font-size:22px;margin-left:10px;padding-right:30px;margin-right:0;color:#555}
+.mistake_detail .question_list .Q_correct{background-position:right -840px}
+.mistake_detail .question_list .Q_error{background-position:right -880px}
+.mistake_detail .clip_switch{height:30px;line-height:30px;width:240px;border:1px solid #1ed248}
+.mistake_detail .clip_switch em{text-align:center;color:#1ed248;display:inline-block;height:30px;width:120px;cursor:pointer}
+.mistake_detail .clip_switch .ac{background:#1ed248;color:#fff;cursor:auto}
+.mistake_detail{position:relative}
+.test_paper_sort{height:36px;padding:0 32px;line-height:36px;background-color:#f4faf5}
+.test_paper_sort p{color:#555555}
+.test_paper_sort p em{width:14px;height:14px;overflow:hidden;margin-left:18px;display:inline-block;vertical-align:middle;background:url(../images/ico.png) no-repeat}
+.test_paper_sort p .up{background-position:-92px -372px}
+.test_paper_sort p .down{background-position:-92px -333px}
+.testPaperView .source{color:#999999;margin-left:34px;font-weight:normal}
+/*学霸养成记*/
+.cultivate .moreQA{position:absolute;width:60px;height:25px;padding-top:10px;background:url(../images/new_sprite.png) -90px -260px;color:#fff;text-align:center;left:105px;bottom:-45px}
+.cultivate .QA_list .QA_cont .QA_cont_main{padding-top:16px;padding-bottom:26px}
+.cultivate .QA_list .QA_cont .QA_cont_main img{margin-right:10px}
+.cultivate .QA_list .QA_cont .QA_cont_main p{line-height:20px;margin-top:5px}
+.cultivate .QA_list .dd_last{padding-bottom:0}
+.cultivate .moreQA{position:absolute;width:60px;height:25px;padding-top:10px;background:url(../images/new_sprite.png) -90px -260px;color:#fff;text-align:center;left:106px;bottom:3px}
+.cultivate{padding-bottom:200px}
+.cultivate .memorabilia_QA_list{margin-top:40px}
+.cultivate .QA_list dd{padding-bottom:60px}
+.cultivate .student_home .QA_list .QA_cont .form_list label{width:48px}
+.cultivate .student_home .QA_list .QA_cont .form_list img{margin-right:10px;width:120px;height:90px}
+.cultivate .student_home .QA_list .QA_cont .form_list .formR{width:576px;line-height:28px}
+.cultivate .student_home .QA_list .QA_cont .form_list .row_font{padding-top:14px;margin-bottom:14px;*padding:0;
+*margin:0
+}
+/*数据统计*/
+.statis_chart .echarts{width:100%;height:300px;padding-top:10px}
+.statistics .statistics_t{margin-bottom:60px}
+.statistics .statistics_t .tabList{height:40px;border-bottom:1px solid #ddd}
+.statistics .statistics_t .tabList li{float:left;height:40px;color:#1ababe;cursor:pointer;font-size:14px;text-align:center;line-height:32px}
+.statistics .statistics_t .tabList .this{background-color:#00cacf;color:#fff}
+.statistics .statistics_t .tabList .statistics_list{padding:20px 10px}
+.statistics .statistics_t .statistics_list ol{display:none}
+.statistics .statistics_t .statistics_list ol li{float:left;margin-right:60px;font-size:12px;color:#4e6bab;padding:10px 0;cursor:pointer}
+.statistics_t .nameList{padding:10px 30px;border:#cccccc solid 1px;margin-bottom:20px;position:relative;margin-top:20px}
+.statistics_t .nameList h3{font-size:16px;margin-bottom:20px;color:#333}
+.statistics_t .nameList dl{height:auto;line-height:18px;border:none}
+.statistics_t .nameList dl dd{float:left;padding:4px 30px;cursor:pointer}
+.statistics_t .nameList dl dd span{color:#718898;font-size:14px}
+.statistics_t .nameList dl .this{background-color:#6cd685}
+.statistics_t .nameList dl .this span{color:#fff}
+.statistics_t .nameList .naListtye{padding-left:50px}
+.statistics_t .nameList .naListtye dt{margin-left:-50px;float:left;font-size:14px;position:relative;top:5px}
+.statistics_t .name_box .nameList{display:none}
+.statistics_t .name_box .nameList dd{padding:5px 20px}
+.statistics_t .name_box .nameList .ac{background-color:#6cd685}
+.statistics_t .name_box .nameList .ac span{color:#fff !important}
+.statistics_t .nameList .textName{position:absolute;top:10px;left:200px;cursor:pointer}
+.statistics_t .name_box .textName i{width:10px;height:6px;overflow:hidden;display:inline-block;background:url(../images/ico.png) no-repeat -65px -247px}
+/*学习时间轴*/
+.learning_time .student_home .QA_list .QA_cont .form_list label{width:56px;text-align:right}
+.learning_time .cont_p{margin-top:10px;padding-bottom:20px}
+/*答疑管理*/
+.answerBigBox{position:relative;top:10px}
+/*个人设置 jw*/
+.userSetup .title{margin-bottom:30px}
+.userSetup .tabCont{border:none;border-top:1px solid #ddd;padding-top:30px}
+.userSetup .instructions{background:#eee;padding:20px;margin-bottom:30px}
+.change_pwd .form_list .formL label{width:100px}
+.picEditBar{width:462px;text-align:center}
+.picEditBar .default_pic{border:1px solid #ddd;margin-top:10px}
+.picEditBar .default_pic .imgBar{width:460px;margin:0 auto}
+.picEditBar .default_pic .imgBar img{display:block}
+.picEditBar .default_pic span{padding:20px 20px 10px;display:inline-block;text-align:justify}
+.picEditBar .btnBar{margin-top:30px}
+.pic_clipBar h5{margin:60px 20px 10px;color:#999}
+.pic_clipBar .clip_img{float:left;margin-left:18px;overflow:hidden}
+.pic_clipBar .clip_img230{width:230px;height:230px}
+.pic_clipBar .clip_img70{width:70px;height:70px}
+.pic_clipBar .clip_img50{width:50px;height:50px}
+
+.picEditBar .fileinput-button .uploading .file{
+	width:352px;
+	height:50px;
+}
+
+
+/*学生-个人中心slg*/
+.personal_center .personal_top{width:100%;height:160px;background:#f4faf5;text-align:center}
+.personal_center .personal_top li{float:left;width:98px;height:98px;border:1px dashed #6cd685;border-radius:4px;margin-left:59px;margin-top:30px}
+.personal_center .personal_top .Photograph i{background:url(../images/new_sprite.png) no-repeat -500px -180px;width:41px;height:31px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .Photograph a{color:#6cd685;display:block;height:98px;overflow:hidden}
+.personal_center .personal_top .question i{background:url(../images/ico.png) no-repeat -2px -1644px;width:36px;height:32px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .question a{color:#6cd685;display:block;height:98px;overflow:hidden}
+.personal_center .personal_top li:hover{background:#6cd685}
+.personal_center .personal_top li:hover a{color:white !important}
+.personal_center .personal_top .Photograph:hover i{background:url(../images/new_sprite.png) no-repeat -500px -260px;width:41px;height:31px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .question:hover i{background:url(../images/ico.png) no-repeat -42px -1644px;width:36px;height:32px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .myMsg, .personal_center .myClasses, .personal_center .myPractice, .personal_center .myQuestion{margin-top:35px}
+.personal_center .myMsg .title, .personal_center .myClasses .title, .personal_center .myPractice .title, .personal_center .myQuestion .title{background:#f4faf5;border-bottom:none}
+.personal_center .myMsg .title h4, .personal_center .myClasses .title h4, .personal_center .myPractice .title h4, .personal_center .myQuestion .title h4{font-size:16px;text-indent:10px}
+.personal_center .myMsg .widget_select{position:absolute;left:85px;top:14px}
+.personal_center .myMsg .tab{margin-top:20px}
+.personal_center .myMsg .tabList a{width:100px;height:90px;text-align:center;background:none;border:none;position:relative}
+.personal_center .myMsg .tabList a i{display:block;width:44px;margin:0 auto;height:70px;background:url(../images/ico.png)}
+.personal_center .myMsg .tabList .notes i{background-position:-20px -1280px}
+.personal_center .myMsg .tabList .notes:hover i{background-position:-100px -1280px}
+.personal_center .myMsg .tabList a:hover, .personal_center .myMsg .tabList .ac{background:none}
+.personal_center .myMsg .tabList a b{position:absolute;width:26px;height:26px;background:url(../images/ico.png) no-repeat -7px -1087px;color:#fff;text-align:center;line-height:26px;font-size:12px;top:5px;right:25px}
+.personal_center .myMsg .tabList .over99 b{background-position:-7px -1127px;text-indent:-999px;overflow:hidden}
+.personal_center .myMsg .tabCont{margin-top:20px;border:none;border-top:1px solid #ddd}
+.personal_center .myMsg .tabList .sysMsg i{background-position:-100px -1435px}
+.personal_center .myMsg .tabList .sysMsg:hover i{background-position:-20px -1435px}
+.personal_center .myMsg .tabList .letter i{background-position:-20px -1353px}
+.personal_center .myMsg .tabList .letter:hover i{background-position:-100px -1353px}
+.personal_center .myMsg .myMsg_notice .title{background:none;margin-right:-10px}
+.personal_center .myMsg .myMsg_notice .title h4{text-indent:0}
+.personal_center .myMsg .myMsg_notice, .myMsg_letter{margin-left:-30px}
+.personal_center .myMsg .myMsg_notice li p{line-height:30px}
+.personal_center .myMsg .myMsg_notice li{border-bottom:1px dashed #ddd;margin-left:12px}
+.personal_center .myMsg .myMsg_notice .notice_h4{line-height:20px}
+.personal_center .myMsg .myMsg_notice .notice_r{margin-top:-15px}
+.personal_center .myMsg .myMsg_letter dl{padding-left:110px;margin-top:20px}
+.personal_center .myMsg .myMsg_letter dl dt{float:left;margin-left:-100px}
+.personal_center .myMsg .myMsg_letter dl dd{line-height:30px}
+/*作业*/
+.personal_center .myHomework, .personal_center .myPractice .titlePush_main, .personal_center .myQuestion .make_testpaper{border:1px solid #d7d7d7;margin-top:31px}
+.personal_center .myHomework .sup_ul .sup_li{border:none}
+.personal_center .myHomework .sup_ul li .sup_l{border-right:none !important}
+.personal_center .myHomework .sup_ul li .sup_l h4{padding-bottom:0;float:none;margin-top:-25px}
+/*练一练*/
+.personal_center .myPractice .titlePush_main li{border:none;padding-top:30px;padding-left:24px}
+.personal_center .myPractice .notice{background:none;color:#555 !important;border-radius:4px;margin-bottom:12px;border:#7bccff solid 1px;height:40px !important;line-height:40px !important;margin-left:665px;margin-top:-68px}
+.personal_center .myPractice .notice:hover{color:#fff !important}
+.personal_center .myPractice ul{margin-bottom:0}
+
+
+
+/*答疑*/
+.personal_center .myQuestion .test_tite em{padding-right:10px}
+.personal_center .myQuestion .testpaperBox p{margin-top:10px}
+.personal_center .myQuestion .testpaperBox img{border:1px solid #d7d7d7;margin-right:10px;margin-top:27px}
+.personal_center .myQuestion .test_BoxBtn{margin-top:26px}
+.personal_center .myQuestion .test_BoxBtn img{margin-right:10px}
+.personal_center .myQuestion .test_BoxBtn dl{padding-bottom:20px}
+.personal_center .myQuestion .make_testpaper{padding-left:10px}
+.personal_center .myQuestion .testPaperView{border:1px solid #d7d7d7;margin-top:31px}
+.personal_center .myQuestion .testPaperView .paperArea{margin:20px 25px}
+.personal_center .myQuestion .paperArea .paper .paper_title li{float:left;margin-right:20px;border:#ccc solid 1px;width:160px;height:120px;margin-bottom:10px}
+.personal_center .myQuestion .paperArea .paper .paper_title li img{width:160px;height:120px}
+.personal_center .myQuestion .paperArea .paper .btnArea .edit i{width:18px;height:18px;overflow:hidden;display:inline-block;background:url(../images/ico.png) no-repeat -50px -330px}
+.personal_center .myQuestion .paperArea .paper .btnArea .edit:hover i{width:18px;height:18px;overflow:hidden;display:inline-block;background:url(../images/ico.png) no-repeat -90px -290px}
+.personal_center .myQuestion .paperArea .paper .answerArea{padding:0;background:none}
+.personal_center .myQuestion .paperArea .paper .answerArea p{margin-top:15px}
+/*.personal_center .myQuestion .paperArea .paper .viewDetailLink{right:10px}*/
+.personal_center .myQuestion .paperArea .paper .viewDetailLink a{margin-left:20px}
+.personal_center .myQuestion .widget_select{position:absolute;left:85px;top:14px}
+.personal_center .myQuestion .make_testpaper{padding:34px 15px 0 25px}
+.personal_center .myQuestion .make_testpaperli{/*border:none;*/margin:0}
+.personal_center .myQuestion .answer_listR{width:760px}
+
+/*积分排行ljr*/
+.video_library{padding:0 30px}
+.cont24 .mainbox_r{width:930px}
+
+/*作业统计ljr*/
+.statistics_cont .zyname{ text-align:center;padding:20px 0 20px 0}
+.statistics_cont .tab .tabCont{border-left:0;border-right:0;border-bottom:0}
+.statistics_cont .statistics_all h3{color:#78D98F;}
+.statistics_cont .statistics_all .tj{font-size:16px;margin:20px 0 20px 0}
+.statistics_cont .statistics_all .noend{ width:825px;height:190px;background:#E7FFED; text-align:center; line-height:190px; font-size:18px;margin:20px 0 0 0; display:none;}
+.statistics_cont .statistics_all .noendList{float:left;width:138px;}

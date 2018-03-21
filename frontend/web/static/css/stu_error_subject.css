@@ -1,0 +1,8 @@
+*{margin:0;padding:0;}
+div.Recognition{width:1220px;margin:10px auto;min-height: 750px;}
+.errorRecognition li.errorList{margin:10px;position:relative;width:588px;height:132px;border:1px solid #dcdcdc;background:#fff;}
+.errorRecognition img{width:70px;height:92px;margin-top:20px;margin-left:15px;}
+.errorRecognition li.errorList ul{margin-top:30px;margin-left:25px;}
+.errorRecognition li.errorList ul li{line-height:36px;}
+a.btn{position:absolute;top:50px;right:20px;background:#ffffff;border:1px solid #10ade5;height:28px;width:70px;color:#10ade5;}
+a.btn:hover{background:#10ade5;}

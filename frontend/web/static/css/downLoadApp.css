@@ -1,0 +1,66 @@
+*{margin:0;padding:0;border:0;outline:none;font-family:"Verdana","microsoft yahei";}
+html,body{height:100%;min-height:600px;min-width:1200px;}
+ol,ul{list-style:none;}
+.fl{float:left;}
+.fr{float:right;}
+.clearfloat:after{display:block;clear:both;content:"";visibility:hidden;height:0}
+.clearfloat{zoom:1}
+.status_1{display:none;}
+#header{height:90px;}
+#header ul{background: url("../images/index_icon.png") 0 -5px no-repeat;width:1200px;margin:0 auto 0;color:#666666;height:90px;line-height:30px;font-size:16px;}
+#header ul li{margin-top:30px;}
+#downLoad{border-left:1px solid #E5E5E5;margin-left:150px;padding-left:14px;}
+#content{background:url("../images/downloadApp_bg.jpg") no-repeat;background-size:100% 100%;height:80%;min-height:770px;}
+#downLoadStatus{width:980px;margin:0 auto;}
+#status{position:relative;height:80px;padding-top:30px;}
+#status div{cursor:pointer;position:absolute;width:235px;height:65px;background:url("../images/downLoadApp/downLoad_status.png") no-repeat;}
+#status0{left:125px;}
+#status1{left:667px;background-position:0 -82px!important;}
+#status i{display:inline-block;width:17px;height:11px;position:absolute;background:url("../images/upArrow.jpg") no-repeat;}
+#status i.status0{bottom:-3px;left:146px;}
+#status i.status1{bottom:-3px;left:692px;}
+#status{border-bottom:1px solid #B6E0F2;}
+
+#app{position:relative;width:980px;margin:0 auto;height:625px;}
+/*模型*/
+#phoneModel{position:absolute;background:url("../images/downLoadApp/APP.png") no-repeat -8px -145px;height:553px;width:270px;top:20px;left:100px;}
+#phoneModel .ico{position:absolute;background:url("../images/downLoadApp/APP.png") no-repeat;z-index:5;}
+#ico1{width:103px;height:129px;background-position:-554px 0!important;top:56px;left:-50px;}
+#ico2{width:80px;height:106px;background-position:-670px 0!important;top:298px;left:-37px;}
+#ico3{width:70px;height:78px;background-position:-675px -113px!important;top:305px;left:218px;}
+#ico4{width:103px;height:129px;background-position:-438px 0!important;top:56px;left:-50px;}
+
+/*手机页面*/
+#phoneModel .carousel{position:absolute;top:66PX;left:16PX;width:235px;height:416px;overflow:hidden;}
+#phoneModel .carousel ul{position:absolute;width:999px;}
+#phoneModel .carousel li{width:235px;height:416px;float:left;background:url("../images/downLoadApp/APP.png") no-repeat;}
+#phoneModel .carousel.status_0 .page1{background-position:0 -730px;}
+#phoneModel .carousel.status_0 .page2{background-position:-263px -730px;}
+#phoneModel .carousel.status_0 .page3{background-position:-526px -730px;}
+#phoneModel .carousel.status_0 .page4{background-position:-788px -730px;}
+#phoneModel .carousel.status_1 .page1{background-position:-290px -211px;}
+#phoneModel .carousel.status_1 .page2{background-position:-546px -211px;}
+/*手机页面*/
+#appIco{font-size:22px;color:#666666;font-weight:normal;position:absolute;top:12px;left:510px;}
+#appIco .row{height:45px;line-height:45px;}
+#appIco .row span{font-weight:600;margin-right:10px;}
+#appIco ul{margin-top:70px;}
+#appIco ul li{float:left;}
+#appIco ul li a{display:block;width:191px;height:50px;background:url("../images/downLoadApp/APP.png") no-repeat;margin-left:40px;cursor:pointer;}
+#appIco ul li a#Android:hover{background-position:-225px 0;}
+#appIco ul li a#ios{background-position:0 -70px;margin-top:54px;}
+#appIco ul li a#ios:hover{background-position:-225px -70px;}
+#appIco ul img{width:150px;}
+#carouselL,#carouselR{width:35px;height:60px;background:url("../images/downLoadApp/APP.png") no-repeat;position:absolute;top:340px;cursor:pointer;}
+#carouselL{background-position:-786px 0;left:0;}
+#carouselR{background-position:-845px 0;right:0;}
+#carouselNum{border-top:1px solid #ABACA9;position:absolute;bottom:0;}
+#carouselNum ul{width:999px;}
+#carouselNum li{width:7px;height:11px;float:left;margin-top:-6px;margin-right:48px;background:url("../images/downLoadApp/carN.jpg") 0 0 no-repeat;cursor:pointer;}
+#carouselNum li.ac{width:11px;background-position:-15px 0;}
+/*模型*/
+#footer{height:5%;margin-top:2%;}
+#footer .footer{width:1200px;margin:0 auto;position:relative;font-size:14px;color:#666;word-wrap: break-word;text-align: justify;}
+#footer .footer a{color:#23AEE3;text-decoration:none;}
+#footer .footer i{background:url("../images/barcode.jpg") no-repeat;cursor: pointer;height: 18px;width: 18px;display:inline-block;margin-left:10px;}
+#barcode{position:absolute;bottom:20px;left:80px;display:none;}

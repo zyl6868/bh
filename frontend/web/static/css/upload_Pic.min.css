@@ -1,0 +1,553 @@
+.tch_head ul {
+    float: left;
+}
+
+.tch_head ul li {
+    float: left;
+    width: 70px;
+    height: 22px;
+    padding: 19px 31px 19px 32px;
+}
+
+.tch_head ul li a {
+    float: left;
+    width: 70px;
+    height: 22px;
+    line-height: 22px;
+    text-align: center;
+    border-radius: 3px;
+    color: #333;
+}
+
+.tch_head ul li .ac {
+    background-color: #0fade5;
+    color: #fff;
+}
+
+.tab .tabList {
+    border-bottom: 18px solid #f5f5f5;
+}
+
+.tab .tabList li {
+    width: 110px;
+    height: 56px;
+    float: left;
+    margin: 0 !important;
+    padding: 0 !important;
+    border-right: 1px solid #f5f5f5;
+}
+
+.tab .tabList li a {
+    display: block;
+    height: 56px;
+    line-height: 56px;
+    position: relative;
+    top: 1px;
+    transition: top .2s;
+    color: #666;
+    text-align: center;
+}
+
+.tab .tabList li .ac {
+    background: none;
+    border: none;
+    border-top: 3px solid #10AEE5;
+    color: #10ade5;
+    margin-top: -3px;
+}
+
+.cont24 {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+    clear: both;
+    margin-top: 17px;
+}
+
+.main {
+    margin-bottom: 30px;
+    zoom: 1;
+    min-height: 800px;
+    background-color: #fff;
+}
+
+.picEditBar .default_pic {
+    width: 478px;
+    border-right: 1px solid #ddd;
+    margin-top: 10px;
+}
+
+.tabCont {
+    padding-left: 32px;
+    margin-top: 45px;
+}
+
+.instructions {
+    margin-top: 40px;
+    color: #888;
+}
+
+.instructions {
+    line-height: 30px;
+    margin-bottom: 40px;
+}
+
+.fileinput-button {
+    position: relative;
+    background-color: #0FADE5;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    cursor: pointer;
+}
+
+.file {
+    width: 120px;
+    height: 36px;
+    left: -33px;
+}
+
+.xuwanting {
+    border: 1px solid #DCDCDC;
+}
+
+.pic_clipBar h5 {
+    margin: 60px 20px 10px;
+    color: #999;
+}
+
+.pic_clipBar .clip_img {
+    overflow: hidden;
+    font-size: 12px;
+    color: #888;
+    border-radius: 50%;
+}
+
+.pic_clipBar .clip_img230 {
+    width: 230px;
+    height: 230px;
+    margin-left: 80px;
+}
+
+.pic_clipBar .clip_img70 {
+    width: 70px;
+    height: 70px;
+    margin-right: -6px;
+    margin-left: 45px;
+}
+
+.pic_clipBar .clip_img40 {
+    width: 40px;
+    height: 40px;
+    margin-right: -26px;
+    margin-left: 80px;
+}
+
+.imgsBox230 {
+    height: 260px;
+    float: left;
+}
+
+.imgsBox70 {
+    height: 100px;
+    float: left;
+}
+
+.imgsBox40 {
+    height: 80px;
+    float: left;
+}
+
+.imgsBox230 p {
+    text-align: center;
+    margin-right: -84px;
+    margin-top: 8px;
+    color: #888;
+}
+
+.imgsBox70 p {
+    text-align: center;
+    margin-right: -57px;
+    margin-top: 8px;
+    color: #888;
+}
+
+.imgsBox40 p {
+    text-align: center;
+    margin-right: -100px;
+    margin-top: 8px;
+    color: #888;
+}
+
+.default_pic {
+    margin-bottom: 40px;
+}
+
+button {
+    width: 120px;
+    height: 40px;
+}
+
+.bg_blue_l {
+    background-color: #fff;
+    color: #979797;
+    border: 1px solid #E3E3E3;
+}
+
+.form_list {
+    position: relative;
+    zoom: 1;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.userSetup .form_list .row {
+    padding-bottom: 20px;
+}
+
+.form_list .formL, .form_list .formR {
+    float: left;
+    line-height: 30px;
+}
+
+.form_list .formL label {
+    overflow: hidden;
+    height: 30px;
+}
+
+.change_pwd .form_list .formL label {
+    width: 103px;
+}
+
+.w310 {
+    width: 298px;
+    margin-right: 10px;
+}
+
+.btnBar {
+    margin-bottom: 58px;
+}
+
+.bg_blue {
+    margin-right: 16px;
+}
+
+.fileinput-button:hover {
+    background-color: #0F9DD0;
+}
+
+button.bg_blue_l:hover, .btn.bg_blue_l:hover {
+    background-color: #0F9DD0;
+    color: #FFF;
+}
+
+.revise {
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.revise thead {
+    background-color: #d7f2fc;
+    height: 40px;
+    line-height: 40px;
+}
+
+.revise tbody tr {
+    height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+#add_class {
+    display: inline-block;
+    height: 28px;
+    line-height: 28px;
+    width: 118px;
+    border: 1px solid #10ade5;
+    margin-left: 85px;
+    margin-top: 20px;
+}
+
+#add_class:hover {
+    color: white;
+    background: #10ade5;
+}
+
+#add_class:hover i {
+    background: url("../images/ico_hover.png") no-repeat -396px -519px;
+    margin: 0 5px;
+}
+
+#add_class i {
+    background: url("../images/ico.png") no-repeat -396px -519px;
+    margin: 0 5px;
+}
+
+.alert_bg {
+    top: 0;
+    left: 0;
+    background: #666;
+    opacity: .5;
+    filter: Alpha(Opacity=50);
+    position: absolute;
+    display: none;
+}
+
+.caution {
+    z-index: 5;
+    width: 268px;
+    border: 1px solid #ccc;
+    position: absolute;
+    display: none;
+}
+
+.caution_header {
+    height: 30px;
+    line-height: 30px;
+    background: #10ade5;
+    color: white;
+    text-indent: 20px;
+}
+
+.caution_header i {
+    background: url("../images/remove.png") 8px 8px no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+}
+
+.caution_header i:hover {
+    background-color: #0F9DD0;
+}
+
+.caution_main {
+    background-color: white;
+    height: 70px;
+    border-bottom: 1px solid #ccc;
+    line-height: 70px;
+}
+
+.caution .btn_c {
+    padding: 6px 35px;
+    background-color: white;
+}
+
+.caution button {
+    width: 80px;
+    margin: 0 8px;
+    padding: 0;
+}
+
+.okBtn {
+    border: 1px solid #10ade5;
+    background: #fff;
+    color: #10ade5;
+    height: 28px;
+}
+
+.cancelBtn {
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #888;
+    height: 28px;
+}
+
+#caution_add_class {
+    z-index: 5;
+    width: 630px;
+    min-height: 130px;
+    border: 1px solid #ccc;
+    position: absolute;
+    display: none;
+    background-color: white;
+}
+
+#add_class_header {
+    height: 30px;
+    line-height: 30px;
+    background: #10ade5;
+    color: white;
+    text-indent: 20px;
+}
+
+#add_class_header i {
+    background: url("../images/remove.png") 8px 8px no-repeat;
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    float: right;
+    cursor: pointer;
+}
+
+#add_class_header i:hover {
+    background-color: #0F9DD0;
+}
+
+#add_class_main {
+    margin-left: 25px;
+}
+
+#content {
+    margin-top: 25px;
+}
+
+#wait {
+    margin-top: 20px;
+    display: none;
+}
+
+#find_text {
+    width: 200px;
+    height: 36px;
+    margin-left: 7px;
+}
+
+#find_class {
+    background-color: #10ade5;
+    border: none;
+    color: white;
+    height: 36px;
+    width: 90px;
+    margin-left: 7px;
+    cursor: pointer;
+}
+
+#find_class:hover {
+    background-color: #0f9cd1;
+}
+
+#class_content {
+    display: none;
+    background-color: #f5f5f5;
+    border: 1px solid #dcdcdc;
+    margin-right: 25px;
+    margin-top: 30px;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+}
+
+#class_content h4 {
+    font-weight: 600;
+}
+
+#mix {
+    width: 80px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #7FDD93;
+    float: right;
+    margin-right: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+#class_content p {
+    line-height: 30px;
+}
+
+#stu_leave_class span {
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.stu_messages {
+    position: relative;
+}
+
+.stu_messages div {
+    display: inline-block;
+    line-height: 45px;
+    height: 45px;
+}
+.stuMessages div.form_left,.stuMessages div.form_right {
+    display: inline-block;
+    line-height: 45px;
+    height: 45px;
+}
+.stu_messages .form_left {
+    text-align: right;
+    width: 103px;
+}
+.stuMessages .form_left {
+    text-align: right;
+    width: 103px;
+}
+
+.stu_messages .form_right {
+    text-indent: 10px;
+}
+.stuMessages .form_right {
+    text-indent: 10px;
+}
+#subject,#version{
+    width:130px;
+}
+
+.stu_messages #compile {
+     position: absolute;
+     top: 0;
+     left: 400px;
+ }
+
+.stu_messages #compile i {
+    background: url("../images/ico.png") no-repeat -220px -640px;
+    width: 20px;
+    height: 25px;
+}
+
+.stu_messages .stu_form_2 {
+    display: none;
+}
+
+.stu_messages .save {
+    margin-left: 90px;
+    margin-top: 30px;
+    background-color: #10ade5;
+}
+
+.stu_messages .save:hover {
+    background-color: #0f9dd0;
+}
+.stuMessages #compile {
+    position: absolute;
+    top: 0;
+    left: 400px;
+}
+
+.stuMessages #compile i {
+    background: url("../images/ico.png") no-repeat -220px -640px;
+    width: 16px;
+    height: 25px;
+}
+
+.stuMessages .stu_form_2 {
+    display: none;
+}
+
+.stuMessages .save {
+    margin-left: 90px;
+    background-color: #10ade5;
+}
+.stuMessages .btn_reset{
+    width:118px;
+    height:38px;
+    line-height: 38px;
+    display: inline-block;
+    margin-top: 45px;
+    margin-left: 55px;
+    background-color: #fff;
+    color: #979797;
+    border: 1px solid #E3E3E3;
+    text-align: center;
+}
+.stuMessages .save:hover,.stuMessages .btn_reset:hover {
+    background-color: #0F9DD0;
+    color: #FFF;
+}

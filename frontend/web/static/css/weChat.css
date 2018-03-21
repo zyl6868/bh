@@ -1,0 +1,38 @@
+html{font-size: 100px;}
+*{margin:0; padding:0; -webkit-tap-highlight-color: rgba(0,0,0,0);-webkit-tap-highlight-color: transparent; /* For some Androids */ }
+body {font-family: "Microsoft Yahei", "微软雅黑"; max-width: 750px;background: #fff;}
+img { border:none;}
+li { list-style-type:none;}
+a{ text-decoration:none; color:#555;}
+a,img,button,input,textarea{-webkit-tap-highlight-color:rgba(255,255,255,0);border:none;}/*单击时去除阴影*/
+input,button,textarea{-webkit-appearance:none;outline: none;}/*去除表单的默认样式*/
+.clear_float:after{content: "";display: block;height: 0;clear: both;zoom : 1;}
+.hide{display: none}
+
+
+.wc_header{width: 10.0rem}
+img{display: block;}
+.wc_header img{width: 10rem;}
+.wc_content{width: 10rem;background: #3d3aeb}
+.wc_content>div{width: 9.3333333333rem;margin: 0 auto;padding-top: .1px}
+.patriarch_02{width: 9.3333333333rem;/*margin-top: 0.1rem;*/}
+.patriarch_03{width: 2.8933333333rem;margin: 0 auto;}
+.patriarch_04{width: 9.3333333333rem;margin-top: 0.2666666667rem}
+.patriarch_05{width: 8.08rem;margin-top: 0.2666666667rem;margin-left: 1.2666666667rem}
+.patriarch_06{width: 2.8933333333rem;margin: 0 auto;margin-top: 0.3733333333rem;}
+.patriarch_07{width: 5.1733333333rem;margin-top: 0.2666666667rem}
+.patriarch_08{width: 4.36rem;margin: 0 auto;margin-top: 0.1333333333rem}
+
+.patriarch_09{width: 8.1866666667rem;margin-top: 0.3333333333rem}
+.patriarch_10{width: 4.36rem;margin: 0 auto;margin-top: 0.2rem}
+.patriarch_11{width: 9.3333333333rem;margin-top: 0.3733333333rem}
+.patriarch_12{width: 8.08rem;margin-left: 1.2666666667rem;margin-top: 0.2rem}
+.patriarch_13{width: 9.33rem;margin-top: 0.2666666667rem}
+
+.wc_footer{width: 10rem;background: #2e2be2;padding-bottom: 0.2rem}
+.wc_footer>div{width: 9.3333333333rem;margin: 0 auto;}
+.patriarch_14{width: 10rem;}
+.patriarch_15{width: 8.0533333333rem;margin-left: 1.266rem}
+.patriarch_16{width: 9.33rem;margin-top: 0.1333333333rem}
+.patriarch_17{width: 8.0rem;margin-left: 1.266rem;margin-top: 0.133rem}
+.patriarch_18{width: 6.6666666667rem;margin-top: 0.2666666667rem}

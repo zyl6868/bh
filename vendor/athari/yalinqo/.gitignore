@@ -1,0 +1,14 @@
+/vendor/
+/phpdocs/
+composer.lock
+tmp.php
+
+# IDE
+.project
+.buildpath
+.settings
+
+# OS
+Thumbs.db
+desktop.ini
+Thumbs.db

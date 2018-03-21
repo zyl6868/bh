@@ -1,0 +1,168 @@
+body, p, ul {
+  margin: 0;
+}
+
+body {
+  background: #f5f5f5;
+}
+
+ul, button {
+  padding: 0;
+}
+
+.tc {
+  text-align: center !important;
+}
+
+.VAM {
+  vertical-align: middle;
+}
+
+li {
+  list-style: none;
+}
+
+.bgWhite {
+  background: white;
+}
+
+#selectClass {
+  width: 1200px;
+  margin: 1em auto;
+  min-height: 800px;
+}
+
+#selectClass select {
+  background: white;
+  padding: 0;
+  height: 30px;
+  width: 90px;
+}
+
+#selectClass .title {
+  padding: 1em 2.5em .5em;
+}
+
+#selectClass .title .inputBox {
+  margin: 0 auto;
+  width: 470px;
+  height: 36px;
+}
+
+#selectClass .title .inputBox input {
+  outline: none;
+  height: 20px;
+  width: 400px;
+  padding: 7px 40px 7px 20px;
+  border-radius: 30px;
+  box-shadow: inset 1px 1px 1px 0 #ddd;
+  border: 1px solid rgb(221, 221, 221);
+  background-color: rgb(255, 255, 255);
+}
+
+/* 放大镜 */
+#searchBtn {
+  position: absolute;
+  margin-top: 3px;
+  margin-left: -40px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  width: 30px;
+  height: 30px;
+  background: url(../images/sUI.png) 4px 4px;
+}
+
+#selectClass .title p {
+  margin: 1.5em 0 .5em;
+}
+
+#selectClass .title .attr {
+  display: inline-block;
+  width: 70px;
+}
+
+#selectClass .title .school {
+  padding: 0 .5em;
+  color: #10ade5;
+}
+
+#selectClass .title .resetBtn {
+  background: #10ade5;
+  color: white;
+  padding: .4em 1.8em;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#selectClass .title .resetBtn:hover {
+  background: #0F9DD0;
+}
+
+#selectClass .title .grade {
+  cursor: pointer;
+  padding: .3em .5em;
+  color: #999;
+}
+
+#selectClass .title .grade.ac {
+  background: #10ade5;
+  color: white;
+  border-radius: 3px;
+}
+
+#selectClass .content {
+  margin: 1em 0;
+}
+
+#selectClass .content .caption {
+  color: #666;
+}
+
+#selectClass .content .allClass {
+  padding: .5em 1.3em;
+  margin: .5em 0;
+}
+
+#selectClass .content .allClass div {
+  line-height: 35px;
+  border-top: 1px solid #eee;
+  color: #999;
+  text-align: center;
+}
+
+#selectClass .content .allClass img {
+  margin: 0 .7em;
+}
+
+#selectClass .content .allClass a {
+  color: #10ade5;
+  text-decoration: none;
+}
+
+#selectClass .content ul {
+  margin-right: -30px;
+}
+
+#selectClass .content li {
+  padding: 1em 1.3em;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 585px;
+  margin: .5em 30px .5em 0;
+  border: 1px solid white;
+}
+
+#selectClass .content li:hover {
+  border: 1px solid #10ACE5;
+}
+
+#selectClass .content li .joinBtn {
+  margin-top: -15px;
+  background: #7fdb95;
+  color: white;
+  padding: .2em 1.8em;
+  border-radius: 3px;
+  cursor: pointer;
+  float: right;
+}

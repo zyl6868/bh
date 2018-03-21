@@ -1,0 +1,11 @@
+﻿.quest{ border: 1px solid #f5f5f5;position:relative}
+.quest:hover{ border-color: #10ADE5}
+.top_panner{ height: 60px; line-height: 60px}
+
+.conformList{ position: absolute; width: 110px; border: 1px solid #dcdcdc; background: #fff; border-radius: 5px; box-shadow: 0 2px 5px 0 #ccc; top: 60px; right: -1px; z-index: 10; padding: 10px 0 }
+.conformList .arrow{ background-position: -580px -860px; top: -8px; left:34px}
+.conformList li a{ display: block; height: 30px; line-height: 30px; text-align: center; color:#444; }
+.conformList li a:hover{ color: #10ADE5}
+
+.custom_sel_list li { padding:0 10px; margin:0 10px;height: 30px; line-height: 30px; font-size: 12px;color: #888; cursor: pointer }
+.custom_sel_list li.ac{ background: #eee;}

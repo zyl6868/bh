@@ -1,0 +1,98 @@
+*{margin:0;padding:0;}
+.main{width:1200px;margin:15px auto auto auto;}
+.main_left{width:910px;float:left;}
+.main_right{width:260px;float:right;}
+.gb_blue{background-color:#d7f2fc;}
+.gap{padding:0 25px;}
+.header{background-color:#d7f2fc;line-height:40px;height:40px;}
+.jump{background:url(../images/ico.png) -380px -714px;float:right;width:16px;height:16px;margin:12px 0;}
+.content{background-color:#fff;}
+.spacing{margin-bottom:16px;}
+
+.MyHomeWork h4{margin-right:18px;line-height:40px;}
+.MyHomeWork h4.time{margin-right:0;line-height:40px;border-bottom: 1px dotted rgb(204, 204, 204);padding-top: 10px;}
+.MyHomeWork ul li{border-bottom:1px dotted #ccc;height:90px;padding-top:25px;padding-bottom:20px;padding-left:10px;position:relative;}
+.MyHomeWork .content{padding-bottom:15px;}
+.MyHomeWork .work_title{width: 335px;overflow: hidden;}
+.work_img{float:left;width:45px;height:52px;background: url(../images/ico.png) no-repeat;}
+.word{background-position: -600px -200px;}
+.picture {background-position: -440px -200px;}
+.work_info{float:left;padding-left: 17px;width: 490px;}
+.work_bottom{float:left;margin-top:10px}
+.work_bottom span{margin-right:5px;}
+.scaling{display:inline-block;width:250px;height:14px;background-color:#E5E5E5;border-radius:10px;overflow:hidden;position:relative;}
+.scaling div{background-color:#CCB3DD;height:100%;width:30%;border-radius:10px;position:absolute;}
+.not_complete_ico{position:absolute;width:120px;height:100px;background:url(../images/ico.png) -580px -899px;right: 300px;}
+.work_right{height:100px;margin-bottom:10px;padding-left:24px;border-left:1px solid #f5f5f5;}
+.work_right img.qr{float: left;}
+.work_right a{float:left;margin-left:24px;margin-bottom:17px;}
+.MyQuestion .content{padding-top:10px;padding-bottom:20px;}
+.MyQuestion .content img{border-radius:50%;margin-right:20px;}
+.MyQuestion .content h4{padding:15px;}
+.MyQuestion_header{border-bottom:1px dashed #7ecef4;padding-bottom:10px;}
+.MyQuestion_header ul{display:inline-block;}
+.MyQuestion_header ul li{margin-top:7px;}
+ul.imgUl li{float:left;margin-right:17px;width:178px;height:118px;border:1px solid #7ecef4;}
+ul.imgUl li img{width:178px;height:118px;}
+ul.AvatarUl{margin-top:20px;}
+ul.AvatarUl li{line-height:40px;float:left;}
+ul.AvatarUl li img{height:40px;width:40px;}
+.gray_{color:#999;}
+.solve_ico{display:inline-block;height:20px;width:20px;background:url(../images/ico.png) -180px -680px;float:right;}
+.MyQuestion .bg_blue_l{background:#10ade5;color:white;}
+.MyQuestion .bg_blue_l:hover{background:#0F9DD0;}
+
+.ComboBox{min-width:65px;line-height:25px;height:25px;margin:7px;cursor:pointer;}
+.ComboBox:hover{background:white;}
+.ComboBox li{margin: 0 15px;border-bottom: 1px dotted #ccc;padding-top: 5px;padding-bottom: 5px;}
+.ComboBox span{width:45px;height:25px;}
+.ComboBox div i{background:url(../images/ico.png) no-repeat;padding-right:5px;}
+.ComboBox div i.bottom{background-position:-17px -856px;}
+.ComboBox div i.top{background-position:-36px -856px;}
+.ComboBox ul{display:none;background:white;z-index:5;position:relative;border:1px solid #ccc;border-top:0;max-height:431px;overflow-y:scroll;}
+
+.MyError{margin-top:-16px;}
+.MyError div.content{padding:25px;}
+.MyError .content h4{margin:10px 0;}
+.MyError .content h4,#MyError .content table{margin-left:10px;}
+.MyError table td{vertical-align:text-top;height:34px;padding:0 5px;}
+.MyError .A_cont{padding:15px;background:#f5f5f5;margin-top:20px;display:none;}
+
+.MyOrganizes .content{padding:5px 25px;}
+.MyOrganizes .content p{height: 24px;line-height: 24px;margin-bottom: 15px;color: rgb(136, 136, 136);}
+.MyOrganizes .content a{float: left;width: 70px;height: 70px;}
+.MyOrganizes .content img{width: 70px;height: 70px;border-radius: 50%;}
+.MyOrganizes .content ul{padding-bottom:15px;}
+.MyOrganizes .content ul.school{margin-bottom:10px;border-bottom: 1px dashed #7ecef4;}
+
+/* 右侧 */
+.main_right .header{padding:0 15px;}
+.main_right .header i{float: left;width: 20px;height: 18px;margin: 11px 9px 11px 0;background:url(../images/ico.png) no-repeat;}
+.main_right .header i.msg{background-position:-659px -640px;}
+.main_right .header i.mark{background-position:-696px -640px;}
+.main_right .MyMsg .content{padding: 13px 25px;}
+.main_right .MyMsg .content ul li{position:relative;padding: 0 0 10px 10px;margin-bottom: 10px;border-bottom: 1px dashed #7ecef4;}
+.main_right .MyMsg .content ul li i{position: absolute;left: 0;top: 9px;background: url(../images/ico.png) -340px -680px;}
+.main_right .MyMsg .content ul li a {display: block;font-size: 14px;color: rgb(136, 136, 136);}
+.main_right .MyIntegral .content{padding:25px;}
+.main_right .MyIntegral ul{position: relative;height: 58px;padding-bottom: 12px;border-bottom: 1px solid rgb(220, 220, 220);}
+.main_right .MyIntegral ul li{float:left;width: 33%;text-align: center;font-size: 14px;color: #888;}
+.main_right .MyIntegral ul li span{display: block;margin-bottom: 10px;text-align: center;font-size: 21px;color: #888;}
+.main_right .MyIntegral .scoreArrow {position: absolute;left: 168px;bottom: -1px;width: 11px;height: 7px;background: url(../images/ico.png) -540px -860px;}
+.main_right .MyIntegral p{padding:8px 0;}
+
+.main_right .percent{width:206px;height:14px;border:1px solid rgb(126, 206, 244);position:relative;}
+.main_right .percentRate{z-index:21;overflow:hidden;background-color: rgb(15, 173, 229);position:absolute;height:12px;line-height:12px;margin:1px;}
+.main_right .percentRate .percentNumWhite{position: absolute;left: 60px;top: 0;color:white;height: 14px;width: 100px;}
+.percentNumBlue {z-index:20;position: absolute;left: 60px;top: -5px;color:rgb(15, 173, 229);height: 14px;width: 100px;}
+
+em.num {position: absolute;width: 39px;height: 24px;left: -32px;background: url(../images/ico.png) -520px -800px;color: rgb(255, 255, 255);text-align: center;  }
+.header i.center{background: url("../images/ico.png");display: inline-block;width:20px;height:20px;float:left;margin-top: 12px;margin-right:7px;}
+.MyHomeWork .header i.center{background-position:-219px -640px;}
+.MyQuestion .header i.center{background-position:-420px -600px;}
+.MyError .header i.center{background-position:-502px -600px;}
+.MyOrganizes .header i.center{background-position:-696px -600px;}
+
+/*补公共样式*/
+.answerPage .empty{margin-bottom:16px;}
+.oper{float: right;width: 120px;padding-left: 17px;}

@@ -1,0 +1,98 @@
+div.info {
+  width: 1200px;
+  background-color: #fff;
+  padding: 24px 14px;
+  margin: 20px auto auto auto;
+  border: 1px solid #7ECDF3;
+}
+div.sch_logo {
+  border-bottom: 1px solid #F4F4F4;
+}
+input.button {
+  width: 100px;
+  height: 30px;
+  text-align: center;
+  border: none;
+  background-color: #10ade5;
+  color: #fff;
+}
+input.button:hover {
+  background-color: #0f9dd0;
+}
+.formL,
+.UPloadFil,
+.textareaBox {
+  float: left;
+}
+div.formL {
+  margin-right: 5px;
+}
+.UPloadFil {
+  position: relative;
+}
+.file {
+  top: -3px;
+  left: 76px;
+}
+div.img_logo {
+  padding: 26px 99px;
+}
+
+div.img_logo img {
+  border: 1px solid #D6F1FB;
+  height: 98px;
+}
+div.btns {
+  padding-top: 29px;
+  padding-bottom: 8px;
+  width: 185px;
+  margin: auto;
+}
+div.btns button, div.btns a{
+  width: 78px;
+  height: 28px;
+  text-align: center;
+  background-color: #fff;
+  cursor: pointer;
+  border: 1px solid #14ACE3;
+  border-radius: 2px;
+}
+div.btns button.save {
+  margin-right: 19px;
+  float: left;
+}
+div.btns a.cancle {
+  color:#333;
+  float: left;
+  line-height: 28px;
+}
+/*#edui1_elementpath {*/
+  /*display: none;*/
+/*}*/
+/*#edui1_iframeholder {*/
+  /*height: 125px;*/
+/*}*/
+.field-seschoolinfo-logourl{
+  position:relative;
+  display: inline-block;
+}
+.fileupload{
+  display: inline-block;
+  cursor: pointer;
+}
+header.row{
+  float: left;
+  margin-left: 428px;
+  width:298px;
+}
+header.row .alert-danger{
+  color: #fff;
+  background-color: #F97373;
+  border-color: #F97373;
+  padding-left:15px;
+  position: relative;
+  top: 0px;
+}
+header.row .alert-danger .close{
+  display: none;
+}

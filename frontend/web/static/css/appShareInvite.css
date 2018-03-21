@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+html, body {
+    width: 100%;
+    background: #fff;
+    height: 100%;
+}
+
+ul, li, p, h1, h2, h3, h4, h5, h6, dl, dt, dd {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    list-style: none;
+}
+
+.lf {
+    float: left;
+}
+
+.rt {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0
+}
+
+.clearfix:after {
+    clear: both
+}
+
+.clearfix {
+    zoom: 1
+}
+img.inviteBg{
+    width:100%;
+    z-index: -1;
+    display: block;
+    /*height: 76%;*/
+}
+div.inviteBgBtm{
+    position: absolute;
+    height: 31.5%;
+    background-color: #FF7012;
+}
+img.inviteBgBtm1{
+    display: block;
+    z-index: 1;
+    width: 100%;
+    height: 54%;
+    margin-top: -1px;
+}
+img.inviteBgBtm2{
+    display: block;
+    /*position: absolute;*/
+    z-index: 1;
+    width: 100%;
+    height: 30%;
+    margin-top: -1px;
+}
+.inviteContent{
+    width:100%;
+    height: 100%;
+}
+.teacherDiv{
+    width: 100%;
+    height: 22%;
+    overflow-y: scroll;
+    position:relative;
+    background-color: rgba(255,147,58,0);
+    z-index: 1000;
+}
+.teacherList{
+    width: 88%;
+    margin: auto;
+    font-size: 1rem;
+    color:#fff;
+    border-collapse:collapse
+}
+.teacherList .thead{
+    color:#FFF916;
+}
+.teacherList .thead tr th{
+    border-bottom: 1px solid #FFE11E;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.teacherList .thead tr td{
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+.teacherList tr td{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-bottom: 1px solid #FEEBDC;
+    font-size: 0.75rem;
+}
+/*.teacherList tr.noInvite{*/
+/*padding-top:20%;*/
+/*}*/
+.teacherList tr.noInvite td{
+    margin: auto;
+    border: none;
+    padding-top:15%;
+}

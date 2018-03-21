@@ -1,0 +1,75 @@
+@charset "utf-8";
+/*第一步*/
+.box_data_list{*position:relative}
+.box_data_list li{line-height:40px;position:relative;z-index:1; padding-bottom:20px}
+.box_data_list li .species{width:140px;float:left;text-align:right;height:40px;line-height:40px;font-size:14px;color:#666;margin-right:10px}
+.box_data_list li .species i{font-size:14px;color:#FF0000;vertical-align:middle;padding-right:4px}
+.box_data_list li .word_box{float:left;line-height:40px;vertical-align:middle}
+.box_data_list li .input_box{width:210px;height:22px;line-height:18px;background-color:#fff;-webkit-border-radius:2px;-moz-border-radius:2px;border-radius:2px;font-size:12px;vertical-align:middle;padding-right:30px;/*position:relative;*/ }
+.box_data_list li .ok{background:url(../images/ok.png) no-repeat 224px 1px white}
+.box_data_list li .id_btn2{position:relative;left:0px;top:2px}
+.box_data_list li .id_btn{width:70px;height:22px;line-height:22px;background:#f99;color:#fff;display:inline-block;text-align:center}
+.box_data_list li .attention{width:188px;font-size:12px;color:#CCC;line-height:14px;padding-left:5px;display:inline-block;vertical-align:middle}
+ /*.box_data_list li .attention_height{height:24px;line-height:24px;line-height:14px}*/
+.box_data_list li .ahert{width:76px;height:30px;line-height:30px;border:#BABABA solid 1px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;color:#666;font-size:12px;float:left;vertical-align:middle;text-align:center;margin-left:20px;display:inline}
+ /*.box_data_list li .input_box_height{width:80px}*/
+.box_data_list .clear_height{height:104px;margin-bottom:10px}
+.box_data_list .clear_height .upload .shup{width:72px;overflow:hidden}
+.box_data_list .clear_height .upload .id{position:absolute;left:0px;top:0px}
+.box_data_list .clear_height .upload .id_btn{display:inline-block;width:64px;height:22px;line-height:22px;background-color:#ff9999;color:#fff;text-align:center;font-size:12px;color:#888888}
+ .box_data_list .clear_height .text2{width:258px;float:left;margin-left:0px;font-size:12px;color:#aaaaaa;line-height:18px}
+.box_data_list .uploadf{width:506px;height:112px;float:left;position:relative;top:16px}
+.box_data_list .uploadf .id{width:75px}
+.box_data_list .uploadf span{width:72px;height:48px}
+.box_data_list .uploadf span img{width:72px;height:48px}
+.box_data_list .uploadf .description{width:270px;display:inline-block;font-size:12px;color:#ccc;height:69px;line-height:69px;margin-left:20px}
+ .box_data_list .uploadf .id_btn{width:70px;height:22px;line-height:22px;background:#ff9999;color:#fff;display:block;text-align:center}
+.box_data_list .box_select{width:410px;float:left;height:40px;line-height:40px;z-index:10}
+.box_data_list .box_select label{font-size:12px;color:#666}
+.box_data_list .box_select select{_margin-top:5px}
+.box_data_list .box_select checkbox{_width:16px;_height:16px;_overflow:hidden}
+.box_data_list .box_select .other{margin-left:14px;width:46px;height:24px;display:inline-block;*display:inline;*margin-left:0px;text-align:center;font-size:12px;font-weight:bold;cursor:pointer;color:#ec0909}
+.box_data_list .box_select .other i{display:inline-block;border-width:4px;border-style:solid dashed dashed dashed;border-color:#cccccc transparent transparent transparent;width:0;height:0;overflow:hidden;margin-left:6px;vertical-align:middle;cursor:pointer}
+.box_data_list .box_select .down{width:46px;display:block;float:left;position:absolute;right:0px;z-index:100;text-align:center}
+.box_data_list .box_select .down li{height:24px;line-height:24px;background-color:#fff}
+.box_data_list .listb{position:relative;z-index:1;overflow:visible}
+.box_data_list .clear_height2{padding-top:10px;height:121px}
+.box_data_list .clear_height2 .good{width:246px;height:92px}
+.box_data_list .clear_height2 .good .me_good{width:234px;height:80px;font-size:12px;border:#ddd solid 1px;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px;background-color:#fff;color:#111;line-height:18px}
+ 
+.box_data_list .p_resecer{padding-left:130px;padding-bottom:20px}
+.box_data_list_width360{width:360px}
+.box_data_list_width360 .sub_script{display:inline-block;border-width:4px;border-style:solid dashed dashed dashed;border-color:#ccc transparent transparent transparent;width:0;height:0;overflow:hidden;margin-left:6px;vertical-align:middle;cursor:pointer}
+ 
+.box_data_list .timu_cont{border-bottom:1px dashed #CCC;padding-bottom:10px;margin-bottom:10px}
+.box_data_list .timu_cont textarea, .box_data_list .timu_cont label{font-size:16px;font-weight:bold;line-height:24px;background:none;border:none 0}/*第二页,题目*/
+.box_data_list .timu_cont textarea{width:550px;height:auto;padding:0}
+
+
+
+/*第二步*/
+.row{zoom:1;margin-top:10px}
+.del_btn{position:absolute;top:10px;right:20px; text-indent:-30px; overflow:hidden; cursor:pointer}
+.row:before,.row:after{content:"";display:block;clear:both;overflow:hidden;visibility:hidden;font-size:0;height:0;width:0;line-height:0}
+.row .formL{float:left}
+.row .formL{width:140px;font-size:14px;display:inline-block;height:30px;line-height:30px;color:#666;text-align:right;padding-right:10px}
+.row .formL label i{width:12px;height:12px;overflow:hidden;display:inline-block;background:url(../images/sprite.png) no-repeat -6px -283px}
+.row .formR{float:left;position:relative;width:80%}
+.row .formR .ue_textarea{width:80% !important;}
+.row .formR .del_btn{position:absolute;top:0;left:82%;background:url(../images/ico.png) no-repeat -50px -689px;width:18px;height:20px;text-indent:-999px;overflow:hidden}
+.Box,.SBox,.IBox,.ABox,.addBtn,.NBox{margin-bottom:10px;position:relative}
+.QBox{border-bottom:1px dashed #ccc}
+.IBox .subItem{border-bottom:1px dashed #ccc;position:relative;padding:10px 0}
+.IBox .subItem .delSubBtn{ background:url(../images/ico.png) 0 -400px; width:32px; height:32px;}
+.IBox .subItem .delSubBtn:hover{ background-position:0 -440px}
+.IBox .subItem:hover{background:#f8f8f8}
+.IBox .subItem h5{padding-left:50px;font-size:16px;margin:0 0 20px;color:#0098f0}
+.I_ABox .formR span,.ABox .formR span{margin-right:10px; display:inline-block}
+.addPoint{background:#ee4d4e}
+.addSelBtn:hover{background:#06c}
+.addLevel3Btn{background:#19b8ff}
+.addSelBtn,.addSubBtn{background:#70d588;width:120px}
+.addSelBtn:hover,.addSubBtn:hover{background:#1ed248 !important}
+.submit_BtnBar button{width:120px;height:40px !important; margin:0; margin-right:10px}
+
+.Box .formError{top:3px !important; left:520px !important; height:20px; width:150px !important;}

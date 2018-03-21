@@ -1,0 +1,307 @@
+﻿﻿﻿.trOver{ background: none}
+input:disabled{ background: #fff;}
+.input_error{border-color: #f15858 !important;}
+.input_copy{border-color: #10ADE5 !important;}
+.tab_text{ margin-right: 150px}
+.tab_text i{ background:url(../images/ico.png) -100px -640px; height: 22px; margin-right: 10px}
+.container .item{ background: #fff; margin-bottom: 18px}
+
+/*头部*/
+.head h1{float:left;width:240px;height:60px; font-size: 16px; line-height: 60px;color: #fff; text-indent: 0; background:url(../images/new_sprite.png)no-repeat -200px -633px;padding-left: 160px;}
+.head .userCenter img{width: 40px;height: 40px;border-radius: 50%;margin-right: 10px;vertical-align: middle}
+.head .userCenter,.logoff{ color: #fff; margin-left: 20px}
+.school_name{ height: 100px; background: #fff; margin-top: 18px}
+.school_name h3{ height: 100px; line-height: 100px; font-size: 24px; text-align: center}
+.currency_hg {height: 60px;}
+
+/*导航*/
+.class_nav{height:60px; position:relative; overflow:hidden; margin-top: 18px}
+.class_nav_list{position:relative; float:left; top:18px; left:50%}
+.class_nav_list li{float:left; position:relative; margin:0 50px; left:-50%}
+.class_nav_opacity{width:100%; position:absolute; top:0; left:0; height:60px;background:#fff;opacity:0.8;filter:Alpha(opacity=80)}
+.class_nav_list li a{display:block; width:95px; text-align:center; line-height:22px; height:22px; font-size:14px; color:#333;}
+.class_nav_list .ac a{background: #11ADE6;border-radius: 3px;color: #fff}
+
+/*学科 年级 类型 单选*/
+.classes_file_list{position: relative;}
+.classes_file_list a{color: #888}
+.classes_file_list a.sel_ac{ font-weight: bold; color: #333}
+.classes_file_list .form_l{ width: 70px;}
+.classes_file_list .form_r{ margin-left: 70px}
+.classes_file_list ul{ width: 90%}
+.classes_file_list ul li{float: left;padding-right: 25px;}
+.classes_file_list .moreContShow{width: 780px;position: relative;}
+.classes_file_list .put_qust_btn{position: absolute; right: 0;top:7px;}
+
+/*选择课程 select*/
+.sch_mag .sel_classes{ position: relative}
+.sch_mag .sel_classes h5{ height: 30px; line-height: 30px; color: #10ADE5}
+.sch_mag .sel_classes button{ position: absolute; top:15px;*top:8px; right: 10px}
+.sch_mag .sel_classes .sch_mag_homes{ position: absolute; top:55px; left: -1px; width: 230px; background: #fff; border: 1px solid #f5f5f5; padding: 15px; z-index: 10}
+.sch_mag .sch_mag_homes dl{ clear: both; overflow: hidden; padding-bottom: 5px}
+.sch_mag .sch_mag_homes dt:hover{cursor: pointer;color: #7ECEF4}
+.sch_mag .sch_mag_homes dd{ float: left; color: #888; margin-right: 10px; cursor: pointer}
+.sch_mag .sch_mag_homes dd:hover{ color: #333}
+.sch_mag .sch_mag_homes dd.sel_ac{ color: #10ADE5}
+.sch_mag .currency_hg .favbar{line-height: 60px;margin-right: 25px;}
+.sch_mag .currency_hg .favbar a {color: #333;}
+
+/*学校人员管理-教师*/
+.tab_{line-height:60px;width:960px;}
+.tab_ li{float:left;width:100px;text-align:center;cursor:pointer;line-height:60px;}
+.tab_ li.select{border-top:4px solid #10ade5;line-height:52px;}
+.tab_ li a.hasclass{border-right: 1px solid #f5f5f5}
+.sch_mag_testMag_home .sel_classes h5{font-size: 16px;height: 30px;line-height: 30px;color: #10ADE5;}
+.sch_mag_testMag_home .sel_classes button {position: absolute;top: 15px;right: 10px;}
+.sch_mag_testMag_home .sch_mag_left{width: 260px;float: left;}
+.sch_mag_testMag_home .left_menu{float: left;width: 260px;background: #fff}
+.sch_mag_testMag_home .left_menu li{border-bottom: solid 1px #F5F5F5;}
+.sch_mag_testMag_home .tch_detail{padding-left: 25px;line-height: 60px}
+.sch_mag_testMag_home .left_menu li a{ display:block; text-indent:-4px;color: #666;height: 40px;line-height: 40px;text-align: center; border-left: 4px solid #fff}
+.sch_mag_testMag_home .left_menu li .cur{display: block; border-left: 4px solid #10ADE5;color:#11AEE5;}
+.sch_mag_testMag_home .sch_mag_right{width: 910px;float: left;margin-left: 13px}
+.sch_mag_testMag_home .testMag_home_formList{ position: relative; padding: 0}
+.sch_mag_testMag_home .testMag_home_formList .form_l{float: left;}
+.sch_mag_testMag_home .testMag_home_formList ul li i{width: 20px;height:20px;background:url(../images/ico.png) no-repeat;margin-right: 10px;}
+.sch_mag_testMag_home .testMag_home_formList ul li .already_solved{background-position: -500px -680px;}
+.sch_mag_testMag_home .testMag_home_formList ul li .unresolved{background-position: -180px -680px;}
+.sch_mag_testMag_home .testMag_home_formList ul li .in_solution{background-position: -60px -680px;}
+.sch_mag_testMag_home .testMag_home_formList .form_r{ width: 600px; position: relative}
+.sch_mag_testMag_home .classify{ margin: 0}
+.sch_mag_testMag_home .classify .i_askBtn{ position: absolute; top:5px; right:0}
+.sch_mag_testMag_home .sch_mag_con .title_pannel{border-bottom:1px dotted #7ECDF6;padding-bottom: 15px;}
+.sch_mag_testMag_home .sch_mag_con .title_pannel_btm{padding-bottom: 0px}
+.sch_mag_testMag_home .sch_mag_con .sch_subject_list{margin-top: 14px;}
+.sch_mag_testMag_home .sch_subject_list ul .all_subject{border:0px !important;color: #888}
+.sch_mag_testMag_home .sch_subject_list ul{width:600px; float: left;}
+.sch_mag_testMag_home .sch_mag_con .sch_subject_list ul li{border:1px solid #8CDF99;margin-right: 10px; margin-bottom:10px;padding:0 7px}
+.sch_mag_testMag_home .sch_subject_list ul li a{text-align: center;}
+.sch_mag_testMag_home .sch_subject_list .state_list{float: right;}
+.sch_mag_testMag_home .sch_subject_list .state_list a i{width: 20px;height:20px;background:url(../images/ico.png) no-repeat;margin-right: 10px;}
+.sch_mag_testMag_home .sch_subject_list .state_list a .already_solved{background-position: -500px -680px;}
+.sch_mag_testMag_home .sch_subject_list .state_list a .generation_in{background-position: -500px -680px;}
+.sch_mag_testMag_home .sch_subject_list .state_list a .in_solution{background-position: -60px -680px;}
+.sch_mag_testMag_home .sch_subject_list .state_list a .unresolved{background-position: -180px -680px;}
+.sch_mag_testMag_home .sch_subject_list .state_list a .generation_in{width: 20px;height:20px;background:url(../images/loading.gif) no-repeat ;margin-right: 0px;}
+
+
+
+/*------成绩录入jw-----------*/
+.sch_mag_input .testTitle{ height: 60px; line-height:60px ; position: relative}
+.sch_mag_input .testTitle .gobackBtn{ position: absolute; top:15px; left: 0 }
+.sch_mag_input .testTitle h4{ text-align: center; font-size: 20px}
+.sch_mag_input .classes_list li{ float: left}
+.sch_mag_input .classes_list li a{ display: block; height: 30px; line-height:30px;padding: 0 10px; border: 1px solid #ddd; float: left; margin: 0 16px 16px 0;}
+.sch_mag_input .classes_list li a i{ height: 20px; width: 20px; background-image: url(../images/ico.png); margin-left: 10px}
+.sch_mag_input .classes_list li .finish i{ background-position:-500px -680px }
+.sch_mag_input .classes_list li .half i{ background-position:-60px -680px}
+.sch_mag_input .classes_list li .undo i{ background-position:-180px -680px}
+.sch_mag_input .classes_list li .ac{ border-color: #10ADE5}
+
+.sch_mag_input .btnBar{ padding-top: 100px; position: relative}
+.sch_mag_input .btnBar .btn{ display: inline-block; border: 1px solid #dcdcdc; font-size: 16px; width: 150px; height: 50px;  line-height:50px;text-align: center; vertical-align: middle; color: #888 !important; background: none }
+.sch_mag_input .btnBar .btnAC,.sch_mag_input .btnBar .btn:hover{ color: #10ADE5 !important}
+.sch_mag_input .btnBar .manualBtn{border-top-left-radius:8px; border-bottom-left-radius:8px; }
+.sch_mag_input .btnBar .uploadBtn{border-top-right-radius:8px; border-bottom-right-radius:8px; margin-left: -1px }
+.sch_mag_input .input_table_bar{ overflow-Y:hidden}
+.sch_mag_input .editBtnBar{ display: none}
+.sch_mag_input .input_table{float: left}
+
+.sch_mag_input table td{ word-break: keep-all; text-align: center}
+.sch_mag_input table input{ width: 100px; height: 34px; border: 1px solid #dcdcdc; text-align: center; color: #666}
+
+
+.sch_mag_input .show_btnBar .btnBar{ display: block;}/*显示手动录入按钮*/
+.sch_mag_input .uploadFileBtn{position: absolute;top: 102px;left: 575px;width: 170px;    height: 48px; cursor: pointer}
+
+/*成绩展示状态*/
+.sch_mag_input .edit_show .editBtnBar{display: block}
+.sch_mag_input .edit_show .btnBar{ display: none}
+.sch_mag_input .edit_show .submit_Bar{display: none}
+.sch_mag_input .edit_show input{ border-color: transparent; background: none}
+.sch_mag_input .edit_show .input_table_bar,.sch_mag_input .edit_input .input_table_bar{ display: block}
+.sch_mag_input .subTitle{ font-size: 16px; padding-bottom: 10px;}
+
+/*考务管理设置*/
+.sch_mag_set_up .clas_formLIst{width: 860px;margin: 0 auto;padding: 0px;}
+.sch_mag_set_up .clas_formLIst .form_l{ width: 78px}
+.sch_mag_set_up .clas_formLIst .form_r{margin-left: 78px;}
+.sch_mag_set_up .clas_formLIst .form_l,.sch_mag_set_up .clas_formLIst .form_r{ line-height: 24px}
+.sch_mag_set_up .clas_formLIst .row .form_r label{display: inline-block;margin-right: 10px;margin-bottom:10px}
+.sch_mag_set_up .clas_formLIst .subList_con li { float:left;border: 1px solid #DCDCDC;margin:0 10px 10px 0;padding: 0 7px; line-height: 24px}
+.sch_mag_set_up .clas_formLIst .subList_con .sel_ac{background: #11ADE6;color: #fff;border-radius: 3px;border: 1px solid #fff}
+.sch_mag_set_up .clas_formLIst .subList_con .sel_ac a{color: #fff;}
+.sch_mag_set_up .clas_formLIst .subList_con .all_subject{border: 0px}
+.sch_mag_set_up .clas_formLIst .subList_con .all_subject b{color: #FF4747;padding-right: 5px}
+.sch_mag_set_up .sch_table_con{margin-top:20px}
+.sch_mag_set_up .sch_table_con .sUI_table tr td{text-align: center;}
+.sch_mag_set_up .sch_table_con .sUI_table th .fraction{width: 93px;height: 28px;border: 1px solid #DCDCDC;padding-left: 5px;}
+.sch_mag_set_up .sch_table_con .sUI_table td .fraction{width: 93px;height: 28px;border: 1px solid #dcdcdc;padding-left: 5px; text-align: center}
+.sch_mag_set_up .table_set_up{ width: 860px; margin: 0 auto}
+.sz_fraction h4{ height: 30px;line-height:30px;text-align: center; font-size: 20px;}
+
+/*学校人员管理-教师*/
+.school_name{height: 100px;background: #fff}
+.sch_mag_person .left_menu{float: left;width: 260px;background: #fff}
+.sch_mag_person .left_menu li{border-bottom: solid 1px #F5F5F5;}
+.sch_mag_person .tch_detail{padding-left: 25px;line-height: 60px}
+.sch_mag_person .left_menu li a{ display:block; text-indent:-4px;color: #666;height: 40px;line-height: 40px;text-align: center; border-left: 4px solid #fff}
+.sch_mag_person .left_menu li .cur{display: block; border-left: 4px solid #10ADE5;color:#10ADE5;}
+.sch_mag_person .right_con{background: #fff;float: right;width: 860px}
+.sch_mag_person .right_con .sch_content{position: relative;left: 36px;}
+.sch_mag_person .right_con .sch_content input{width: 297px;}
+.sch_mag_person .right_con .table_con{margin-top: 33px;}
+.sch_mag_person .right_con .table_con .num{margin-bottom:10px;float: left}
+.sch_mag_person .right_con .table_con .num em{color: #10ACE5; font-size: 16px;}
+.sch_mag_person .right_con .table_con table td{text-align: center;}
+.sch_mag_person .right_con .table_con .arrow {position: static;width: 20px;height: 10px;top: -6px;right: 60px;background: url(../images/ico.png) -58px -828px;}
+.sch_mag_person .oper a,.school_mag_tch .oper span{float: left;color:#10ACE5; margin-left: 3px; margin-right: 3px}
+.sch_mag_person .other_operation{ width:76px; cursor: pointer; margin-left: 3px;}
+/*学校人员管理-暂无教师*/
+.norecord {background: url(../images/bg_stu.png) no-repeat right bottom;padding-bottom: 100px;}
+.norecord .norecordtip{height: 100px;line-height: 100px;text-align: center;color: #ccc}
+.norecord .norecordtip i{display: inline-block;*display:inline;*zoom:1;width: 28px;height: 24px;background: url(../images/ico.png) -400px -800px;margin-right: 14px;}
+.norecord .step_tip {border-top: solid 1px #F5F5F5;padding-top: 60px;padding-left: 35px;}
+.norecord .step_tip h5{font-size: 24px;}
+.norecord .step_tip h5 em{color: #7EDC92}
+.norecord .step_tip .steps {margin-top: 50px;height: 220px;border-left:solid 2px #DCDCDC;font-size: 16px;}
+.norecord .step_tip .steps li{height: 72px;position: relative;line-height: 40px;padding-left: 30px;}
+.norecord .step_tip .steps li i.num{position: absolute;left:-20px;background: url(../images/ico.png) -520px -360px;width: 38px;height: 38px;line-height: 38px;text-align: center;color: #fff}
+.norecord .step_tip .steps li a.linkbtn{position: relative;height: 28px;border: solid 1px #DCDCDC;line-height: 28px;padding:0 10px 0 30px;display: inline-block;*display:inline;*zoom:1;margin-left: 15px;border-radius: 2px;}
+.norecord .step_tip .steps li a.linkbtn i{position: absolute;left: 10px;top: 6px;}
+.norecord .step_tip .steps li a.linkbtn .ico-downbtn{top:9px;width: 8px;height: 12px;background: url(images/ico-down.png) no-repeat;}
+.norecord .step_tip .steps li a.linkbtn .ico-addbtn{width: 17px;height: 17px;background: url(images/ico-add.png) no-repeat;}
+
+* {margin:0;padding:0;}
+.alert {font:14px/24px "微软雅黑", tahoma, Arial, Verdana;width:600px;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;position:absolute;background:#ffffff;outline:none;border:1px solid #dcdcdc;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;overflow:hidden;font-size:16px;z-index:101}
+.alert_header {width:100%;height:40px;line-height:40px;text-indent:15px;cursor:move;color:#ffffff;background:#10ade5;}
+.alert_header .alert_remove{width:40px;height:40px;position:absolute;right:0;top:0;z-index:101;cursor:pointer;background:url("../images/ico.png") no-repeat -165px -506px}
+.alert_header .alert_remove:hover{background-color:#0f9dd0;}
+.alert_main p {margin:20px 0;}
+.alert_main i {padding-right:5px;padding-top:5px;vertical-align:middle;font-style:normal;height:16px;line-height:16px;display:inline-block;width:10px;text-align:center;color:red;}
+.alert_main .text_r {display:inline-block;text-align:left;text-indent:10px;}
+.alert_main .text_l {display:inline-block;text-align:right;width:120px;}
+.alert_main input[type=radio] {margin:0 5px;}
+.alert_main .seal_class {padding:0 30px}
+.alert_main ul.seal_class li {float:left;}
+.alert_main .CheckedAll {padding-top:10px;border-top:1px solid #dcdcdc}
+.alert_main .seal_class input {margin:0 5px 0 10px;}
+.alert button {margin:0 3px;background:white;font-weight:bold;cursor:pointer;outline:none;width:80px;height:30px;border:1px solid;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;}
+.alert button:hover {background:#7ecef4;color:white;}
+.alert input[type=text] {font-size:16px;outline:none;margin-left:10px;width:400px;height:30px;}
+.subject {margin:0 3px;height:36px;line-height:36px;display:inline-block;padding-left:8px;border:1px solid #cccccc;}
+.subject i {cursor:pointer;}
+.alert .btn_c {padding-left:200px;border-top:1px solid #dcdcdc;height:50px;}
+.alert .btn_c .btn_2 {margin-top:10px;float:left;border-color:#10ADE5;color:#10ade5}
+.alert .btn_c .btn_3 {margin-left:8px;margin-top:10px;float:left;border: 1px solid #ccc;background: #fff;color: #888;}
+.alert .btn_c .btn_3:hover{background-color:#ccc }
+.alert .btn_c .btn_2:hover {color:white;background-color:#10ade5;}
+.alert .btn_c .btn_3:hover{color:white;}
+.class_name {color:#cccccc;}
+/*.alert #seal_class_btn {margin: auto auto 20px auto;background-color: #ccc;display: block;}*/
+.alert h4 {text-align:center;margin:20px 0;}
+.alert p {margin-bottom:20px;line-height:25px;}
+.alert table.s_f {margin-left:30px;margin-bottom:30px;}
+.alert table.s_f td {width:140px;}
+.alert_bg {background:rgba(5,5,5,0.2);position:absolute;z-index:100;top:0;width:100%;}
+.alert_main .glass{display:inline-block;border:1px solid black;width:300px;-webkit-border-radius:20px;-moz-border-radius:20px;border-radius:20px;}
+.alert_main .glass input{border:0;width:250px;}
+.alert_main .glass span{display:inline-block;width:35px;height:25px;background: url("../images/sUI.png") 4px 4px no-repeat;}
+.alert_main .no_find_name{color:red;margin-left:140px;}
+
+.alert_main .table_header{background:#dcdcdc;border-collapse:collapse;}
+.alert_main .find_name{margin-left:10px;margin-bottom:30px;}
+.alert_main tr{border-bottom:1px solid #ebebeb;line-height:35px;height:35px;}
+.alert_main td{text-align:center;}
+.alert_main td.long{width:160px;}
+.alert_main td.short{width:50px;}
+.alert_main h3{color:red;margin-top:30px;text-align:center;}
+.division_lab{margin-left:130px;}
+.select_t{margin-top:20px;margin-bottom: 20px;}
+.class_lab{margin-left:30px;}
+.alert ul.user_mes{width:auto;min-width:300px;max-width: 390px; text-align: center;margin: auto;}
+.alert ul.user_mes li{width:auto;display:inline;float:left;min-width:75px;}
+.alert ul{width:300px; text-align: center;margin: auto;}
+.alert ul li{float:left;width:75px;}
+.btn_3{margin-left:10px;}
+.alert h4.detail{margin-left:82px;width:440px; height:78px;line-height:78px;border: 1px dotted #ccc;}
+select{width:120px;}
+/*教师修改班级样式*/
+ul.add_parent{width:100%;margin:10px auto 30px auto; padding-left:25px;}
+.add_parent button.add{border:1px solid #10ade5;color:#10ade5;margin-bottom: 10px;}
+.add_parent button.add:hover{border:1px solid #fff;color:#fff;}
+.add_parent button.remove{border:1px solid #ccc;color:#ccc;}
+.add_parent button.remove:hover{border:1px solid rgb(204, 204, 204);background-color:rgb(204, 204, 204);color:#fff;}
+.select1,.select2{border:1px solid #DCDCDC;width:190px;height:160px;display:inline-block;padding:20px;}
+.select1 option,.select2 option{margin-bottom: 5px;}
+.alert .centent{float: left;margin-left:20px;}
+
+.beCome{display:inline-block;width: 100px;line-height: 56px;text-align:center;}
+.editInfoBox .new_sch_con .row dd{height:38px;}
+.infoBox .new_sch_con .row dd{height: 40px;}
+/*.infoBox .new_sch_con dl.row dd{height:auto}*/
+textarea{position:relative}
+
+.addTh{float: right;height: 24px;width: auto;border: 1px solid #E7E7E7;padding: 5px 10px;margin-right: 10px;margin-top: -10px;}
+.addTh dt,.addTh dd{float: left;}
+.addTh dt{margin-top: 6px;margin-right: 5px;display: inline-block;width: 12px;height: 12px;background: url(../images/class_imgs.png) no-repeat 0 -14px;}
+.row dt,.row dd{float: left;}
+dl.row{margin-bottom:25px;}
+dl.row dt {width: 88px;text-align: right;}
+
+h4.success_tip{font-size: 18px;color:#7edb92;text-align: center;margin-top:20px;}
+.successDl{margin-top:20px;}
+.successDl dt,.successDl dd{float: left;}
+.successDl dt{margin-left: 31px;}
+h4.success_tip{
+    font-size: 18px;
+    color:#7edb92;
+    text-align: center;
+    margin-top:20px;
+}
+.successDl{
+    margin-top:20px;
+}
+.successDl dt,.successDl dd{
+    float: left;
+}
+.successDl dt{
+    margin-left: 31px;
+}
+
+/*考务管理添加任教老师*/
+.editCont p.teacher {
+    margin-bottom: 10px;
+}
+
+.editCont p.teacher span.tch {
+    color: #4A9CDE;
+}
+
+.editCont ul.sel_subject li {
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 10px;
+}
+
+.editCont .btn_sav {
+    float: right;
+    text-align: center;
+    cursor: pointer;
+    margin-top:-30px;
+    background-color: #10ade5;
+    color: #fff;
+    border: none;
+    min-width: 60px;
+    padding: 0 10px;
+}
+.editCont .btn_sav:hover{
+    background-color: #0f9dd0;
+}
+.teacherLink{
+    padding-bottom:25px;
+    border-bottom: 1px dotted #ddd;
+}
+select.sel_sub{
+    height: 35px;
+}

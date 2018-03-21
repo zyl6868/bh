@@ -1,0 +1,185 @@
+body, div, p, h5 {
+    margin: 0;
+    padding: 0;
+}
+html, body {
+    height: 100%;
+    background: #f7f7f7;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    font-size: 0;
+    line-height: 0;
+    width: 0;
+    height: 0;
+    clear: both;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+}
+.top {
+    width: 100%;
+}
+.top img {
+    width: 100%;
+    vertical-align: middle;
+}
+.dsc {
+    width: 100%;
+    padding: 20px 12px 0 12px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    background-color: #fff;
+}
+.dsc .person {
+    width: 100%;
+}
+.dsc .person img {
+    float: left;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    background-color: red;
+}
+.dsc .person .personInfo {
+}
+.dsc .person .personInfo h5 {
+    font-size: 14px;
+}
+.dsc .person .personInfo p {
+    color: #666;
+    font-size: 12px;
+}
+.dsc > p {
+    font-size: 14px;
+    line-height: 22px;
+    padding: 10px 0;
+}
+.btn {
+    margin-top: 20px;
+}
+.btn span {
+    float: left;
+    display: block;
+    font-size: 12px;
+    text-align: center;
+    line-height: 14px;
+    width: 14px;
+    height: 14px;
+    color: #fff;
+    border-radius: 50%;
+    background-color: #0099ff;
+    border: 2px solid #74c5fb;
+    margin-left: 12px;
+}
+.btn > p {
+    font-size: 14px;
+    margin-left: 36px;
+}
+.btn p u {
+    font-weight: 700;
+}
+.btn .uploadBtn {
+    display: block;
+    width: 200px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    color: #0099ff;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #0099ff;
+    margin: 15px auto 20px;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+.btn .inviteCode {
+    margin: 15px 6% 15px;
+    height: 126px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    background-color: #fff;
+}
+.btn .inviteCode .codeTitle {
+    width: 106px;
+    height: 32px;
+    font-size: 14px;
+    line-height: 32px;
+    color: #fff;
+    text-align: center;
+    margin: -5px auto 0;
+    background: url(../images/inviteCode.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+.btn .inviteCode .code {
+    color: #666666;
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 18px;
+    text-align: center;
+}
+.btn .inviteCode .copyBtn {
+    display: block;
+    width: 115px;
+    height: 30px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    line-height: 30px;
+    color: #0099ff;
+    background-color: #fff;
+    border-radius: 15px;
+    border: 1px solid #0099ff;
+    margin: 15px auto 0;
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+#hint {
+    display: none;
+    position: absolute;
+    bottom: 30%;
+    left: 10%;
+    color: white;
+    padding: 10px 0;
+    border-radius: 10rem;
+    width: 80%;
+    text-align: center;
+    background: rgba(0, 0, 0, .5)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

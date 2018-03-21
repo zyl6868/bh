@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+}
+
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #efeff4;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+}
+
+.header .nav {
+    text-align: center;
+}
+
+.header .back {
+    display: block;
+    float: left;
+    width: 15%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.header .headerTitle {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    float: left;
+    width: 70%;
+    margin-top: 28px;
+}
+
+.header .back img {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+
+.homeworkList {
+    max-height: 77%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    padding: 0 12px 12px;
+}
+
+.homeworkList .homeworkBox {
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 12px 10px;
+    margin-bottom: 10px;
+}
+
+.homeworkList .homeworkBox h5 {
+    font-size: 18px;
+    color: #666;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.homeworkList .homeworkBox .homeworkCtn {
+    font-size: 14px;
+    color: #555;
+}
+
+.homeworkList .homeworkBox .homeworkTime {
+    color: #777;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.homeworkList .homeworkBox .homeworkTime img {
+    width: 18px;
+    vertical-align: sub;
+}
+
+.homeworkList .homeworkBox .homeworkOk {
+    color: #666666;
+    margin-bottom: 6px;
+}
+
+.homeworkList .homeworkBox .homeworkOk span {
+    color: #ff5a5a;
+    font-size: 14px;
+}
+
+.homeworkList .homeworkBox .homeworkBtn {
+    height: 30px;
+}
+
+.homeworkList .homeworkBox .homeworkBtn .teachBtn {
+    float: left;
+    width: 45%;
+    height: 28px;
+    line-height: 28px;
+    font-size: 14px;
+    border: 1px solid #0099ff;
+    border-radius: 14px;
+    color: #0099ff;
+    text-align: center;
+}
+
+.homeworkList .homeworkBox .homeworkBtn .teachBtn img {
+    width: 20px;
+    vertical-align: text-top;
+}
+
+.homeworkList .homeworkBox .homeworkBtn .errWork {
+    float: right;
+}
+.noCtn {
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+}
+.noCtn img {
+    margin-top: 100px;
+    width: 100px;
+}
+.noCtn p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #999;
+}
+.hwTitle {
+    position: relative;
+}
+.homeWorkInfo {
+    font-size: 14px;
+    color: #999;
+    float: left;
+    margin: 10px 0 10px 12px;
+}
+.calendar {
+    float: right;
+    width: 40px;
+    height: 30px;
+}
+.calendar img {
+    width: 20px;
+    margin: 10px 0 0 0;
+}
+.hwTitle ul {
+    position: absolute;
+    display: none;
+    right: 12px;
+    top: 40px;
+    z-index: 10;
+    padding: 0 16px;
+    border-radius: 8px;
+    background-color: #e8e8e8;
+}
+
+.hwTitle ul:after {
+    content: '';
+    width: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid #e8e8e8;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    display: block;
+    position: absolute;
+    top: -15px;
+    right: 8px;
+}
+
+.hwTitle ul li {
+    width: 80px;
+    text-align: center;
+    color: #555555;
+    font-size: 14px;
+    line-height: 40px;
+    position: relative;
+    border-bottom: 1px solid #dcdcdc;
+}

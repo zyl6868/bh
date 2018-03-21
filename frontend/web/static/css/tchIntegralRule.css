@@ -1,0 +1,55 @@
+.integralHead {
+    height: 60px;
+    background-color: #10ADE5;
+}
+
+.integralHead img {
+    width: 129px;
+    margin-top: 14px;
+    float: left;
+}
+
+.integralHead h4 {
+    float: left;
+    border-left: 1px solid #fff;
+    color: #fff;
+    margin-top: 22px;
+    padding-left: 10px;
+}
+
+.integralLeft {
+    float: left;
+    background-color: #fff;
+    width: 260px;
+}
+
+.integralLeft li {
+    text-align: center;
+    border-bottom: 1px solid #F4F4F4;
+    font-size: 14px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+
+.integralRight {
+    float: right;
+    background-color: #fff;
+    margin-left: 29px;
+    width: 859px;
+    padding-left: 26px;
+    padding-top: 34px;
+    padding-bottom: 11px;
+    padding-right: 26px;
+}
+
+.integralRight li {
+    margin-bottom: 18px;
+}
+
+.integralRight h4, .integralRight h5 {
+    font-weight: 600;
+}
+
+.integralCon {
+    padding-top: 18px;
+}

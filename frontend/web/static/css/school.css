@@ -1,0 +1,78 @@
+﻿/*头部*/
+.head h1{float:left;width:240px;height:60px; font-size: 16px; line-height: 60px; background: none; color: #fff; text-indent: 0 }
+.head .userCenter img{width: 40px;height: 40px;border-radius: 50%;margin-right: 10px;vertical-align: middle}
+.head .userCenter,.logoff{ color: #fff; margin-left: 20px}
+
+.currency_hg {height: 60px;}
+/*导航*/
+.class_nav{height:60px; position:relative; overflow:hidden; margin-top: 18px}
+.class_nav_list{position:relative;top:18px; left:40px}
+.class_nav_list li{float:left; position:relative; margin:0 10px;}
+.class_nav .class_nav_opacity{width:100%; position:absolute; top:0; left:0; height:60px;background-color:#fff;opacity:0.8;filter:Alpha(opacity=80)}
+.class_nav_list li a{display:block; width:90px; text-align:center; line-height:22px; height:22px; font-size:14px; color:#333;}
+.class_nav_list .ac a{background-color: #11ADE6;border-radius: 3px;color: #fff}
+
+/*学科 年级 类型 单选*/
+.classes_file_list{position: relative;}
+.classes_file_list a{color: #888}
+.classes_file_list a.sel_ac{ font-weight: bold; color: #333}
+.classes_file_list .form_l{ width: 70px;}
+.classes_file_list .form_r{ margin-left: 70px}
+.classes_file_list ul{ width: 90%}
+.classes_file_list ul li{float: left;padding-right: 25px;}
+.classes_file_list .moreContShow{width: 780px;position: relative;}
+.classes_file_list .put_qust_btn{position: absolute; right: 0;top:7px;}
+
+/*选择课程 select*/
+.school_mag_tch .sel_classes{ position: relative}
+.school_mag_tch .sel_classes h5{ height: 30px; line-height: 30px; color: #10ADE5}
+.school_mag_tch .sel_classes button{ position: absolute; top:15px; right: 10px}
+.school_mag_tch .sel_classes .sel_classesBar{ position: absolute; top:55px; left: -1px; width: 230px; background-color: #fff; border: 1px solid #f5f5f5; padding: 15px; z-index: 10}
+.school_mag_tch .sel_classesBar dl{ clear: both; overflow: hidden; padding-bottom: 5px}
+.school_mag_tch .sel_classesBar dd{ float: left; color: #888; margin-right: 10px; cursor: pointer}
+.school_mag_tch .sel_classesBar dd:hover{ color: #333}
+.school_mag_tch .sel_classesBar dd.sel_ac{ color: #10ADE5}
+.school_mag_tch .currency_hg .favbar{line-height: 60px;margin-right: 25px;}
+.school_mag_tch .currency_hg .favbar a {color: #333;}
+
+/*学校人员管理-教师*/
+.school_name{height: 100px;background-color: #fff}
+.school_mag_tch .left_menu{float: left;width: 260px;background-color: #fff}
+.school_mag_tch .left_menu li{border-bottom: solid 1px #F5F5F5;}
+.school_mag_tch .tch_detail{padding-left: 25px;line-height: 60px}
+.school_mag_tch .left_menu li a{ display:block; text-indent:-4px;color: #666;height: 40px;line-height: 40px;text-align: center; border-left: 4px solid #fff}
+.school_mag_tch .left_menu li .cur{display: block; border-left: 4px solid #10ADE5}
+.school_mag_tch .right_con{background-color: #fff;float: right;width: 860px}
+.school_mag_tch .right_con .sch_content{position: relative;left: 36px;}
+.school_mag_tch .right_con .sch_content input{width: 297px;}
+.school_mag_tch .right_con .table_con{margin-top: 33px;}
+.school_mag_tch .right_con .table_con .num{margin-bottom:10px;}
+.school_mag_tch .right_con .table_con .num em{color: #10ACE5; font-size: 16px;}
+.school_mag_tch .right_con .table_con table td{text-align: center;}
+.school_mag_tch .right_con .table_con .arrow {position: static;width: 20px;height: 10px;top: -6px;right: 60px;background: url(../images/ico.png) -58px -828px;}
+.school_mag_tch .oper a,.school_mag_tch .oper span{float: left;color:#10ACE5; margin-right: 3px}
+.school_mag_tch .other_operation{ width:76px}
+/*学校人员管理-暂无教师*/
+.norecord {background: url(../images/bg_stu.png) no-repeat right bottom;padding-bottom: 100px;}
+.norecord .norecordtip{height: 100px;line-height: 100px;text-align: center;color: #ccc}
+.norecord .norecordtip i{display: inline-block;*display:inline;*zoom:1;width: 28px;height: 24px;background: url(../images/ico.png) -400px -800px;margin-right: 14px;}
+.norecord .step_tip {border-top: solid 1px #F5F5F5;padding-top: 60px;padding-left: 35px;}
+.norecord .step_tip h5{font-size: 24px;}
+.norecord .step_tip h5 em{color: #7EDC92}
+.norecord .step_tip .steps {margin-top: 50px;height: 220px;border-left:solid 2px #DCDCDC;font-size: 16px;}
+.norecord .step_tip .steps li{height: 72px;position: relative;line-height: 40px;padding-left: 30px;}
+.norecord .step_tip .steps li i.num{position: absolute;left:-20px;background: url(../images/ico.png) -520px -360px;width: 38px;height: 38px;line-height: 38px;text-align: center;color: #fff}
+.norecord .step_tip .steps li a.linkbtn{position: relative;height: 28px;border: solid 1px #DCDCDC;line-height: 28px;padding:0 10px 0 30px;display: inline-block;*display:inline;*zoom:1;margin-left: 15px;border-radius: 2px;}
+.norecord .step_tip .steps li a.linkbtn i{position: absolute;left: 10px;top: 6px;}
+.norecord .step_tip .steps li a.linkbtn .ico-downbtn{top:9px;width: 8px;height: 12px;background: url(images/ico-down.png) no-repeat; }
+.norecord .step_tip .steps li a.linkbtn .ico-addbtn{width: 17px;height: 17px;background: url(images/ico-add.png) no-repeat; }
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,42 @@
+/*选择课程 select*/
+.sel_classes{ position: relative}
+.sel_classes h5{ height: 30px; line-height: 30px; color: #10ADE5}
+.sel_classes button{ position: absolute; top:15px; right: 10px;*top:5px;}
+.sel_classes .sch_mag_homes{ position: absolute; top:55px; left: -1px; width: 230px; background-color: #fff; border: 1px solid #f5f5f5; padding: 15px; z-index: 10}
+.sch_mag_homes dl{ clear: both; overflow: hidden; padding-bottom: 5px}
+.sch_mag_homes dt:hover{cursor: pointer;color: #7ECEF4}
+.sch_mag_homes dd{ float: left; color: #888; margin-right: 10px; cursor: pointer}
+.sch_mag_homes dd:hover{ color: #333}
+.sch_mag_homes dd.sel_ac{ color: #10ADE5}
+.currency_hg .favbar{line-height: 60px;margin-right: 25px;}
+.currency_hg .favbar a {color: #333;}
+
+#sch_mag_homes a{color:black;}
+#sch_mag_homes a.ac{color:#10ADE5;}
+#sch_mag_homes a:hover{color:#10ADE5;}
+/*短板池 gnn*/
+.class_short_pool .right{line-height: 30px;background-color: #fff;width: 895px;*width:895px;text-indent:30px;}
+.class_short_pool .gnn_main{margin-top: 0;*margin-top: 18px;}
+.class_short_pool .selector{border-bottom: 1px solid #f5f5f5;padding: 20px 0;}
+.class_short_pool .gnn_tabCon{float: left;width: 100%;}
+.class_short_pool .selector .calendar-wrapper .calendar-monthly table tr{height: 30px;}
+.class_short_pool .gnn_tabCon label{display: inline-block;width: 77px;text-align: center;}
+.class_short_pool .selector .text0,.class_short_pool .selector .text1,.class_short_pool .selector .text2{width: 190px;height: 40px;line-height: 40px;border: 1px solid #ccc;padding-left: 10px;vertical-align: middle;color: #999;}
+.class_short_pool .selector .search,.class_short_pool .selector .search1,.class_short_pool .selector .search2{display: inline-block;border-radius: 5px;width: 90px;height: 35px;line-height: 35px;background: #10ade5;text-align: center;color: white;vertical-align: middle;margin-left: 35px;}
+.class_short_pool .gnn_tabCon select{width: 200px;height: 40px;}
+.gnn_main .shortKnowledge .knowledge{padding: 40px 0;}
+.gnn_main .shortKnowledge h5{font-size: 16px;height: 39px;border-bottom: 1px dashed #7ecef4;*display: block;*width: 1150px;}
+.gnn_main .shortKnowledge h5 span{color: red;font-size: 14px;margin-left: 45px;}
+.gnn_main .shortKnowledge .knowledgeBar{width: 1150px;height: 42px;line-height: 42px;}
+.gnn_main .shortKnowledge .knowledgeNum{display: inline-block;*display: inline;*zoom:1;vertical-align: middle;padding-right: 10px;width: 150px;overflow: hidden;white-space: nowrap;word-wrap: normal;text-overflow: ellipsis;}
+.gnn_main .shortKnowledge .knowledgeNum:hover{color:rgb(16, 173, 229);cursor: pointer;}
+.gnn_main .shortKnowledge .knowledgeError{border-left: 2px solid #008acd;width: 870px;display: inline-block;*display: inline;*zoom:1;padding: 4px 0;vertical-align: middle;}
+.gnn_main .shortKnowledge .knowledgeError .width{position: relative;display: block;background-color: #4ebbbc;height: 35px;border-radius:5px;}
+.gnn_main .shortKnowledge .knowledgeError .width .errorNum{position: absolute;right: -140px;top: -4px;}
+.quest_title span .hard{display: inline-block;height: 14px;vertical-align: middle;background: url(../images/ico.png) -640px -800px;}
+.gnn_tabCon .testPaper .quest_title{padding-left: 20px;*width: 1180px;}
+.errorPeopleNumber{line-height: 34px;}
+.errorPeopleNumber b{font-size: 28px;color: #f97373;}
+.gnn_tabCon .testPaper .quest{margin-top: 25px;}
+.gnn_tabCon .asideItem{*margin-bottom: 0px;}
+

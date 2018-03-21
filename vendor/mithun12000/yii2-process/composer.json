@@ -1,0 +1,29 @@
+{
+    "name": "mithun12000/yii2-process",
+    "description": "Process components for Yii2",
+    "keywords": ["process", "yii2"],
+    "homepage": "https://github.com/mithun12000/yii2-process",
+    "type": "yii2-extension",
+    "license": "GNU",
+    "authors": [
+        {
+            "name": "Mithun Mandal",
+            "email": "mithun12000@gmail.com"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/mithun12000/yii2-process/issues",
+        "source": "https://github.com/mithun12000/yii2-process"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "ext-pcntl": "*",
+        "arara/process":"*"
+    },
+    "autoload": {
+      "psr-4": {
+        "mithun\\process\\": "src/"
+      }
+    }
+}

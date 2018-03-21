@@ -1,0 +1,320 @@
+.selectTool {
+  width: 100%;
+}
+.titleSelect {
+  text-align: center;
+  padding: 0.26rem 1.2rem 0.06rem;
+  color: #737373;
+  background-color: #fff;
+  border-bottom: 1px solid #e8e8e8;
+}
+@media screen and(max-width: 320px) {
+  .titleSelect {
+    font-size: 12px;
+  }
+}
+.titleSelect span {
+  display: inline-block;
+}
+.titleSelect .departmentSubject {
+  max-width: 5em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.titleSelect .subjectVersion {
+  max-width: 10em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.titleSelect .VersionVolume {
+  max-width: 4em;
+  overflow: hidden;
+  white-space: nowrap;
+}
+.titleSelect i {
+  font-size: 16px;
+  float: right;
+}
+
+.twoSelect {
+  height: 1.253333rem;
+  border-bottom: 1px solid #dfdfdf;
+  background-color: #fff;
+  position: relative;
+  color: #555;
+  position: relative;
+  z-index: 100;
+}
+.twoSelect .two_select {
+  height: 1.253333rem;
+  line-height: 1.253333rem;
+  font-size: 14px;
+  width: 49%;
+}
+.twoSelect .two_select .selected {
+  color: #2a51ed;
+}
+@media screen and (max-width: 320px) {
+  .twoSelect .two_select {
+    font-size: 12px;
+  }
+}
+.twoSelect .two_select > p {
+  width: 7em;
+  overflow: hidden;
+  white-space: nowrap;
+  text-align: center;
+  float: left;
+  margin-left: 0.8rem;
+}
+.twoSelect .two_select > i {
+  float: right;
+  margin-top: -0.053333rem;
+  margin-right: 0.533333rem;
+}
+.twoSelect .chapterSelect {
+  float: left;
+}
+.twoSelect .resourceSelect {
+  float: right;
+}
+.twoSelect .centerLine {
+  height: 0.533333rem;
+  width: 2px;
+  position: absolute;
+  left: 50%;
+  top: 0.373333rem;
+  background-color: #2a51ed;
+}
+.chapterBox {
+  position: absolute;
+  top: 1.253333rem;
+  height: 9.866667rem;
+  width: 100%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  padding: 0.133333rem 0.56rem 0;
+  background-color: #f9f9f9;
+}
+.chapterBox .allChapter,
+.chapterBox .unitTitle {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  height: 1rem;
+  line-height: 1rem;
+  border-bottom: 1px solid #c9c9c9;
+} 
+.chapterBox > ul > li > ul li {
+  color: #999;
+  height: 1rem;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  line-height: 1rem;
+  text-indent: 2em;
+  border-bottom: 1px solid #c9c9c9;
+}
+.resourceSelect .resourceBox {
+  position: absolute;
+  top: 1.253333rem;
+  left: 0;
+  width: 100%;
+  padding: 0.133333rem 0.56rem 0;
+  background-color: #f9f9f9;
+}
+.resourceBox ul li {
+  height: 1rem;
+  line-height: 1rem;
+  border-bottom: 1px solid #c9c9c9;
+}
+
+.selectTeaching {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 200;
+}
+
+.selectTeaching .selectBox {
+  height: 12rem;
+  width: 8.16rem;
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  margin-left: -4.093333rem;
+  background-color: #fff;
+  border-radius: 0.266667rem;
+  border: 1px solid #2a51ed;
+}
+
+.selectTeaching .selectBox p {
+  text-align: center;
+  font-size: 16px;
+  color: #585858;
+  height: 1.093333rem;
+  line-height: 1.093333rem;
+}
+
+.selectTeaching .selectBox .confirmBtn {
+  width: 2.666667rem;
+  height: 0.746667rem;
+  line-height: 0.746667rem;
+  position: absolute;
+  left: 50%;
+  bottom: 0.533333rem;
+  margin-left: -1.333333rem;
+  border-radius: 0.533333rem;
+  border: 1px solid #2a51ed;
+  text-align: center;
+  font-size: 14px;
+  color: #2a51ed;
+}
+
+.selectTeaching .selectBox .closeBtn {
+  height: 1.066667rem;
+  width: 1.066667rem;
+  text-align: center;
+  line-height: 1.066667rem;
+  position: absolute;
+  left: 50%;
+  bottom: -1.6rem;
+  margin-left: -0.533333rem;
+}
+
+.selectTeaching .selectBox .closeBtn i {
+  font-size: 30px;
+  color: #fff;
+  border-radius: 50%;
+}
+
+.selectTeaching .selectBox .selectSubject {
+  height: 1rem;
+  line-height: 1rem;
+  width: 80%;
+  margin-left: 10%;
+  position: relative;
+  z-index: 1;
+}
+
+.selectTeaching .selectBox .versionList {
+  width: 80%;
+  height: 8.4rem;
+  margin-left: 10%;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.selectTeaching .selectBox .selectSubject p,
+.selectTeaching .selectBox .versionList .version p {
+  font-size: 14px;
+  height: 1rem;
+  line-height: 1rem;
+  text-align: left;
+  border-bottom: 1px solid #c1c1c1;
+  text-indent: 0.2em;
+}
+
+.selectTeaching .selectBox .selectSubject .subjectList p {
+  text-indent: 0.2em;
+}
+
+.selectTeaching .selectBox .selectSubject i,
+.selectTeaching .selectBox .versionList .version i {
+  float: right;
+}
+
+.selectTeaching .selectBox .selectSubject .subjectList {
+  background-color: #f4f4f4;
+  box-shadow: 2px 2px 8px #f0f0f0,
+              -2px -2px 8px #f0f0f0;
+  height: 7.5rem;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.selectTeaching .selectBox .selectSubject .subjectList .blue {
+  color: #2a51ed;
+}
+
+.selectTeaching .selectBox .versionList .version p {
+  color: #2a51ed;
+  border-bottom: 1px solid #bfcafa;
+}
+
+.selectTeaching .selectBox .versionList .version .Xscroll {
+  height: 4rem;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+.selectTeaching .selectBox .versionList .version .Xscroll .loadingGif {
+  height: 3.8rem;
+  text-align: center;
+}
+
+.selectTeaching .selectBox .versionList .version .Xscroll .loadingGif img {
+  margin-top: 1.3rem;
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.selectTeaching .selectBox .versionList .version ul {
+  // height: 3.9rem;
+  white-space: nowrap
+}
+
+.selectTeaching .selectBox .versionList .version ul li {
+  display: inline-block;
+  margin-top: 0.453333rem;
+  margin-right: 0.266667rem;
+  border-radius: 0.066667rem;
+}
+
+.selectTeaching .selectBox .versionList .version ul li p {
+  font-size: 12px;
+  color: #555;
+  text-align: center;
+  height: 0.666667rem;
+  line-height: 0.666667rem;
+  border: none;
+  margin-bottom: 0.2rem;
+}
+
+.selectTeaching .selectBox .versionList .version ul li .VolumeImg {
+  width: 1.866667rem;
+  height: 2.493333rem;
+  position: relative;
+}
+
+.selectTeaching .selectBox .versionList .version ul li .VolumeImg img {
+  width: 1.866667rem;
+  height: 2.493333rem;
+}
+
+.selectTeaching .selectBox .versionList .version ul li .bookshade {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.selectTeaching .selectBox .versionList .version ul li .bookshade i {
+  display: block;
+  height: 0.533333rem;
+  width: 0.533333rem;
+  font-size: 18px;
+  color: #fff;
+  border-radius: 50%;
+  background-color: #2a51ed;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.266667rem;
+  margin-left: -0.266667rem;
+}

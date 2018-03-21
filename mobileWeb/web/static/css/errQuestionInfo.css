@@ -1,0 +1,202 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+a {
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #efeff4;
+}
+
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+}
+
+.header .nav {
+    text-align: center;
+}
+
+.header .back {
+    display: block;
+    float: left;
+    width: 15%;
+    height: 40px;
+    margin-top: 20px;
+}
+
+.header .headerTitle {
+    font-size: 18px;
+    color: #000;
+    text-align: center;
+    float: left;
+    width: 70%;
+    margin-top: 28px;
+}
+
+.header .back img {
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+.homeworkReport {
+    max-height: 84%;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.errPart {
+    padding: 10px 12px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.errWork {
+    background-color: #fff;
+    padding: 16px 10px;
+    border-radius: 6px 6px 0 0;
+    color: #adadad;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.errWork * {
+    width: auto!important;
+    max-width: 100%!important;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.errWork .errTitle {
+    height: 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.errWork .errTitle .gang {
+    color: #35cafb;
+    float: left;
+    margin-left: -11px;
+}
+
+.errWork .errTitle h5 {
+    float: left;
+    font-size: 14px;
+    color: #000;
+}
+
+.errWork .errTitle p {
+    float: right;
+}
+
+.errWork .errTitle p span {
+    color: #42cdfb;
+}
+
+.errWork .errTitle p img {
+    height: 11px;
+    vertical-align: middle;
+}
+
+.errWork .errTitle .isStart {
+    float: right;
+    width: 18px;
+    height: 18px;
+    background: url(../img/isStart.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.errWork .errTitle .noStart {
+    float: right;
+    width: 18px;
+    height: 18px;
+    background: url(../img/noStart.png);
+    background-size: cover;
+    -webkit-background-size: cover;
+}
+
+.errWork .errCtn {
+    padding: 10px 0;
+}
+
+.errWork .ans {
+    margin-top: 8px;
+}
+
+.errWork .ans h5 {
+    color: #42cdfb;
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 6px;
+}
+
+.errWork .ans p {
+    font-size: 14px
+}
+.errPart .fromTitle {
+    padding: 10px;
+    font-size: 14px;
+    color: #999;
+    background-color: #f2f2f2;
+}
+.subjectCtn { /* 219 130*/
+    margin: 16px 0 0;
+    height: 65px;
+    position: relative;
+}
+.subjectCtn img {
+    width: 110px;
+    height: 65px;
+    border-radius: 8px;
+}
+.subjectCtn h5 {
+    position: absolute;
+    top: 0;
+    left: 110px;
+    margin-left: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp:2;
+    -webkit-box-orient: vertical;
+}
+.subjectCtn .subjectTime {
+
+}
+.subjectCtn .subjectTime p {
+    position: absolute;
+    bottom: 0;
+    left: 120px;
+}
+.subjectCtn .subjectTime a {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #35cafb;
+}
+.subjectCtn .subjectTime a span {
+    color: #cccccc;
+}

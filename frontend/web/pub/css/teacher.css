@@ -1,0 +1,1018 @@
+#html{height:auto !important;min-height:100%}
+.teacher{background:url(../images/theme/theme01.jpg) no-repeat center top #eee}
+.form_list .row{padding-bottom:0}
+.form_list .formL label{overflow:hidden;height:30px}
+.form_list .formR ul li a{padding:0 20px}
+.test .form_list .formR{width:780px}
+.test .testList_new .formR{width:90%}
+
+#makePaper .form_list .formR{width:680px}
+#makePaper .form_list .row{padding-bottom:20px}
+
+.form_list .formR{max-width:1019px}
+.resultList{padding-top:6px}
+.resultList li{width:auto;background:#fff;margin:0 10px 10px 0}
+.resultList li a{padding:0 20px}
+.resultList li.ac a{background-color:#6cd685;color:#fff}
+.resultList li.ac:hover a{background-color:#1ed248 !important;color:#fff !important}
+.testClsList li{height:26px;line-height:27px;margin-bottom:0}
+.testClsList li a{padding:0 !important;margin-right:10px}
+.testClsList li:hover{background:none !important}
+.testClsList li:hover a{color:#6cd685 !important}
+.testClsList li.ac{background:none !important}
+.testClsList li.ac a{background:none !important;font-weight:bold;color:#6cd685 !important}
+.testClsList li.ac:hover a{background:none !important;color:#1ed248 !important}
+.setupMenu li .lisD{background:none !important}
+/*章节知识点树*/ 
+.problem_tree_cont{border:1px solid #d0e8f7;position:relative;background:#fff}
+.problem_tree_cont h4{height:40px;line-height:40px;background:#edf8ff;text-indent:20px}
+.problem_tree_cont .resetting{position:absolute;top:10px;right:20px;font-size:12px;color:#0098f0}
+.problem_tree{padding:10px !important;padding-bottom:50px !important}
+.problem_r{position:relative}
+/*右侧*/ 
+.homepage .main_r .main_cont{padding:30px 10px 30px 30px}
+.homepage .main_r .main_cont .Ta_teacher select{height:40px;overflow:hidden;text-overflow:ellipsis}
+.main_r .total_QA_list{margin-right:-20px}
+.main_r .total_QA_list li{width:91px;border:1px solid #6cd685;height:118px;float:left;margin-right:20px;text-align:center}
+.main_r .total_QA_list li span{display:block;height:25px;padding-top:50px;border-bottom:1px solid #6cd685;color:#6cd685;font-size:14px;margin-bottom:10px;background:url(../images/new_sprite.png) no-repeat #e7ffed}
+.main_r .total_QA_list li .accept_ico{background-position:-235px -172px}
+.main_r .total_QA_list li .QA_ico{background-position:-315px -172px}
+.main_r .total_QA_list li .ask_ico{background-position:-155px -172px}
+.main_r .total_QA_list li{font-size:22px}
+.main_r .ta_student_list{margin-right:-20px;margin-top:20px}
+.main_r .ta_student_list li{text-align:center;width:50px;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;font-size:13px;float:left;margin-right:17px;margin-bottom:17px}
+.main_r .ta_student_list li img{display:block}
+.main_r .tec_note_list li{margin-bottom:20px}
+.main_r .tec_note_list li h6 a{color:#017fd2}
+.main_r .tec_note_list li p{color:#777}
+/*二维码*/ 
+.two_dimension_code{width:135px;height:135px;text-align:center;background-color:#fff095;padding:10px 13px;position:absolute;right:28px;top:118px}
+.two_dimension_code h4{text-align:center;color:#cb6206;margin-bottom:4px}
+
+
+/*教师首页*/
+.teacher_home .main_l .tabCont{border:none;border-top:1px solid #DDD}
+.teacher_home .main_l .resultList{margin-left:40px}
+.teacher_home .main_l .resultList li{width:auto;padding-top:3px}
+.teacher_home .main_l .resultList li a{padding:0 20px}
+.teacher_home .main_l .tabItem{padding:0 !important}
+.teacher_home .main_l .file_list{margin-right:-20px}
+.teacher_home .main_l .file_list li{float:left;position:relative;padding:10px;width:343px;border:1px solid #ddd;margin-right:20px;margin-bottom:20px}
+.teacher_home .main_l .file_list li img{float:left;margin-right:10px}
+.teacher_home .main_l .file_list li h6{padding-top:5px}
+.teacher_home .main_l .file_list li p{color:#777}
+.teacher_home .main_l .file_list li p span{font-size:13px;margin-left:30px}
+.teacher_home .main_l .file_list .mask_link{position:absolute;top:0;left:0;height:100%;width:100%}
+.teacher_home .main_l .file_list .mask_link .mask_link_BG{position:absolute;top:0;left:0;height:100%;width:100%;background:#4ebbff;opacity:0.9;filter:Alpha(opacity=90)}
+.teacher_home .main_l .mask_link_cont{position:relative;text-align:center}
+.teacher_home .main_l .mask_link_cont a{color:#FFF;display:inline-block;padding-top:20px;margin:20px 20px;background:url(../images/ico.png) no-repeat}
+.teacher_home .main_l .mask_link_cont a:hover{color:#fff !important}
+.teacher_home .main_l .mask_link_cont .addfavLink{background-position:-5px -481px}
+.teacher_home .main_l .mask_link_cont .favLink{background-position:8px -560px}
+.teacher_home .main_l .mask_link_cont .readLink{background-position:-5px -636px}
+.teacher_home .file_btn{width:60px;background-color:#0098f0 !important;text-align:center;font-size:12px !important;margin-right:10px;height:24px !important;line-height:24px !important;display:inline-block;color:#fff;border-radius:20px !important}
+.tch_file_list li{width:720px !important}
+
+
+
+
+/*首页end---------------------------------------------------------------------*/
+
+/*备课*/ 
+.prepare_lessons .item{padding-top:10px}
+.prepare_lessons .item h5{border-bottom:1px solid #ddd;height:35px;line-height:35px}
+.prepare_lessons .attentionTxt h5{border:none;background:url(../images/ico.png) no-repeat -131px -683px;text-indent:20px}
+.prepare_lessons .attentionTxt p{font-size:12px;text-indent:20px}
+.prepare_lessons .uploadFileList{width:730px}
+.prepare_lessons .uploadFileList li{height:40px;position:relative;text-indent:20px;line-height:40px;margin-bottom:10px;background:#e7ffed}
+.prepare_lessons .uploadFileList li span{position:absolute;top:1px;right:20px;color:#58c5bf}
+.prepare_lessons .sel_file_location .sel_step{float:left;width:310px;margin-right:40px;padding-top:20px}
+.prepare_lessons .sel_file_location .sel_step h6{height:40px;line-height:40px}
+.prepare_lessons .sel_file_location .sel_step .resultList{margin:0}
+.prepare_lessons .sel_file_location .sel_step .resultList li{margin-left:0;text-align:left}
+.prepare_lessons .sel_step .treeBar{border:1px solid #ddd;height:380px;overflow:auto}
+.prepare_lessons .sel_step .treeBar h6{height:40px;line-height:40px;border-bottom:1px dashed #ddd;text-indent:20px}
+.prepare_lessons .sel_step .resultList li{height:40px;line-height:40px;width:290px;margin-bottom:6px;text-indent:10px}
+.iconBtn .file{width:100%;height:100%}
+.tea_prepare{position:relative}
+.tea_prepare .course{position:absolute;right:32px;top:100px}
+.tea_prepare .course .cour_btn{font-size:14px;color:#68afdb}
+.tea_prepare .course .cour_btn i{width:13px;height:10px;margin-left:5px;overflow:hidden;background:url(../images/ico.png) -13px -296px}
+.tea_prepare .course .course_box{position:absolute;top:30px;right:-70px;z-index:102;width:250px;background-color:#ffffff;box-shadow:0 2px 3px 3px #ccc;padding:20px}
+.tea_prepare .course_box dl dt{width:180px;margin:12px 0}
+.tea_prepare .course_box dl dd{float:left;width:60px;height:28px;color:#555;cursor:pointer;font-size:14px;text-align:center;line-height:28px}
+.tea_prepare .course .course_box a{display:block}
+.tea_prepare .course_box dl .ac{background-color:#6cd685;color:#fff}
+/*滚动条*/ .big_progress{height:20px;width:100%;text-align:right;position:relative;top:15px;line-height:12px;font-size:12px;border:1px solid #ddd;margin-bottom:30px}
+.big_progress .num{position:absolute;top:-14px !important;right:5px !important}
+.big_progress .bg{background:#97d6ff;width:0;height:20px}
+/*考试管理-jw*/ 
+.main_cont .testArea{margin-top:10px}
+.testArea{margin-top:30px}
+.testListWrap{position:relative}
+.testListWrap .objClip{display:block}
+.testListWrap .arrow{background-image:none}
+.testListWrap .testList{display:none}
+.showTestList{border-top:1px solid #ddd;padding-top:20px}
+.showTestList .arrow{left:567px;background-image:url(../images/ico.png)}
+.showTestList .objClip{display:none}
+.showTestList .testList{display:block}
+.testList{margin-right:-20px}
+.testList li{width:383px;margin-right:20px;margin-bottom:20px;height:70px;padding:20px;float:left;border:1px solid #ccc;position:relative}
+.testList li h5{height:30px;line-height:30px;margin-bottom:10px}
+.testList li button{width:78px}
+.testList li i{position:absolute;height:60px;width:60px;background:url(../images/course.png);top:0;right:0}
+.itemList li{position:relative;margin-bottom:20px}
+.itemList .viewDetail i{background:url(../images/ico.png) no-repeat -90px -172px}
+.itemList .dis_viewDetail{color:#ddd !important;cursor:text}
+.itemList .dis_viewDetail i{background:url(../images/ico.png) no-repeat -90px -1172px}
+.itemList li .clsSetupBox{padding:10px 0;border-top:1px solid #ddd;border-bottom:1px solid #ddd}
+.itemList li .clsSetupBox i{position:absolute;width:20px;height:10px;top:41px;right:173px;background:url(../images/ico.png) no-repeat -130px -55px}
+.itemList li .clsSetupBox .form_list .formR{width:790px;max-width:790px}
+.itemList .sended .setupCls{display:none}
+.itemList .sended .showTestList .arrow{left:670px}
+.itemList .sended .title_r button{background:#ccc !important;cursor:inherit}
+.multi_resultList li.sel_ac{background:#6cd685;color:#fff}
+.multi_resultList li.sel_ac a{color:#fff}
+.stu_table tbody td,.stu_table thead th{text-align:center}
+.clsSetupBox .objScoreList li{float:left;margin-right:20px;margin-bottom:20px}
+/*考试管理-创建新考试 zhanghainan*/ 
+.test .testList_new{padding-top:20px}
+.test .testList_new .row{width:100%;padding-bottom:15px}
+.test .testList_new input{color:#999}
+.test .testList_new .test_add{padding-top:6px}
+.test .testList_new .testList_r{line-height:40px;height:40px;position:relative}
+.test .testList_new .testList_score li{float:left;padding-right:16px;line-height:40px;margin-bottom:20px;*padding-bottom:20px}
+.test .testList_new .testList_score span .text{width:40px;height:20px;border:#cec4c4 solid 1px;color:#333;font-size:14px}
+.test .testList_new .testList_score .chkLabel{margin-right:0 !important}
+.test .testList_new .select_test .select_test_tab{width:618px;border:1px solid #E7E7E7;padding:20px;padding-top:10px}
+.test .testList_new .select_test_tab .up_test_list li{width:160px;height:120px;float:left;margin-right:19px;margin-bottom:19px;border:#aaaaaa solid 1px}
+.test .testList_new .select_test .tabList li{margin-bottom:0}
+.test .testList_new .up_test_list li img{width:160px;height:120px}
+.test .testList_new .select_test_tab .up_test_list .more{border:#e5eae6 solid 1px;background:#f4faf6}
+.test .testList_new .subTitleBar_text{height:22px;padding:4px 10px}
+.test .testList_new .subTitle_Btn{position:relative;left:-6px}
+.test .testList_new .subTitleBar_box .resultList li{width:160px}
+.testList_sub .test_btn{height:40px !important;line-height:40px !important;text-align:center}
+.testList_sub .sub{border:none;background-color:#77cbff;color:#fff !important;font-size:16px;cursor:pointer}
+.testList_sub .cancel{background-color:#d8e9f4;color:#777 !important}
+.test .k_name{width:372px}
+.test .k_time{width:236px}
+/*考务管理ljr*/ 
+.evaluate_Box .students_table td{text-indent:0 !important;text-align:center !important}
+/*考试管理-创建新考试--完成 zhanghainan*/ 
+.test_success{padding-top:123px;padding-bottom:200px}
+.test_success h2{height:59px;line-height:59px;color:#6cd685;font-size:24px;text-align:center;padding-bottom:20px}
+/*考试管理-班级评论 zhanghainan*/ 
+.test_class_overall_appraisal .test_achievement h4{height:40px;line-height:40px}
+.test_table_wrap{height:333px;overflow:auto}
+.test_table{width:806px;border:#aaa solid 1px}
+.test_table th,.test_table td{border:#aaa solid 1px;text-align:center;color:#333;font-size:14px;font-weight:normal}
+.test_table .id{text-align:left;padding-left:10px}
+.test_table thead tr{height:50px}
+.test_table tbody tr{height:40px}
+.test_table tbody tr td em i{width:18px;height:18px;margin-right:10px;display:inline-block;background:url(../images/ico.png) no-repeat -90px -250px}
+.test_table tbody tr td em i:hover{background:url(../images/ico.png) no-repeat -90px -290px}
+.test_table tr{height:40px}
+.form_list_left_justifying .formL label{width:88px}
+/*评价完成*/ 
+.test_table tbody .appraise_a i{width:14px;height:14px;overflow:hidden;background:url(../images/ico.png) no-repeat}
+.test_table tbody .appraise_popo{cursor:pointer}
+.test_table tbody .appraise_a .complete{background-position:-91px -212px}
+.test_table tbody .appraise_a .open_my_evaluate{background-position:-91px -173px;margin-left:4px;cursor:pointer}
+.test_table tbody .appraise_a .close_my_evaluate{background-position:-52px -293px}
+.test_table tr span{color:#555;font-size:14px}
+.test_table tr a{color:#0098f0;font-size:14px}
+.test_achievement_foot{padding-left:11px;margin-top:9px;padding-bottom:27px;border-bottom:#e0e0e0 dashed 1px}
+.test_class_this{padding:0 26px;margin-top:30px;height:130px;line-height:130px;background-color:#e7ffed}
+.test_class_this span{font-size:18px;color:#444;padding-right:20px}
+.Book_conList .row{padding-bottom:15px}
+.test_statisticsLi{margin-top:23px}
+.transmission:hover{text-decoration:underline}
+/*科目总评 jw*/
+.testpaper_and_score .form_list .formL label{width:70px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.testpaper_and_score dl dt,.testpaper_and_score dl dd{float:left}
+.testpaper_and_score dl dt{margin-right:20px}
+.testpaper_and_score .testpaperList{/*height:100px*/}
+.testpaper_and_score .testpaperList a{text-align:center;line-height:20px;width:120px;display:inline-block;margin-right:10px;vertical-align:middle;padding:0 !important}
+.testpaper_and_score .testpaperList img{border:1px solid #ccc;display:block;width:120px;height:90px}
+.testpaper_and_score .testpaperList .score{font-size:48px;color:#1ed248;height:100px;line-height:100px;vertical-align:middle;margin-left:20px;display:inline-block;text-align:center}
+.testpaper_and_score .testpaperList .text{width:49px;text-align:center}
+.testpaper_and_score .testpaperList .editBtn{display:inline-block;height:20px;width:20px;background:url(../images/ico.png) no-repeat -89px -248px;cursor:pointer;vertical-align:middle}
+.testpaper_and_score .scoreOkBtn{width:49px !important}
+.original_testpaper .subTitleBar_box .resultList{margin-right:-20px}
+.original_testpaper .subTitleBar_box .resultList li{width:166px}
+/*上传完试卷后的原始试卷*/
+.choose_original_testpaper h5{margin-bottom:10px}
+/*教师--试卷管理-题目管理-知识点zhanghainan*/
+.tezhagnhaioast_problem .course{position:absolute;right:8px;top:14px}
+.tezhagnhaioast_problem .course .cour_btn{font-size:14px;color:#68afdb}
+.tezhagnhaioast_problem .course .cour_btn i{width:13px;height:10px;overflow:hidden;background:url(../images/ico.png) -13px -296px}
+.tezhagnhaioast_problem .course .cour_btn:hover{text-decoration:underline}
+.tezhagnhaioast_problem .course .course_box{position:absolute;top:30px;right:-70px;z-index:102;width:258px;background-color:#fff;box-shadow:0 2px 3px 3px #ccc;padding:20px;*border:1px solid #DDDDDD}
+.tezhagnhaioast_problem .course_box .arrow{*display:none}
+.tezhagnhaioast_problem .course_box dl dt{width:180px;margin:12px 0}
+.tezhagnhaioast_problem .course_box dl dd{float:left}
+.tezhagnhaioast_problem .course_box dl dd a{display:block;height:28px;color:#555;cursor:pointer;font-size:14px;text-align:left;line-height:28px;min-width:40px;padding:0 20px;/*margin-right:20px;text-indent:20px;*/}
+.tezhagnhaioast_problem .course_box dl .ac{background-color:#6cd685;color:#fff}
+.tezhagnhaioast_problem .test_paper_sort .resultList li{background:none;color:#000}
+.tezhagnhaioast_problem .test_paper_sort .resultList .ac{color:#6cd685}
+.problem_box{margin-top:10px}
+.problem_tab_r .problem_img{padding:0 !important}
+.problem_tab_r .problem_img i{margin-left:-10px;width:5px;height:5px;display:inline-block;border-radius:3px;position:relative;top:10px}
+.problem_img dl{position:relative;top:-17px}
+.problem_img dl dd{width:160px;height:120px;border:#aaa solid 1px;float:left;margin-right:24px;margin-bottom:10px}
+.problem_r_list .problem_img dl dd img{width:160px;height:120px}
+.problem_tab_r .answer{padding:0 !important}
+.problem_tab_r .answer span{margin-left:10px;color:#333;font-size:14px}
+.problem_tab_r .problem_isg dl{position:relative;top:10px}
+.problem_r .tab{width:100%}
+.problem_r .teacher_tablist{width:78%}
+/*搜索*/ 
+.subTitle_s{margin-top:10px}
+.subTitle_s .subTitleBar_text{width:430px}
+.subTitle_s .search{background-color:#f4faf6;position:relative;left:-11px;border:#bddbc7 solid 1px;width:97px;height:40px !important;font-size:14px;color:#50bd69 !important;line-height:42px}
+.subTitle_s .search:hover{background-color:#f4f7f5 !important}
+.search_top{height:42px;line-height:42px;margin-top:26px}
+.search_top p{color:#888}
+.search_top p em{color:#ff9000;padding:0 10px}
+.no_search{width:256px;margin:0 auto;padding-top:60px}
+.no_search p{margin-bottom:16px;color:#555;text-align:left}
+.no_search p a{height:36px;line-height:36px}
+/*章节选题*/
+ .chapter_problem .formL label{text-align:left}
+.chapter_problem .textOverArea .textOver{height:74px;overflow:hidden}
+/*教师--试卷和作业--题目推送*/
+ .titlePush hr{margin-bottom:0}
+.addBtnred{background-color:#fc6f51}
+.titlePush .bottomBtnBar{margin-top:20px}
+.titlePush .bottomBtnBar .pushBtn {}
+.titlePush .form_list .formL label{line-height:35px}
+.titlePush .form_list .formR{line-height:39px;width:700px !important}
+.schTxtArea p span{margin-right:10px}
+.form_style{margin-top:20px}
+.form_style .row{padding-bottom:15px}
+.form_style .row .formR{width:auto}
+.form_style .row .formL label{width:140px}
+.form_style .row .formR em{margin-left:10px}
+/*新增的样式筛选排序*/
+.terrace_list_btn{height:32px;line-height:32px;border-bottom:#CCC dotted 1px;padding-bottom:6px;margin-bottom:10px}
+.terrace_list_btn span{float:left;font-size:16px;color:#333;padding-left:10px}
+.terrace_list_btn ul{float:left;margin:0;margin-top:3px}
+.terrace_list_btn ul li{background:none;text-align:center;width:50px;margin:0}
+.terrace_list_btn ul .ac{background:#6cd685}
+.terrace_list_btn em{float:right;margin-right:10px;font-size:12px;color:#ee4d4e}
+.Tterrace{color:red}
+.my_t{color:#19b8ff}
+.provenance{position:absolute;right:0;top:15px;color:#aaa}
+/*组卷 step2--筛选试题(高级搜索) 题目管理--题目筛选高级搜索*/ 
+.filterSubject .searchBar{clear:both}
+.filterSubject .searchBar a{color:#06c;text-decoration:underline}
+.filterSubject .searchBar a:hover{color:red}
+.searchBar .form_list li .btn{width:80px;color:#fff}
+.testpaper h6{position:relative}
+.testpaper h6 a{color:#06c;position:absolute;right:0;top:0}
+.searchBar .form_list{margin-top:20px}
+.make_sort .terrace_list_btn .resultList{padding:0;border:none;position:relative;left:4px}
+/*组卷 step1/2*/ 
+.make_testpaper .form_list .form{padding-bottom:15px}
+.make_testpaper .form_list .formL label{width:120px}
+.make_testpaper .form_list .formR label{margin-right:10px}
+/*组卷 stepA底部*/
+.make_testpaper .addPointBtn{width:60px;height:20px;line-height:16px;background:#ee4d4e;font-size:12px;color:#fff}
+.make_testpaper .addPointBtn:hover{background:red}
+.make_testpaper .piece{background:#efefef;padding:20px 0}
+.make_testpaper .piece p{margin-bottom:10px}
+.make_testpaper .piece p .text{width:150px}
+.make_testpaper .piece textarea{width:203px;height:50px}
+.make_testpaper .piece .addSubBtn{margin-top:10px;width:100px;height:30px;line-height:25px;background:#ccc;font-size:12px;color:#fff;background:#fc6f51}
+.make_testpaper .piece .addSubBtn:hover{background:red}
+.make_testpaper .piece_part{background:#f8f8f8;padding:20px;margin-bottom:10px}
+.make_testpaper .piece_part h6{color:#900}
+.make_testpaper .piece_part p{margin-left:30px}
+.testPaperBodyTree .volume{font-size:14px}
+.testPaperBodyTree .volume .subTree{font-size:12px;margin:10px 0 0 20px}
+.testpaperSetup{width:160px;background:#fff;color:#666;float:left;font-size:12px}
+.testpaperSetup h6{font-size:16px;margin-top:10px}
+.testPaperDemo{padding-left:120px;margin:20px 0 0 10px;width:490px;float:left;position:relative;background:#fff}
+.testPaperDemo .hover{cursor:default;color:red;background:#efefef;position:relative}
+.testPaperDemo .paper_bindLine{float:left;margin-left:-100px;width:81px;height:573px;background:url(../images/paper_header.gif)}
+.testPaperDemo .paper_bindLine:hover{background-position:81px 0}
+.testPaperDemo .setup,.testPaperDemo .topTotalTable{padding:5px 0}
+.testPaperDemo .setup .setupBar{position:absolute;top:0;right:10px}
+.testPaperDemo .setup .setupBar span{cursor:pointer;margin-right:10px;font-size:12px;color:#ccc;font-weight:normal}
+.testPaperDemo .setup .setupBar span:hover{color:red}
+.testPaperDemo .setup .setupBtn{cursor:pointer;font-size:12px;color:#ccc;font-weight:normal}
+.testPaperDemo .setup .setupBtn:hover{color:red}
+.testPaperDemo #secret_sign{font-size:12px;color:#ccc}
+.testPaperDemo #main_title,.testPaperDemo #sub_title,.testPaperDemo #info,.testPaperDemo #student_input,.testPaperDemo table{text-align:center;margin-bottom:5px}
+.testPaperDemo #main_title{font-size:24px;font-weight:bold}
+.testPaperDemo #sub_title{font-size:20px;font-weight:bold}
+.testPaperDemo .topTotalTable{width:100%}
+.testPaperDemo table td,.testPaperDemo table th{padding:0 8px;font-size:12px;text-align:left}
+.testPaperDemo #pay_attention{font-size:12px;color:#0C9;line-height:18px}
+.testPaperDemo #pay_attention h6{font-weight:bold}
+.testPaperDemo .paperPart{padding:10px}
+.testPaperDemo .paperPart .testPaperTitle p{text-align:center;font-size:18px;font-weight:bold}
+.testPaperDemo .paperPart .subPart{margin-bottom:20px;padding:5px 0}
+.testPaperDemo .paperPart .subPart table{float:left;margin-right:10px}
+.testPaperDemo .paperPart .subPart h6 i{width:auto !important}
+/*base i 的宽度*/ 
+.testPaperDemo .editBar .text{width:380px}
+.testPaperDemo .editBar .btn{padding:0 5px;font-size:12px}
+.testPaperDemo .editBar textarea{width:450px;height:150px;margin:5px}
+.testPaperDemo .top_solid{border-right:1px solid #555;border-bottom:1px solid #555}
+.testPaperDemo .top_solid th{border-left:1px solid #555;border-top:1px solid #555}
+.testPaperDemo .top_solid td{border-left:1px solid #555;border-top:1px solid #555}
+/*组卷 step3--题目筛选*/ 
+.paperStructure{background:#e7ffed;padding:20px;color:#fff;opacity:1;/* max-width:830px;*/ position:relative}
+.paperStructure h5{color:#000;font-size:16px;margin-bottom:10px}
+.paperStructure .paperItemListWrap{width:1040px;overflow:hidden;margin-left:20px;position:relative}
+.paperStructure .moveBtn{position:absolute;width:16px;height:20px;background:url(../images/ico.png);opacity:0.5;cursor:pointer}
+.paperStructure .prevItem{left:20px;top:60px;background-position:-12px -89px}
+.paperStructure .nextItem{right:20px;top:60px;background-position:-12px -49px}
+.paperStructure .paperItemList{height:30px;position:relative}
+.paperStructure .paperItemList li{width:100px;text-align:center;float:left;height:30px;line-height:30px;color:#333}
+.paperStructure .paperItemList li:hover{color:red !important;cursor:pointer !important}
+.paperStructure .paperItemList .ac{background:#6cd685;color:#fff}
+.paperStructure .paperItemConts ul{background:#6cd685;color:#fff;position:relative;clear:both}
+.paperStructure .paperItemConts ul li{float:left;margin-right:20px;color:#fff;font-size:12px;padding:0 10px}
+.paperStructure .paperItemConts ul .ac{background:#1ED248}
+.paperStructure .paperItemConts ul li:hover{cursor:pointer}
+.paperStructure .paperItemConts ul li b{margin-left:5px}
+.paperStructure .paperItemConts ul li b:hover{color:red}
+.paperStructure .demoBar{background:#ddd;position:relative;padding:10px;padding-bottom:20px;color:#333;max-height:500px;overflow:auto}
+.paperStructure .demoBar .close{position:absolute;top:0;right:4px;font-size:12px;color:#0098F0}
+.paperStructure .demoBar .torso{font-size:12px;color:#000}
+.paperStructure .demoBar ol li{font-size:12px;padding-left:10px;color:#000}
+.paperStructure .demoBar ol li i{margin-right:10px}
+.paperStructure .demoBar span{padding-left:10px;color:#000;font-size:12px}
+.paperStructure .demoBar p{font-size:14px;color:#000}
+.paperStructure .demoBar .analyze .j{font-size:14px}
+.paperStructure .demoBar .analyze .n i{color:#fc6f51}
+.paperStructure .demoBar .st{padding-left:10px;color:#000}
+/*组卷 step4--试卷预览*/ 
+.make_testpaper_View{float:none;width:auto}
+.make_testpaper_View .paper_bindLine{margin-left:-130px}
+.make_testpaper_View .subPart h6{font-size:16px;font-weight:bold}
+.make_testpaper_View .subPart h6 em{font-weight:bold}
+/*.testPaperView .paperArea .paper .checkArea label em{float:none}jw*/
+/*组卷 step4 设定成绩*/ 
+.make_setScore .form_list .formR{width:730px;max-width:800px}
+.make_setScore .form_list .formR .text{height:25px}
+.make_setScore .scoreList li{border-bottom:1px solid #ddd;padding-top:20px}
+.make_setScore .scoreList li .formL label{color:#900;font-size:18px;width:120px;overflow:visible}
+.make_setScore .scoreList li button{background:#4ebbff;width:80px}
+.make_setScore .scoreList .itemScore{margin-right:5px;font-size:30px;color:#6cd685;display:inline-block;vertical-align:-4px}
+.make_setScore .scoreList .scoreBar{font-size:16px;display:inline-block;position:absolute;top:0;right:20px;width:200px;text-align:right}
+.make_setScore .scoreList .testpaper_totalScore{font-size:40px;color:#6cd685;display:inline-block;vertical-align:-6px}
+.make_setScore dl{width:630px}
+.make_setScore dl dt{margin-bottom:20px}
+.make_setScore dl dd{margin-right:20px;float:left;margin-bottom:10px}
+.make_setScore .subScore{border-top:1px dashed #ccc;padding-top:10px}
+/*试卷管理列表zhang*/ 
+.test_paper_sort{height:33px;padding:0 0 0 10px;line-height:28px;background-color:#f4faf5;*margin-top:20px}
+.test_paper_sort p{color:#555}
+.test_paper_sort p em{width:14px;height:14px;overflow:hidden;margin-left:18px;display:inline-block;vertical-align:middle;background:url(../images/ico.png) no-repeat}
+.test_paper_sort p .up{background-position:-92px -372px}
+.test_paper_sort p .down{background-position:-92px -333px}
+.cont24 .alpha{position:relative}
+.problem_box .problem_r .problem_r_list{position:absolute;right:0;top:0;cursor:pointer;z-index:60}
+.problem_box .problem_r{position:relative}
+/*资料管理*/
+.teac_test_paper .formR{width:1075px;max-width:1075px}
+.teac_test_paper .schResult{position:absolute;top:5px;right:0}
+/*私信对话详情*/ 
+.dailogBar .headPic{float:right;margin-top:10px}
+.dailogBar .textareaBox{width:630px;float:left;position:relative;left:120px}
+.chat_list{width:572px}
+.send_list .send_text{margin-top:40px;margin-left:118px}
+.chat{width:572px;border:#e0e0e0 solid 1px;padding:19px 29px;margin-left:117px;margin-bottom:20px}
+.chat b{width:21px;height:20px;position:absolute;display:inline-block;top:1px}
+.chat .pic{width:80px;height:80px;position:absolute;top:0;right:11px}
+.chat .colse{width:10px;height:10px;cursor:pointer;position:absolute;background:url(../images/ico.png) no-repeat -95px -95px;right:9px;top:9px}
+.chat p{line-height:24px}
+.chat p span{float:left}
+.look{margin-bottom:60px}
+.chat .s_l{right:-21px;background:url(../images/input_ico.png) -883px 0;top:-1px}
+.chat .pic{right:-110px;top:-1px}
+.chatbf{background-color:#f8f8f8;margin-left:118px}
+.chatbf .s_r{left:-21px;top:-1px;background:url(../images/input_ico.png) -920px 0}
+.chatbf .picL{left:-110px;top:-1px}
+.look{margin-top:60px}
+.look_smiling_facer .prompt{position:relative}
+.look_smiling_facer .prompt .number{width:26px;display:inline-block}
+.look_smiling_facer .btn{margin-right:119px;margin-top:10px}
+.course_deta_list{margin-top:40px}
+/*上传作业*/ 
+.test_up{position:relative}
+.teac_up .teac_up_border{padding:10px 0}
+.teac_up_border .teacher_up_test span{margin-left:18px;color:#999}
+.teac_up .form_list .formR ul li{padding:0}
+.teac_up .form_list .formL label{line-height:35px}
+/*组织作业zhn*/ 
+.organ_class{height:60px;line-height:60px}
+.paper .addWork{position:absolute;right:0;top:0}
+/*通知*/ .notice .resultList{padding:20px 0 12px 0;border-bottom:1px solid #e7e7e7}
+.notice .resultList li{margin-right:10px}
+.notice .resultList li a{padding:0 20px}
+.notice .notice_list{margin-bottom:40px}
+.notice .notice_list li{line-height:33px;padding:0 10px 20px 10px;border-bottom:1px #ccc dashed;position:relative;width:98%}
+.notice .notice_list li p{padding-top:20px;width:700px;overflow: hidden;text-overflow: ellipsis;white-space: nowrap;}
+.notice .notice_list .notice_name{font-weight:bold;padding-top:20px}
+.notice .notice_list li .no_see a{position:relative;top:-10px}
+.notice .notice_list .notice_name em{margin-left:10px}
+.notice .notice_list .notice_time{position:absolute;top:21px;right:10px}
+.notice .notice_send_btn{position:absolute;top:55px;right:10px}
+.bg_gray_ll{background:#f4f4f4}
+.no_see{font-weight:bold}
+.notice .QA_cont_imgBox img{border:1px #ccc solid}
+.notice .QA_cont_imgBox{margin-top:10px}
+.notice .system_list li{padding-bottom:60px}
+/*作业列表zhn*/ .sup_box .sup_ul li{padding:20px 22px;margin-bottom:20px}
+.sup_box .sup_ul li .sup_l{width:600px;border-right:#ccc dotted 1px !important;margin:0}
+.sup_box .sup_ul li .sup_l h4{padding-bottom:20px;float:none;overflow:hidden;height:30px;text-overflow:ellipsis;width:590px;white-space:nowrap
+}
+.sup_box .sup_ul li .sup_l h4 i{width:auto;padding-right:10px;line-height:13px;height:18px}
+.sup_box .sup_ul li .sup_l dl dd span{display:inline-block}
+.sup_box .sup_ul li .sup_r{width:150px}
+.sup_box .sup_ul .sup_li{border:#ccc solid 1px}
+.sup_box .sup_ul li .sup_l dl dd em{vertical-align:top;color:#555;padding-right:10px;font-size:14px;display:inline-block}
+.sup_box .sup_ul li .sup_l dd .synopsis{width:486px;font-size:14px;color:#555;padding-bottom:8px}
+.sup_box .sup_ul li .schedule{padding-top:20px}
+/*.sup_box .sup_ul .this{border:#0098f0 solid 1px}*/
+.sup_box .sup_ul .sup_r{text-align:center}
+/*原.sup_box .sup_ul .sup_r .notice{background:none;color:#555 !important;border-radius:4px;margin-bottom:12px;border:#7bccff solid 1px;height:40px !important;line-height:40px !important}*/
+/*新改*/
+.sup_box .sup_ul .sup_r .notice{background:#10ade5;color:white !important;border-radius:4px;margin-bottom:12px;border:#7bccff solid 1px;height:40px !important;line-height:40px !important;}
+.sup_box .sup_ul .sup_r .sup_box em{color:#aaa}
+.sup_box .sup_ul .sup_r .notice:hover{color:#fff !important}
+.noJgBtn{background:none !important;color:#aaa !important;border:none !important}
+.noJgBtn:hover{border:none !important;background:none !important;color:#aaa !important}
+.no_padding_form_list .row{overflow:inherit}
+/*我的私信*/ 
+.msg_mine li{border-bottom:1px dashed #e7e7e7;position:relative}
+.msg_mine li img{float:left;margin:30px 20px 25px 0}
+.msg_mine li p{width:720px;margin-left:100px;line-height:33px}
+.msg_mine li p img{margin:0 !important;float:none !important}
+.msg_mine .bottom_tab{position:absolute;bottom:19px;right:10px}
+.msg_mine li p a{margin-left:5px}
+.msg_mine .notice_list{margin-bottom:40px}
+/*作业管理--作业详情 jw*/
+.work_detail .form_list .submitBtnBar button{margin-right:5px !important}
+.work_detail .studentList .chkLabel{margin:-3px 0 0 0}
+.work_detail .questionArea{border:1px solid #ddd;padding:20px;margin-left:20px}
+.work_detail .stu_item{padding-bottom:20px}
+.work_detail .submitBtnBar a{margin-right:5px}
+.work_detail .no_padding_form_list .row .formR{width:699px;line-height:35px}
+.work_detail .form_list .formR span{margin-right:20px}
+.work_detail .form_list .formL label{line-height:35px}
+.work_detailTab{border:none !important}
+.detailtabAllL .chkLabel{display:inline-block;vertical-align:middle;height:40px;line-height:40px;padding-left:18px;background-image:url(../images/ico.png);background-repeat:no-repeat;background-position:-132px -160px;margin-right:0}
+.work_detail .anser{font-size:18px;color:#111;height:52px;line-height:52px}
+.work_detail .tabList_border{width:100%}
+.work_detail .tabList_border .tabList{border-bottom:#E7E7E7 solid 1px}
+.work_detailtabAll{margin-top:20px;padding-left:4px}
+.work_detailtabAll .detailtabAllL{margin-right:24px}
+.work_detailtabAll a{color:#FFF}
+.Rowwork .resultList li:hover{background:none !important;color:red}
+.Rowwork .resultList li a:hover{color:#6cd685 !important}
+.Rowwork .resultList li.ac a{background:none !important;color:#6cd685 !important;font-weight:bold}
+.Rowwork .resultList li.ac{background:none !important;color:#fff !important}
+
+/*备课列表zhn*/ 
+ .tea_prepare .subTitle_s{margin:20px 0 0 0}
+.tea_prepare .integral i{width:19px;height:19px;overflow:hidden;text-align:center;line-height:19px;display:inline-block;background-color:#ffc309;color:#fff;border-radius:12px;vertical-align:middle}
+.tea_prepare .integral em{color:#26c14a;width:auto;height:19px !important;line-height:19px;background:none;margin-left:8px}
+.tea_prepare .integral em a{font-size:14px;color:#26c14a}
+.tea_prepare .form_list .formL label{line-height:38px;*line-height:normal;height:30px}
+.tea_prepare .teacprepare_list li{width:489px;padding:20px;height:60px;position:relative}
+.tea_prepare .teacprepare_list li dl{width:650px;float:left}
+.tea_prepare .teacprepare_list li dl dt{width:57px;height:60px}
+.tea_prepare .teacprepare_list li dl dt img{width:57px;height:57px}
+.tea_prepare .teacprepre_list li dl dd{padding-left:10px;width:280px}
+.tea_prepare .teacprepare_list li dl dd h4{margin-bottom:0}
+.tea_prepare .lesson_plan{width:60px;height:24px !important;line-height:24px !important;display:inline-block;color:#fff;font-size:13px;border-radius:20px !important;background-color:#0098f0 !important;text-align:center !important}
+.tea_prepare span{color:#777;font-size:13px}
+.tea_prepare .test_paper_sort p em{margin-left:18px}
+.test_paper_my{padding-left:2px}
+.test_paper_my .share{background:none !important;border:#6cd685 solid 1px !important;color:#6cd685 !important}
+.test_paper_my .share:hover{background:#6cd685 !important;color:#fff !important}
+.test_paper_my .batch{background-color:#ccc !important;color:#999 !important;border:#ddd solid 1px !important}
+.test_paper_my .batch:hover{background-color:#ccc !important;color:#999 !important}
+.tea_prepare .classList{vertical-align:middle;width:210px;height:30px;overflow:hidden;display:inline-block;white-space:nowrap;text-overflow:ellipsis}
+.tea_prepare .share{margin:0}
+.tea_prepare .classList a{margin-right:10px}
+.tea_prepare .classList a:hover{text-decoration:underline}
+.tea_prepare .teacprepare_list li .cek{position:absolute;right:-12px;top:-6px;z-index:100}
+.my_papers .collect .x{background-position:-85px -528px}
+.my_papers .collect .x:hover{background-position:-85px -488px}
+.my_papers .collect .x_ac{background-position:-85px -488px}
+.my_papers .read .f{background-position:-88px -611px}
+.my_papers .read .f:hover{background-position:-88px -571px}
+.paperStructureBox{position:relative;background:#e7ffed;border:#a6e3b4 solid 1px;padding:20px}
+.paperStructureBox button{position:absolute;right:20px;top:15px;color:#fff;height:36px;line-height:36px}
+.paperStructureBox h4{text-align:left;color:#444;font-size:14px;margin-bottom:10px}
+.paperStructure_list{height:auto;min-height:30px}
+.paperStructure_list li i{width:14px;height:14px;overflow:hidden;margin-left:4px;background:url(../images/ico.png) no-repeat -94px -94px}
+.paperStructure_list li button{position:static}
+.paperStructure_list .paperLi{height:28px;background-color:#fff;line-height:28px;margin-bottom:10px;width:100px;float:left;border:#ccc solid 1px;padding:0 12px;position:relative;margin-right:10px}
+.paperStructure_list .this{background:#a6e3b4}
+.paperStructure_list .paperLi em{width:10px;height:10px;position:absolute;right:2px;top:0;color:#ff7c62;cursor:pointer}
+.paperStructure_list .paperStructure_Btn{padding:0}
+
+/*答疑管理*/
+.answer_questions .subTitle_r{position:relative;left:18px}
+.answer_questions .make_testpaperList{padding-bottom:20px}
+.answer_questions .make_testpaperList .make_testpaperli{border-bottom:#ccc dashed 1px;padding-bottom:30px}
+.answer_questions .make_testpaperList .test_tite{height:35px;line-height:35px}
+.answer_questions .test_tite h4{font-size:16px;color:#111}
+.answer_questions .test_tite em{font-size:14px;color:#999}
+.answer_questions .testpaperBox{line-height:35px;color:#333;font-size:14px}
+.answer_questions .testpaperBox img{max-width:870px}
+.answer_questions .test_BoxBtn{margin-top:10px}
+.answer_questions .box_tab{width:98%;position:relative;left:-10px}
+.answer_questions .test_BoxBtn .comeFrom{font-size:14px;color:#ccc}
+.answer_questions .answer_testList{float:left;margin-right:20px}
+.answer_questions .answer_testList li{float:left;padding-right:5px}
+.answer_questions .box_btn a{font-size:14px;color:#555 !important}
+.answer_questions .answerBox{border-top:#e0e0e0 solid 1px;position:relative;margin-top:4px;display:none}
+.answer_questions .open_answer .answerW{display:block}
+/*显示答案*/ 
+.answer_questions .open_answer .answerM{display:none}
+.answer_questions .open_ask .answerW{display:none}
+/*显示回答*/
+
+ .answer_questions .open_ask .answerM{display:block}
+.answer_questions .answer_list{padding-top:18px}
+.answer_questions .answer_list li {
+	 padding-left:50px;margin-bottom:18px}
+.answer_questions .answer_list li .answer_listL{margin-left:-50px;float:left;margin-right:18px;position:relative}
+.answer_questions .answer_listR{width:800px}
+.answer_questions .answer_listR .answer_a em{color:#777;font-size:14px}
+.answer_questions .answer_listR .answer_a span{width:72px;height:22px;background-color:#ff9c6b;line-height:22px;font-size:12px;color:#fff;text-align:center;display:inline-block;border-radius:10px;margin-left:10px}
+.answer_questions .answer_listR .answer_a{font-size:14px;color:#111;margin-bottom:6px}
+.answer_questions .answer_listR .answer_a .put{background:none;color:#ff7c66;border:#ff9c6b solid 1px;cursor:pointer}
+.answer_questions .answer_listR .answer_a .put:hover{background-color:#ff9c6b;color:#fff}
+.BtnBox{margin-bottom:10px}
+/*文件详情页*/ 
+.teaching_plan{width:1054px;margin:0 auto}
+.teaching_plan .introduce_list{margin-top:20px;position:relative;width:1054px}
+.teaching_plan .introduce_list dt{position:absolute;left:1px;top:0}
+.teaching_plan .introduce_list dd{margin-left:48px;margin-top:3px;width:1000px;line-height:20px}
+.teaching_plan .read_div{margin-top:10px;margin-bottom:10px}
+.teaching_plan button{line-height:40px}
+.collectionbtn{color:#000 !important}
+/*答疑提问*/ 
+.AQ_ask .form_list li{margin-right:10px}
+.AQ_ask .form_list .formR{width:85%}
+.AQ_ask .replen_list{padding-left:10px;margin-top:20px;padding-bottom:30px;border-bottom:1px #ccc dashed}
+.AQ_ask .replen_list h4{margin:10px 0 12px 0}
+.AQ_ask .replen_list textarea{width:76% !important}
+.AQ_ask .btnArea{width:268px;position:absolute;top:40px;right:-75px}
+.submit_b{text-align:left}
+.submit_b .chkLabel{margin-left:10px;vertical-align:text-top}
+.make_testpaperli{margin-bottom:30px}
+/*错题详情*/ 
+.digitalFile p .correct{margin-right:10px}
+.digitalFile p .correct i{background:url(../images/ico.png) no-repeat;width:18px;height:12px;margin-left:6px}
+.digitalFile p .correct .right{background-position:-144px -894px}
+.digitalFile p .correct .wrong{background-position:-144px -854px}
+.digitalFile p .correct .half{background-position:-92px -1214px}
+.digitalFile .my_answer{margin-bottom:10px}
+.digitalFile p .correct{margin-right:10px;display:inline-block}
+.digitalFile p .correct i{background:url(../images/ico.png) no-repeat;width:18px;height:12px;margin-left:6px}
+.digitalFile p .correct .right{background-position:-144px -894px}
+.digitalFile p .correct .wrong{background-position:-144px -854px}
+.digitalFile p .correct .half{background-position:-92px -1214px}
+.digitalFile .my_answer{margin-bottom:10px}
+/*主页--文件详情页*/ 
+.docDetail .tabItem p span{display:inline-block;width:704px;margin-left:47px;margin-top:-25px}
+.docDetail .check_div{margin-left:47px;margin-top:10px;margin-bottom:20px}
+/*推送题目结果*/ 
+.bear_push .fruit{font-size:13px;color:#888;margin-bottom:10px}
+.bear_push .fruit em{color:#ff9000;font-size:14px;padding:0 4px}
+.title_box{position:relative}
+.title_box .fruit_listL{margin-top:40px;color:#718898}
+.title_box{height:190px;margin:0 34px}
+.title_box .fruit_listL h4{width:94px;color:#718898}
+.title_box .fruit_listL p{clear:both}
+.title_box .topic_detail{position:absolute;top:85px;left:-30px;z-index:20;width:820px;background:#fff;border:1px solid #ccc;padding:20px}
+
+.title_box .topic_detail .arrow{left:35px}
+.title_box .topic_detail .arrow_l{left:35px}
+.title_box .topic_detail .topic_detail_cont{max-height:300px;overflow:auto}
+.title_box .topic_detail_r{left:-460px}
+.title_box .topic_detail_r .arrow{left:470px}
+.fruit_list li{border-bottom:#ccc dashed 1px;margin-bottom:23px}
+.title_box .fruit_listL table{width:90px !important}
+/*题目推送结果*/ 
+.push_result .form_list .formR{width:870px}
+/*数据统计*/ 
+.statis_chart .echarts{width:100%;height:230px;padding-top:10px}
+.statistics .statistics_t{margin-bottom:60px}
+.statistics .statistics_t .tabList{height:40px;border-bottom:1px solid #ddd}
+.statistics .statistics_t .tabList li{float:left;height:40px;color:#1ababe;cursor:pointer;font-size:14px;text-align:center;line-height:32px}
+.statistics .statistics_t .tabList .this{background-color:#00cacf;color:#fff}
+.statistics .statistics_t .tabList .statistics_list{padding:20px 10px}
+.statistics .statistics_t .statistics_list ol{display:none}
+.statistics .statistics_t .statistics_list ol li{float:left;margin-right:60px;font-size:12px;color:#4e6bab;padding:10px 0;cursor:pointer}
+.statistics_t .nameList,.nameList2{padding:10px 30px;border:#ccc solid 1px;margin-bottom:20px;position:relative;margin-top:20px}
+.statistics_t .nameList h3,.nameList2 h3{font-size:16px;margin-bottom:20px;color:#333}
+.statistics_t .nameList dl{height:auto;line-height:18px;border:none}
+.statistics_t .nameList dl dd{float:left;padding:4px 30px;cursor:pointer}
+.statistics_t .nameList dl dd span{color:#718898;font-size:14px}
+.statistics_t .nameList dl .this{background-color:#6cd685}
+.statistics_t .nameList dl .this span{color:#fff}
+.statistics_t .nameList2 .naList{line-height:18px;border:none}
+.statistics_t .nameList2 .naList{padding:4px 0}
+.statistics_t .nameList2 .naList td{text-align:center;width:60px;height:24px;line-height:24px;padding:0 !important}
+.statistics_t .nameList2 .naList span{color:#718898;font-size:14px;width:60px;height:24px;
+ vertical-align:middle;overflow:hidden;display:inline-block;white-space:nowrap;text-overflow:ellipsis;cursor:pointer}
+.statistics_t .nameList .naList .this{background-color:#6cd685}
+.statistics_t .nameList .naList .this span{color:#fff}
+.statistics_t .nameList2 .naList .this{background-color:#6cd685;color:#fff}
+.statistics_t .nameList2 .naList .this span{color:#fff}
+.statistics_t .nameList .naListtye{padding-left:50px}
+.statistics_t .nameList .naListtye dt{margin-left:-50px;float:left;font-size:14px;position:relative;top:5px}
+.statistics_t .name_box .nameList{display:none}
+.statistics_t .name_box .nameList dd{padding:5px 20px}
+.statistics_t .name_box .nameList .ac{background-color:#6cd685}
+.statistics_t .name_box .nameList .ac span{color:#fff !important}
+.statistics_t .nameList .textName{position:absolute;top:10px;left:200px;cursor:pointer}
+.statistics_t .name_box .textName i{width:10px;height:6px;overflow:hidden;display:inline-block;background:url(../images/ico.png) no-repeat -65px -247px}
+/*熊孩子管理器*/
+.bear_children table{border-right:1px solid #ccc;border-bottom:1px solid #ccc}
+.bear_children table th{border-left:1px solid #ccc;border-top:1px solid #ccc;height:50px;background:#f6fff8}
+.bear_children table td{border-left:1px solid #ccc;border-top:1px solid #ccc}
+.bear_children table{width:870px;margin-top:15px}
+.bear_children table .em_ico{width:14px;height:14px;overflow:hidden;margin-left:5px;display:inline-block;vertical-align:middle;background:url(../images/ico.png) no-repeat -92px -812px;cursor:pointer;position:relative;top:-1px}
+.bear_children table .up{background-position:-92px -772px}
+.bear_children table .down{background-position:-52px -812px}
+.bear_children table td{text-align:center}
+.bear_children .tab{width:870px;margin-top:38px}
+.bear_children .tab .tabCont{border-left:none;border-right:none;border-bottom:none}
+.bear_children .tab .tabCont .tabItem{padding-left:0}
+/*答疑管理*/
+.answerBigBox{position:relative;top:10px}
+.answerBigBox .editor{margin-top:10px}
+/*查看批改*/ 
+.correctPaper{position:relative;border-bottom:20px}
+.correctPaper .titlr_r{position:absolute;right:0;top:8px}
+.test_class_this{text-align:center;height:112px;background-color:#e7ffed;line-height:112px;margin-top:20px}
+.test_class_this span{font-size:18px;color:#444;padding-left:18px}
+/*个人设置 jw*/
+.userSetup .title{margin-bottom:30px}
+.userSetup .form_list .row{ padding-bottom:20px}
+.userSetup .tabCont{border:none;border-top:1px solid #ddd;padding-top:30px}
+.userSetup .instructions{background:#eee;padding:20px;margin-bottom:30px}
+.change_pwd .form_list .formL label{width:100px}
+.picEditBar{width:462px;text-align:center}
+.picEditBar .default_pic{border:1px solid #ddd;margin-top:10px}
+.picEditBar .default_pic .imgBar{width:460px;margin:0 auto}
+.picEditBar .default_pic .imgBar img{display:block}
+.picEditBar .default_pic span{padding:20px 20px 10px;display:inline-block;text-align:justify}
+.picEditBar .btnBar{margin-top:30px}
+.pic_clipBar h5{margin:60px 20px 10px;color:#999}
+.pic_clipBar .clip_img{float:left;margin-left:18px;overflow:hidden}
+.pic_clipBar .clip_img230{width:230px;height:230px}
+.pic_clipBar .clip_img70{width:70px;height:70px}
+.pic_clipBar .clip_img50{width:50px;height:50px}
+.picEditBar .fileinput-button .uploading .file{width:352px;height:50px}
+/*教师-答疑统计*/
+.staticsBox .statics{padding-left:120px;padding-top:36px}
+.staticsBox .statics li{width:100px;height:115px;margin-right:80px;float:left}
+.staticsBox .statics li p{width:97px;height:73px;border:#b6eec4 solid 1px;border-radius:4px;background:#e7ffed;text-align:center}
+.staticsBox .statics li p em{width:34px;height:34px;display:inline-block;overflow:hidden;background:url(../images/new_sprite.png) no-repeat}
+.staticsBox .statics li .staticsT em{background-position:-182px -187px}
+.staticsBox .statics li .staticsH em{background-position:-345px -182px}
+.staticsBox .statics li .staticsC em{background-position:-266px -182px}
+.staticsBox .statics li .staticsBZ em{background-position:-425px -180px}
+.staticsBox .statics li span{display:block;text-align:center;margin-top:10px}
+.staticsBox .statics li b{display:block;font-size:14px;color:#3cba5a;line-height:20px;height:20px}
+.staticsBox .statics li .staticsB{width:97%;height:39px;display:block;font-weight:normal;font-size:22px;color:#777777;line-height:39px;text-align:center;border:#e3e3e3 solid 1px;border-top:none;position:relative;top:-2px}
+.staticsBox .statics .statics_each em{background-position:-182px -187px}
+.staticsBox .statics .statics_each em{background-position:-266px -182px}
+/*over状态*/
+ .staticsBox .statics .statics_over p{background-color:#6cd685}
+.staticsBox .statics .statics_over p b{color:#fff}
+.staticsBox .statics .statics_over .staticsT em{background-position:-182px -267px}
+.staticsBox .statics .statics_over .staticsH em{background-position:-344px -260px}
+.staticsBox .statics .statics_over .staticsC em{background-position:-266px -263px}
+.staticsBox .statics .statics_over .staticsBZ em{background-position:-425px -260px}
+.staticsBox .tabBox .tabList{border-bottom:#E7E7E7 solid 1px}
+.staticsBox .tabBox .tabCont{border:none}
+/*藤条棍*/ 
+.rattancent_list{border-bottom:#ccc dashed 1px}
+.rattancent_list_nobottom{border-bottom:0}
+.rattanBox .rattanR button{color:#555555 !important;font-size:14px !important}
+.rattanBox .rattanR .hover{background:#6cd685 !important;color:#fff !important;font-size:14px !important}
+.rattancent .rattanCent_t{padding:26px 0}
+.rattancent .rattanCent_t h3 span{color:#111111;font-size:16px}
+.rattancent .rattanCent_t h3 em{color:#6cd685;font-size:14px;cursor:pointer}
+.rattancent .rattanCent_h h4{line-height:32px;min-height:32px}
+.rattancent .rattanCent_h h4 span{color:#111111;font-size:14px}
+.rattancent .rattanCent_h h4 em{color:#ccc;font-size:14px;cursor:pointer}
+.rattancent .answerBox{border-top:#e0e0e0 solid 1px}
+.rattancent .rattanCbox .unfinished_list{width:auto !important}
+.rattancent .rattancent_cue{margin-top:12px}
+.rattancent .rattancent_cue .rattancent_l{color:#999}
+.rattancent .tabox{max-width:830px;max-height:243px;overflow:auto;margin-top:10px}
+.rattancent .tabox .unfinished_list td{padding:0}
+.rattancent .tabox .unfinished_list th{white-space:nowrap}
+.rattancent .tabox .unfinished_list td{white-space:nowrap;padding:0 10px}
+.rattanCent_t .centH3 em b{background:url(../images/ico.png) no-repeat -12px -1054px;width:12px;height:12px;display:inline-block}
+.rattanCent_h h4 b{background:url(../images/ico.png) no-repeat -13px -214px;width:12px;height:8px;display:inline-block}
+.rattancent .test_achievement_foot{border-bottom:none}
+.rattancent{margin-top:20px}
+.rattancent .tab .tabCont{border:none}
+.rattancent_cue span{position:relative;top:20px}
+/*我的随笔 jw*/ 
+.myEssay .title{margin-bottom:30px}
+.myEssay .essayList{padding:30px 0 0 40px;position:relative}
+.myEssay .essayList dt{position:absolute;left:0;top:0;height:30px;line-height:30px;width:80px;text-align:center;color:#fff;border-radius:20px;background:#42bfef}
+.myEssay .essayList dd{border-left:2px solid #ddd;padding:30px 0 30px 30px}
+.myEssay .essayList dd h5{font-size:18px;color:#000;padding-bottom:10px}
+.myEssay .essayList dd h5 a{display:inline-block;vertical-align:middle;height:20px;width:24px;background:url(../images/ico.png) -44px -330px}
+.myEssay .essayList dd h5 a:hover{background-position:-84px -290px}
+.myEssay .essayList dd .essayCont{border:1px solid #ddd;padding:20px;border-radius:5px;position:relative}
+.myEssay .essayList dd .essayCont .widget_select{position:absolute;top:54px;left:226px}
+.myEssay .essayList dd .essayStateBar{position:absolute;top:10px;right:10px}
+.myEssay .essayList dd .essayStateBar span{display:inline-block;width:50px;height:50px;text-align:center;color:#999;font-size:12px}
+.myEssay .essayList dd .essayStateBar span i{width:50px;height:30px;background:url(../images/ico.png) no-repeat}
+.myEssay .essayList dd .essayStateBar .support{cursor:pointer}
+.myEssay .essayList dd .essayStateBar .support i{background-position:-34px -1601px}
+.myEssay .essayList dd .essayStateBar .onSupport{cursor:default}
+.myEssay .essayList dd .essayStateBar .support i:hover,.myEssay .essayList dd .essayStateBar .onSupport i{background-position:6px -1601px}
+.myEssay .essayList dd .essayStateBar .comment i{background-position:-116px -1639px}
+.myEssay .essayList dd .essayCont hr{margin-top:20px}
+.myEssay .essayList dd .essayCont .expandComment{display:block;width:80px;height:24px;cursor:pointer;color:#6cd685;background:#fff;margin-top:-15px}
+.myEssay .essayList dd .essayCont .expandComment i{background:url(../images/ico.png) no-repeat -10px -1054px;height:15px;width:15px}
+.myEssay .essayList dd .essayCont .expandComment_open i{background-position:-9px -1814px}
+.myEssay .essayCommentList{padding-top:10px}
+.myEssay .essayCommentList li{padding:10px 0 10px 70px;border-top:1px dashed #ddd}
+.myEssay .essayCommentList li h6 a{color:#0098f0}
+.myEssay .essayCommentList li .headPic{float:left;margin-left:-70px}
+.myEssay .essayCommentList li .toolBar{height:40px;line-height:40px}
+.myEssay .essayCommentList li .toolBar span{cursor:pointer;color:#0098f0}
+.myEssay .essayCommentList li .toolBar span:hover{color:red !important}
+.myEssay .essayCommentList li .toolBar .report{position:absolute;top:3px;right:70px}
+.myEssay .essayCommentList li .toolBar .reply,.myEssay .essayCommentList li .toolBar .delComment{position:absolute;width:63px;top:3px;right:0;text-align:right}
+.myEssay .essayCommentList li .toolBar .reply i{width:35px;height:15px;background:url(../images/ico.png) no-repeat 4px -1774px}
+.myEssay .essayCommentList li .reply_textareaBar{border-top:1px solid #ddd;padding-left:70px}
+.myEssay .essayCommentList li .reply_textareaBar textarea{border-radius:3px}
+.myEssay .essayCommentList li .reply_textareaBar .headPic{margin-top:10px}
+.myEssay .essayCommentList li .subRelayList li{border-top:1px solid #ccc}
+.myEssay .essayCommentList li .subRelayList li .delSubComment{position:absolute;top:3px;right:70px}
+.myEssay .moreEssay{border:1px solid #42bfef;height:30px;width:80px;line-height:30px;text-align:center;color:#42bfef;border-radius:20px;cursor:pointer}
+.myEssay .moreEssay:hover{color:#fff;border:1px solid #c0e6ff;background:#c0e6ff}
+.myEssay .noMoreEssay{background:#ddd !important;border:1px solid #ddd !important;color:#999 !important;cursor:default}
+/*教师个人中心slg*/ 
+.personal_center .personal_top{width:100%;height:160px;background:#f4faf5;text-align:center}
+.personal_center .personal_top li{display:inline-block;width:98px;height:98px;border:1px dashed #6cd685;border-radius:4px;*float:left;margin:0 30px;margin-top:30px}
+.personal_center .personal_top li a{display:inline-block;width:92px;height:92px}
+.personal_center .personal_top .Notice i{background:url(../images/ico.png) no-repeat -4px -1564px;width:32px;height:30px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .Notice a{color:#6cd685;display:block;overflow:hidden;height:98px}
+.personal_center .personal_top .Upload i{background:url(../images/ico.png) no-repeat -84px -1565px;width:32px;height:31px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .Upload a{color:#6cd685;display:block;overflow:hidden;height:98px}
+.personal_center .personal_top .Homework i{background:url(../images/ico.png) no-repeat -44px -1524px;width:32px;height:31px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .Homework a{color:#6cd685;display:block;overflow:hidden;height:98px}
+.personal_center .personal_top .Topic i{background:url(../images/ico.png) no-repeat -83px -1524px;width:32px;height:32px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .Topic a{color:#6cd685;display:block;overflow:hidden;height:98px}
+.personal_center .personal_top .question i{background:url(../images/ico.png) no-repeat -2px -1644px;width:36px;height:32px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .question a{color:#6cd685;display:block;overflow:hidden;height:98px}
+.personal_center .personal_top li:hover{background:#6cd685}
+.personal_center .personal_top li:hover a{color:white !important}
+
+.personal_center .personal_top .Notice:hover i{background:url(../images/ico.png) no-repeat -43px -1564px;width:32px;height:30px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .Upload:hover i{background:url(../images/ico.png) no-repeat -124px -1565px;width:32px;height:31px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .Homework:hover i{background:url(../images/ico.png) no-repeat -4px -1524px;width:32px;height:31px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .Topic:hover i{background:url(../images/ico.png) no-repeat -123px -1523px;width:32px;height:32px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .personal_top .question:hover i{background:url(../images/ico.png) no-repeat -42px -1644px;width:36px;height:32px;display:inline-block;margin:20px 36px 13px 30px}
+.personal_center .myMsg,.personal_center .myClasses,.personal_center .myPractice,.personal_center .myQuestion{margin-top:45px}
+.personal_center .myMsg .title,.personal_center .myClasses .title,.personal_center .myPractice .title,.personal_center .myQuestion .title{background:#f4faf5;border-bottom:none}
+.personal_center .myMsg .title h4,.personal_center .myClasses .title h4,.personal_center .myPractice .title h4,.personal_center .myQuestion .title h4{font-size:16px;text-indent:10px}
+.personal_center .myMsg_notice .title h4{text-indent:0}
+.personal_center .myMsg .widget_select{position:absolute;left:85px;top:14px;z-index:7}
+.personal_center .myMsg .widget_select ul li{height:24px}
+.personal_center .myMsg .tab{margin-top:20px}
+.personal_center .myMsg .tabList a{width:100px;height:90px;text-align:center;background:none;border:none;position:relative}
+.personal_center .myMsg .tabList a i{display:block;width:44px;margin:0 auto;height:70px;background:url(../images/ico.png)}
+.personal_center .myMsg .tabList .notes i{background-position:-20px -1280px}
+.personal_center .myMsg .tabList .notes:hover i{background-position:-100px -1280px}
+.personal_center .myMsg .tabList a:hover,.personal_center .myMsg .tabList .ac{background:none}
+.personal_center .myMsg .tabList a b{position:absolute;width:26px;height:26px;background:url(../images/ico.png) no-repeat -7px -1087px;color:#fff;text-align:center;line-height:26px;font-size:12px;top:5px;right:25px}
+.personal_center .myMsg .tabList .over99 b{background-position:-7px -1127px;text-indent:-999px;overflow:hidden}
+.personal_center .myMsg .tabCont{margin-top:20px;border:none;border-top:1px solid #ddd}
+.personal_center .myMsg .tabList .sysMsg i{background-position:-100px -1435px}
+.personal_center .myMsg .tabList .sysMsg:hover i{background-position:-20px -1435px}
+.personal_center .myMsg .tabList .letter i{background-position:-20px -1353px}
+.personal_center .myMsg .tabList .letter:hover i{background-position:-100px -1353px}
+.personal_center .myMsg .myMsg_notice .title{background:none;margin-right:-10px}
+.personal_center .myMsg .myMsg_notice,.myMsg_letter{margin-left:-30px}
+.personal_center .myMsg .myMsg_notice li p{line-height:30px}
+.personal_center .myMsg .myMsg_notice li{border-bottom:1px dashed #ddd;margin-left:12px}
+.personal_center .myMsg .myMsg_notice .notice_h4{line-height:20px}
+.personal_center .myMsg .myMsg_notice .notice_r{margin-top:-15px}
+.personal_center .myMsg .myMsg_letter dl{padding-left:110px;margin-top:20px;border-bottom:1px dashed #d7d7d7;padding-bottom:22px}
+.personal_center .myMsg .myMsg_letter dl dt{float:left;margin-left:-100px}
+.personal_center .myMsg .myMsg_letter dl dd{line-height:30px}
+/*备课*/
+ .personal_center .myClasses ul li{border:1px solid #ccc;margin-top:30px}
+.personal_center .myClasses dl{position:relative;margin:0 15px 30px 14px;height:57px;border-bottom:1px dashed #d7d7d7;padding-bottom:20px}
+.personal_center .myClasses .myFile{border:1px dashed #d7d7d7;width:95px;text-align:center;margin-right:0;line-height:30px;margin-left:772px}
+.personal_center .myClasses .pr{border-bottom:0;padding-bottom:0}
+.personal_center .myClasses dl h4{margin-bottom:14px}
+.personal_center .myClasses dl h4 a{color:#333;width:333px;overflow:hidden;display:inline-block;text-overflow:ellipsis;white-space:nowrap;font-size:14px;text-indent:12px}
+.personal_center .myClasses .lesson_plan{width:60px;height:24px !important;line-height:24px !important;display:inline-block;color:#fff;font-size:13px;margin-left:15px;border-radius:20px !important;background-color:#0098f0 !important}
+.personal_center .myClasses span{margin-left:15px}
+/*作业*/ 
+.personal_center .myHomework,.personal_center .myPractice .titlePush_main,.personal_center .myQuestion .make_testpaper{border:1px solid #d7d7d7;margin-top:31px}
+.personal_center .myHomework .sup_ul .sup_li{border:none}
+.personal_center .myHomework .sup_ul .add_list{padding-top:50px;border-bottom:1px dashed #e5e5e5;margin:0 10px 0 10px}
+.personal_center .myHomework .sup_ul li .sup_l{border-right:none !important}
+.personal_center .myHomework .sup_ul li .sup_l h4{padding-bottom:0;float:none;margin-top:-25px}
+.personal_center .myHomework .sup_ul li .sup_l h4 a{white-space:nowrap}
+.personal_center .myHomework .sup_ul li .sup_l h4 a .gray_d{width:0;display:none}
+.personal_center .myPractice .titlePush_main li.noBorder{border-bottom:0}
+/*练一练*/ .personal_center .myPractice .titlePush_main li{border:none;padding-top:10px;padding-left:24px}
+.personal_center .myPractice .titlePush_main .pr{border-bottom:0}
+.personal_center .myPractice .notice{background:none;color:#555 !important;border-radius:4px;margin-bottom:12px;border:#7bccff solid 1px;height:40px !important;line-height:40px !important;margin-left:660px;margin-top:-68px}
+.personal_center .myPractice .notice:hover{color:#fff !important}
+.personal_center .myPractice ul{margin-bottom:0}
+/*答疑*/
+.personal_center .myQuestion .make_testpaper{padding:34px 15px 0 25px}
+.personal_center .myQuestion .make_testpaperli{border:none;margin:0}
+.personal_center .myQuestion .answer_listR{width:760px}
+/*积分排行ljr*/ 
+.video_library{padding:0 30px}
+.cont24 .mainbox_r{width:930px}
+.no_padding_form_list .subTitle_s{padding-top:10px}
+/*课件库增加章节ljr*/ .problem_box .cont24 .alpha{width:240px}
+.problem_rgt{float:left;width:870px}
+/*我的收藏ljr*/
+.my_collection .teacprepare_list li{width:489px;padding:20px;height:60px;position:relative}
+.noleft .problem_rgt{float:none;width:100%}
+/*作业管理ljr*/
+.popContbox{padding:10px 0 23px}
+.main_datels{width:100% !important}
+.popBox .form_work_pre{padding-top:10px}
+.popBox .form_work_pre .row{padding-bottom:0}
+.popBox .form_work_pre .row .formL{padding:14px 20px 0 10px;color:#3BAEF3}
+.myclass_table{width:490px;padding-bottom:10px;line-height:30px}
+.popBox .form_workcon .formR_text .myclass_table{padding-bottom:18px !important}
+.myclass_table.ac dd i{display:block;display:inline-block;position:relative;right:21px;visibility:visible}
+.myclass_table dt{width:145px;height:40px;text-align:center;line-height:40px;float:left}
+.myclass_table dt input{float:left;margin:13px 3px}
+.myclass_table dt span{float:left;width:120px;height:40px;cursor:pointer;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;word-wrap:normal}
+.ac dt{background:#4EBBFF;color:#fff}
+.myclass_table dd{margin-left:206px}
+.myclass_table dd .date_bj{position:relative;top:-2px}
+.myclass_table dd .edit_box{width:160px;height:36px;padding-left:5px}
+.myclass_table dd i{background:url(../images/strp.png) no-repeat;visibility:hidden;margin:8px -27px 0 0}
+.work_reccon span{color:#889ba8;padding-right:18px;float:left}
+.work_reccon em{float:left}
+.layou_btn{position:absolute;top:40px;right:17px;}
+.layou_btn .sup_box{width:122px;height:42px;margin:-21px 0 0 20px}
+.form_workcon{padding:0 0 10px 0 !important;border-bottom:1px solid #EEE}
+.form_workcon .row .formR_text{padding-top:10px !important}
+.form_workcon .row .formL{padding-top:8px !important}
+.form_workcon .myclass_table .ac{background:none !important}
+.form_workcon .myclass_tablebox dt span{cursor:auto}
+/*题目管理ljr*/ 
+.schResult .testPaperView .paperArea .paper .paper_r .error_correction{color:#0098f0 !important}
+.testPaperView .paperArea .paper{position:relative}
+.testPaperView .paperArea .paper .paper_r .error_correction{color:#0098f0 !important}
+.testPaperView .paperArea #update .paper .error_correction{color:#0098f0 !important;position:relative;left:670px;top:4px}
+.new_tch_group .form_list .formR textarea{width:363px !important;margin-left:-5px !important;height:120px !important}
+.textareaBox .btnArea{height:30px;position:relative;margin-top:10px;right:3px}
+.textareaBox{height:180px}
+.textareaBox .txtCount{position:absolute;right:110px;top:3px;color:#ccc}
+.popBox .form_list .formL .face_pic{position:relative;top:14px;right:25px}
+.popBox .form_list .formR_text{line-height:24px;padding:10px 20px 0 0}
+.popBox .form_list .work_row{padding-left:80px}
+.popBox .work_form_list{padding:20px 0 30px 0}
+.popBox .topic_opt{max-width:452px !important}
+.popBox .topic_opt .chkLabel{padding-left:28px}
+.popBox .form_list .work_face{padding-top:14px}
+/*作业库ljr*/ 
+.tab .tabCont .work_tabitem{padding:10px 17px 20px 18px}
+.work_teacher{margin-top:0 !important}
+.tabItem .work_teacher li dl dd{width:260px !important}
+.share_work{float:left;position:relative;left:94px;padding-top:3px}
+.share_work input{position:relative;right:3px}
+.btn_work{margin-right:118px}
+
+.cont24 .problemBox .grid_5{width:248px;padding:0 6px 0 6px}
+.cont24 .problemBox .problem_r .teacher_tablist{width:100%}
+.cont24 .problemBox .problem_r{width:850px;overflow:hidden}
+.cont24 .tchorg_Cont .problem_r{width:850px;overflow:hidden}
+.cont24 .tchorg_Cont .grid_5{width:248px;padding:0 6px 0 6px}
+/*教师作业详情增加样式ljr*/
+.tch_suggestion{margin:30px 0 0 0;border-top:1px solid #dcdcdc}
+.tch_suggestion .titles{height:40px;line-height:40px;background:#E7FFED;padding-left:20px;font-size:16px;color:#52BE73}
+.tch_suggestion .titles i{background:url(../images/ico.png) -49px -1810px;padding-right:10px;width:18px;height:20px}
+.tch_suggestion .row{margin-top:30px;width:870px;position:relative}
+.tch_suggestion .row .formL{float:left}
+.tch_suggestion .row .formR{overflow:hidden;padding-left:15px}
+.tch_suggestion .row .add_txt{width:714px;height:109px;border:1px solid #CCC !important}
+.tch_suggestion .row .limit{position:absolute;right:50px}
+.tch_suggestion .row .btn_Submit{margin:20px 0 0 90px}
+/*作业批改ljr*/ 
+.correct_workcon{padding-top:30px}
+.correct_workcon .tab{border-bottom:1px solid #E7E7E7}
+.left_correct dl:hover{background:#D2EDFF;padding-bottom:5px !important}
+.left_correct dl.cur{background:#D2EDFF;padding-bottom:5px !important}
+/*按题批改ljr*/
+.questionscon .right_correct .correctPaper{margin-top:0}
+.questionscon .left_correct dl dt{width:50px;height:50px;font-size:30px;color:#889BA8;line-height:50px;text-align:center}
+.questionscon .left_correct dl dd .accuracy{color:#78C9FE}
+.questionscon .left_correct dl dd .accuracy em{font-size:18px;color:#78C9FE}
+.questionscon .left_correct dl:hover{background:#D2EDFF}
+/*作业统计ljr*/
+.statistics_cont .zyname{text-align:center;padding:20px 0 20px 0}
+.statistics_cont .tab .tabCont{border-left:0;border-right:0;border-bottom:0}
+.statistics_cont .tab .tabCont .tabItem{padding:20px 0 20px 0;width:980px}
+.statistics_cont .statistics_item{width:870px;border-bottom:1px dashed #E0E0E0;margin:0 20px 20px 0;padding-bottom:20px}
+.statistics_cont .statistics_item h6{color:#78D98F;font-size:18px;background:url(../images/ico.png) no-repeat -137px -2088px;padding-left:15px}
+.statistics_cont .statistics_item p{padding:20px 0 0 0;font-size:18px}
+.statistics_cont .statistics_item p em{font-size:30px;color:#1DD149}
+.statistics_cont .statistics_item .tj{font-size:16px;margin:20px 0 20px 0}
+.statistics_cont .statistics_item .noend{width:825px;height:190px;background:#E7FFED;text-align:center;line-height:190px;font-size:18px;margin-top:10px;margin:20px 0 0 0}
+.statistics_cont .statistics_item .noendList{overflow:hidden}
+.statistics_cont .statistics_item .noendList li{text-overflow:ellipsis;white-space:nowrap;overflow:hidden;float:left;width:135px;padding:0 10px 10px 0}
+.statistics_cont .statistics_item .noendList .notName{color:#E87E90}
+/*学生统计ljr*/ 
+.statistics_item .pepList{width:850px;height:80px;border:1px solid #ccc;margin-top:20px;padding:10px;position:relative}
+.statistics_item .pepList span{font-size:30px;color:#50BBFF;position:absolute}
+.con{width:870px;margin:0 auto;padding:20px 0 0 0}
+.u_list{border:solid 1px #D7D7D7;padding:20px 8px 20px 20px;position:relative;height:50px;margin-bottom:20px}
+.u_list .u_left{position:absolute;width:190px;left:20px;top:20px}
+.u_list .u_left .num{color:#4EBBFF;height:50px;line-height:50px;float:left;width:54px;font-size:30px}
+.u_list .u_left .u_info{float:left;width:135px}
+.u_list .u_left .u_info .headimg{float:left;width:50px;height:50px;overflow:hidden}
+.u_list .u_left .u_info .headimg img{max-height:50px;max-width:50px}
+.u_list .u_left .u_info .u_name_per{float:left;margin-left:7px}
+.u_list .u_left .u_info .u_name_per p.name{line-height:27px;height:27px;overflow:hidden;font-size:14px;padding:0}
+.u_list .u_left .u_info .u_name_per p.per{line-height:24px;height:24px;overflow:hidden;color:#6CD685;font-size:18px;padding:0}
+.u_list .u_right{margin-left:216px;height:38px;overflow:hidden;position:relative;margin-top:8px}
+.u_list .u_right .btn_g{position:absolute;right:0;width:12px;top:8px}
+.u_list .u_right .btn_g a{cursor:pointer;width:13px;height:8px;display:block;background:url(../images/ico.png) no-repeat;margin-bottom:8px;overflow:hidden}
+.u_list .u_right .btn_g a.prev{background-position:0 -2455px}
+.u_list .u_right .btn_g a.next{background-position:0 -2446px}
+.u_list .u_right .btn_g a.prev.stop{background-position:0 -2425px}
+.u_list .u_right .btn_g a.next.stop{background-position:0 -2417px}
+.u_list .u_right .u_right_list{margin-right:12px;position:relative}
+.u_list .u_right .u_right_list .content{display:none}
+.u_list .u_right .u_right_list a{float:left;margin:0 20px 20px 0;width:36px;height:36px;text-align:center;line-height:36px;border:solid 1px #48C977;border-radius:50%;position:relative;font-size:18px}
+.u_list .u_right .u_right_list a i{display:block;position:absolute;width:16px;height:13px;background:url(../images/ico.png) no-repeat;background-color:#fff;top:20px;right:-9px}
+.u_list .u_right .u_right_list a.state1{border-color:#6CD685;color:#6CD685}
+.u_list .u_right .u_right_list a.state1 i{background-position:-12px -1213px}
+.u_list .u_right .u_right_list a.state2{border-color:#DBAD71;color:#DBAD71}
+.u_list .u_right .u_right_list a.state2 i{background-position:-92px -1214px}
+.u_list .u_right .u_right_list a.state3{border-color:#FF7B61;color:#FF7B61}
+.u_list .u_right .u_right_list a.state3 i{background-position:-13px -1173px;width:14px;height:14px;right:-8px;top:18px}
+.original_num{position:absolute;right:0;top:20px;width:540px;border:1px solid #ccc;min-height:200px;background:#fff;border-radius:5px;padding:20px 15px 15px;box-shadow:1px 1px 1px 1px #ccc}
+.original_num .v_r_arrow{position:absolute;width:20px;height:13px;top:-11px;left:106px;background:url(../images/ico.png) no-repeat -130px -54px}
+.layer_right .v_r_arrow{left:408px}
+.original_num .close_box{position:absolute;right:10px;top:5px;font-size:18px;color:#555;cursor:pointer;z-index:10}
+
+/*教师个人中心作业列表修改 管宁宁2016-04-27  */
+.teacher .sup_li .monthbox {padding-right: 3px;border-top:1px dashed #7ecef4;margin-top: 20px;position: relative;}
+.teacher .sup_li .monthbox .floatLayer{position: absolute;left: 0;top: 0;width: 70px;z-index: 5;display: none}
+.teacher .sup_li .monthbox .floatLayer a{display: block;width: 70px;height: 28px;line-height: 28px;color: white;text-align: center;background:#6cd685;}
+.teacher .sup_li .monthbox .floatLayer a i{display:inline-block;width:20px;height:20px;background: url("../images/ico_guan.png") no-repeat;}
+.teacher .sup_li .monthbox .floatLayer a.edit i{background-position:-60px -518px;margin-right: 2px;}
+.teacher .sup_li .monthbox .floatLayer a.delete{border-top: 1px solid #53c86f;border-bottom-left-radius: 5px;border-bottom-right-radius: 5px;}
+.teacher .sup_li .monthbox .floatLayer a.delete i{background-position:-99px -519px;margin-right: 4px;}
+.teacher .sup_li .monthbox:hover{background: #f5f5f5;}
+.teacher .sup_li .monthbox .worklist li{margin-bottom: 0;}
+.teacher .sup_li .monthbox:hover .floatLayer{display: block;}
+.teacher .sup_li .monthbox ul.worklist li{padding:25px 0 7px 0;/*border-bottom:1px solid #DCDCDC;*/}
+.teacher .sup_li .monthbox ul.worklist .work_notop{padding-top: 0;}
+.teacher .sup_li .monthbox ul.worklist li .work_left{float: left}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_top{/*border-bottom: dotted 1px #7DCFF5;width: 802px;*/padding-bottom: 24px;}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_top .work_img{float: left;width: 45px;height: 52px;background:url(../images/ico_guan.png) no-repeat;}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_top .word{background-position:-600px -200px;}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_top .picture{background-position:-440px -200px;}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_top .work_img img{max-width: 45px;max-height: 52px;}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_top .work_info {float: left;padding-left: 17px;/*width: 740px;*/}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_top .work_info .work_title{/*width: 700px;*/ white-space: nowrap;overflow: hidden; text-overflow:ellipsis;}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_bottom {/*padding-top: 25px;*/}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_bottom .progress{float: left;/*padding-left: 60px;*/}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_bottom .progress li{line-height: 14px;overflow: hidden;border-bottom: 0px;padding: 0px;}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_bottom .progress li span{float: left;margin-right: 8px;margin-bottom: 16px;}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_bottom .progress li .progress_outer{float: left;width: 300px;border-radius: 10px;height: 14px;overflow: hidden;background: #E5E5E5}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_bottom .progress li .progress_outer .progress_inner{border-radius: 10px;height: 14px;overflow: hidden;background: #CCB3DD}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_bottom .progress li label{float: left;padding-left: 16px}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_bottom .accuracy{float: left;margin:10px 0 0 62px;}
+.teacher .sup_li .monthbox ul.worklist li .work_left .work_bottom .accuracy em.per{font-size: 34px;color: #666;}
+.teacher .sup_li .monthbox ul.worklist li .work_right{float:right;height: 146px;/*border-left: solid 1px #F5F5F5;padding-left: 24px*/}
+.teacher .sup_li .monthbox ul.worklist li .work_right .oper{float: left;/*margin-left: 24px;*/}
+.teacher .sup_li .monthbox ul.worklist li .work_right .oper .btn{display: block; margin-bottom:9px;border: 1px solid #ccc;color: #10ade5 !important;min-width: 90px;padding: 0 10px;}
+.teacher .sup_li .monthbox ul.worklist li .work_right .oper i{margin-top: 1px;margin-right: 5px;display:inline-block;vertical-align: middle;height: 20px;width: 20px;line-height: 30px;background-image: url(../images/ico_guan.png);}
+.teacher .sup_li .monthbox ul.worklist li .work_right .oper a.icoBtn_book i{background-position: -460px -641px;}
+.teacher .sup_li .monthbox ul.worklist li .work_right .oper a.icoBtn_gou i{background-position: -301px -601px;}
+.teacher .sup_li .monthbox ul.worklist li .work_right .oper a.icoBtn_result i{background-position: -140px -600px;}
+.teacher .sup_li .monthbox ul.worklist li .work_right .oper a.btn_disable {color: #fff !important;background: #ccc !important;cursor: not-allowed;}
+.teacher .sup_li .monthbox ul.worklist li .work_right .oper a.btn_disable i{background:url("../images/ico_guan_hover.png") no-repeat -460px -641px;}

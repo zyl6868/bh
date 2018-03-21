@@ -1,0 +1,260 @@
+﻿.school_name{ height: 100px; background: #fff}
+.currency_hg {height: 60px;}
+.container .item{ background: #fff; margin-bottom: 18px}
+.gobackBtn{position: absolute;top: 15px;left: 0;}
+
+/*头部*/
+.head h1{float:left;width:240px;height:60px; font-size: 16px; line-height: 60px;color: #fff; text-indent: 0; background:url(../images/new_sprite.png)-200px -633px no-repeat; padding-left: 160px  }
+.head .userCenter img{width: 40px;height: 40px;border-radius: 50%;margin-right: 10px;vertical-align: middle}
+.head .userCenter,.logoff{ color: #fff; margin-left: 20px}
+.school_name{ height: 100px; background: #fff; margin-top: 18px}
+.school_name h3{ height: 100px; line-height: 100px; font-size: 24px; text-align: center}
+.currency_hg {height: 60px;}
+/*导航*/
+.class_nav{height:60px; position:relative; overflow:hidden; margin-top: 18px}
+.class_nav_list{position:relative; float:left; top:18px; left:50%}
+.class_nav_list li{float:left; position:relative; margin:0 50px; left:-50%}
+.class_nav_opacity{width:100%; position:absolute; top:0; left:0; height:60px;background:#fff;opacity:0.8;filter:Alpha(opacity=80)}
+.class_nav_list li a{display:block; width:95px; text-align:center; line-height:22px; height:22px; font-size:14px; color:#333;}
+.class_nav_list .ac a{background: #11ADE6;border-radius: 3px;color: #fff}
+
+/*学科 年级 类型 单选*/
+.classes_file_list{position: relative;}
+.classes_file_list a{color: #888}
+.classes_file_list a.sel_ac{ font-weight: bold; color: #333}
+.classes_file_list .form_l{ width: 70px;}
+.classes_file_list .form_r{ margin-left: 70px}
+.classes_file_list ul{ width: 90%}
+.classes_file_list ul li{float: left;padding-right: 25px;}
+.classes_file_list .moreContShow{width: 780px;position: relative;}
+/*.classes_file_list .put_qust_btn{position: absolute; right: 0;top:7px;}*/
+/*选择考试*/
+.sel_test_bar{ background: #fff;}
+.sel_test_bar .sUI_formList{ padding:10px 0 0 0}
+.sel_test_bar a{ color: #888}
+.sel_test_bar .sel_ac{ font-weight: bold; color:#333}
+.sel_test_bar .testList li{ float: left; margin-right: 10px}
+
+
+.sch_subject_list ul li{border:1px solid #8CDF99;margin-right: 10px;padding:0 7px}
+.sch_subject_list ul .all_subject{ border-width: 0}
+.sch_subject_list ul li a{text-align: center; color: #888}
+.title_pannel{border-bottom: 1px dashed #7ECDF6;}
+
+
+
+
+
+/*选择课程 select*/
+.sel_classes{ position: relative}
+.sel_classes h5{ height: 30px; line-height: 30px; color: #10ADE5;font-size:16px;}
+.sel_classes button{ position: absolute; top:15px; right: 10px}
+.sel_classes .sch_mag_homes{ position: absolute; top:55px; left: -1px; width: 230px; background: #fff; border: 1px solid #f5f5f5; padding: 15px; z-index: 10}
+.sch_mag_homes dl{ clear: both; overflow: hidden; padding-bottom: 5px}
+.sch_mag_homes dt:hover{cursor: pointer;color: #7ECEF4}
+.sch_mag_homes dd{ float: left; color: #888; margin-right: 10px; cursor: pointer}
+.sch_mag_homes dd:hover{ color: #333}
+.sch_mag_homes dd.sel_ac{ color: #10ADE5}
+.currency_hg .favbar{line-height: 60px;margin-right: 25px;}
+.currency_hg .favbar a {color: #333;}
+
+/*学校人员管理-教师*/
+.left_menu{float: left;width: 260px;background: #fff}
+.left_menu li{border-bottom: solid 1px #F5F5F5;}
+.tch_detail{padding-left: 25px;line-height: 60px}
+.left_menu li a{ display:block; text-indent:-4px;color: #666;height: 40px;line-height: 40px;text-align: center; border-left: 4px solid #fff}
+.left_menu li .cur{display: block; border-left: 4px solid #10ADE5;color:#11AEE5;}
+
+
+.test_title{height: 60px; line-height: 60px; text-align: center; font-size: 16px}
+.echarts_bar .tabItem{ padding: 0}
+.echarts_bar .title_pannel{ border-bottom: 1px dashed #10ADE5; padding-bottom:6px}
+.echarts_bar .echarts_item{ background: #fff; /*margin-bottom: 18px;*/ padding: 10px 25px 28px 25px;}
+.echarts_bar .echarts_item h5{ font-size: 16px; line-height: 40px}
+.echarts_bar .echarts_item .chart{ height:260px;width:1150px;margin: auto}
+/*管宁宁添加于2016/4/15 17：25 修改BUG 796*/
+.echarts_bar .echarts_item th,.echarts_bar .echarts_item td{padding: 0 10px;text-align: center}
+
+/*教师对比*/
+.subList_con{ padding-top: 20px}
+.subList_con li { float:left;border: 1px solid #DCDCDC;margin:0 10px 10px 0;padding: 0 7px; line-height: 24px; position: relative}
+.subList_con li .arrow{ display: none}
+.subList_con .sel_ac{background: #11ADE6;color: #fff;border-radius: 3px;border: 1px solid #fff}
+.subList_con .sel_ac a{color: #fff;}
+.subList_con .sel_ac .arrow{display: block; top:30px;left:50%; margin-left: -3px; z-index: 10}
+
+.echarts_item select{ padding: 5px }
+.subject_table{ position: relative; border-top: 1px solid #10ADE5}
+.subject_table table td,.subject_table table th{ height: 40px; border:1px solid #dcdcdc}
+.echart_bar{ background: #fff}
+.echart_bar .chart{ height:260px; margin-bottom: 30px}
+.echart_bar .chart h6{ height: 40px; line-height: 40px; background: #d7f2fc; font-size: 16px; text-indent: 25px}
+.tableWrap{overflow: auto;padding:25px 0;overflow-Y: hidden;}
+.score_overview table td{ border: 1px solid #dcdcdc; text-align: center}
+.classes_score_level h6{ height: 60px; background: #f5f5f5; line-height: 60px; text-indent: 25px; margin-top: 25px}
+
+.single_table{ width: 99%; border: 1px solid #dcdcdc}
+.single_table td{ font-size: 20px}
+.single_table span{font-size: 14px}
+
+/*在线成绩*/
+.online_table td{height: 40px}
+.online_table{ text-align: center}
+
+/*gnn修改BUG  2016/04/20 19：09*/
+.statistic .requireModule .container .tabItem{padding: 0;}
+
+/*使用统计页 管宁宁 2016-04-28*/
+.statistic .use_statistics .tabCont{
+    border: none;
+    border-top: 18px solid #f5f5f5;
+}
+.statistic .use_statistics .tabCont .Batch_statistics{
+    border-bottom: 1px solid #f5f5f5;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .activation{
+
+}
+.statistic .use_statistics .tabCont .Batch_statistics .activation div{
+    width: 192px;
+    height: 192px;
+    float: left;
+    border-radius: 50%;
+    margin:47.5px 0 47.5px 80px;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .activation .TotalRegistration{
+    background: #7ecef4;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .activation .ActivationVolume{
+    background: #7edc92;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .activation .ActivationRatio{
+    background: #f7c242;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .activation div span{
+    display: block;
+    width: 162px;
+    height: 107px;
+    font-size: 16px;
+    background: white;
+    border-radius: 50%;
+    border:5px solid #e9eff1;
+    margin: 10px auto;
+    text-align: center;
+    padding-top: 55px;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .activation div span em{
+    display: block;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .selector{
+    padding-bottom: 25px;
+    border-bottom: 1px solid #f5f5f5;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .selector select{
+    width: 118px;
+    height: 35px;
+    line-height: 35px;
+    border: 1px solid #dcdcdc;
+    border-radius: 3px;
+    margin-right: 10px;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .notActive{
+    height: 50px;
+    line-height: 50px;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .notActive span{
+    font-size: 16px;
+    color: #10ade5;
+    margin: 0 5px;
+}
+.statistic .use_statistics .tabCont .Batch_statistics .notActive em{
+    font-size: 16px;
+    color: #10ade5;
+    margin: 0 5px;
+}
+.statistic .use_statistics .tabCont .Batch_statistics td{
+    text-align: center;
+}
+.statistic .work_statistics .time{
+    height: 90px;
+    line-height: 90px;
+}
+.statistic .work_statistics .time span{
+    display: block;
+    width: 125px;
+    text-align: right;
+    float: left;
+}
+.statistic .work_statistics .time div{
+    width: 198px;
+    height: 38px;
+    line-height: 38px;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    float: left;
+    margin: 25px 0 0 10px;
+    color: #666;
+}
+.statistic .work_statistics td{
+    text-align: center;
+}
+
+
+
+/*学校短板池 后台*/
+.school_short_pool .right{line-height: 30px;background: #fff;width: 880px;*width:895px;}
+.school_short_pool .gnn_main{margin-top: 0;*margin-top: 18px;}
+.school_short_pool .selector{border-bottom: 1px solid #f5f5f5;padding: 20px 0;}
+.school_short_pool .gnn_tabCon{float: left;width: 100%;}
+.school_short_pool .selector .calendar-wrapper #calendar-monthly table tr{height: 30px;}
+.school_short_pool .gnn_tabCon label{display: inline-block;width: 77px;text-align: center;}
+.school_short_pool .selector .text0,.school_short_pool .selector .text1{width: 190px;height: 40px;line-height: 40px;border: 1px solid #ccc;padding-left: 10px;vertical-align: middle;color: #999;}
+.school_short_pool .selector .search,.school_short_pool .selector .search1{display: inline-block;border-radius: 5px;width: 90px;height: 35px;line-height: 35px;background: #10ade5;text-align: center;color: white;vertical-align: middle;margin-left: 35px;}
+.school_short_pool .gnn_tabCon select{width: 200px;height: 40px;}
+.gnn_main .shortKnowledge .knowledge{padding: 40px 0;}
+.gnn_main .shortKnowledge h5{font-size: 16px;height: 39px;border-bottom: 1px dashed #7ecef4;*display: block;*width: 860px;}
+.gnn_main .shortKnowledge .knowledgeBar{width: 860px;height: 42px;line-height: 42px;}
+.gnn_main .shortKnowledge .knowledgeNum{display: inline-block;*display: inline;*zoom:1;vertical-align: middle;padding-right: 10px;width: 130px;overflow: hidden;white-space: nowrap;word-wrap: normal;text-overflow: ellipsis;}
+/*.gnn_main .shortKnowledge .knowledgeNum:hover{color:rgb(16, 173, 229);cursor: pointer;}*/
+.gnn_main .shortKnowledge .knowledgeError{border-left: 2px solid #008acd;width: 600px;display: inline-block;*display: inline;*zoom:1;padding: 4px 0;vertical-align: middle;}
+.gnn_main .shortKnowledge .knowledgeError .width{position: relative;display: block;background: #4ebbbc;height: 35px;border-radius:5px;}
+.gnn_main .shortKnowledge .knowledgeError .width .errorNum{position: absolute;right: -120px;top: -4px;}
+
+.school_short_pool .sUI_tab .tabList li .ac{border-bottom:1px solid #fff;margin-bottom: -1px}
+
+
+/*短板池页日历 gnn*/
+.school_short_pool .calendar-wrapper {position: absolute;width: 230px;background: #fff;min-height: 155px;left: 369px;top: 125px;z-index: 2}
+.school_short_pool .calendar-wrapper .flexoCalendar {margin: 0 auto;border-collapse: separate;width: 100%;position: relative;z-index: 1}
+.school_short_pool .flexoCalendar td, .flexoCalendar th {padding:0;border: 0 none;height: 27px;text-align: center;width: 32px;font-size: 12px;cursor: pointer}
+.school_short_pool .flexoCalendar tr th .icon-arrow-left {display: inline-block;*display: inline;*zoom:1;height: 16px;line-height: 16px;vertical-align: text-top;width: 12px;cursor: pointer}
+.school_short_pool .flexoCalendar tr th .icon-arrow-right {display: inline-block;*display: inline;*zoom:1;height: 16px;line-height: 16px;vertical-align: text-top;width: 12px;cursor: pointer}
+.school_short_pool .icon-arrow-left:before {content: '<';font-style: normal;}
+.school_short_pool .icon-arrow-right:before {content: '>';font-style: normal;}
+.school_short_pool .flexoCalendar thead tr {height: 25px;color: #fff;}
+.school_short_pool .flexoCalendar thead tr:first-child th {cursor: pointer}
+.school_short_pool .flexoCalendar thead tr:first-child th:hover {background: #3dbaf0}
+.school_short_pool .flexoCalendar tr td.other-month {color: #aaa}
+.school_short_pool .flexoCalendar thead, .flexoCalendar th {background-color: #3dbaf0;font-weight: normal;color: #fff;}
+.school_short_pool .flexoCalendar tr th.current-year {width: 60%;}
+.school_short_pool .flexoCalendar td.selected-day span {color: #3dbaf0;}
+.school_short_pool .flexoCalendar tr td .day {display: block;width: 30px;height: 25px;line-height: 22px;text-align: center;border: 1px solid transparent;}
+.school_short_pool .flexoCalendar tr td.current-day > div, .flexoCalendar td.current-day > span {border: 1px solid #3dbaf0 !important;border-radius: 4px;color: #3dbaf0;background: #fff;}
+.school_short_pool .flexoCalendar tr td.selected > div, .flexoCalendar tr td.selected > span, .flexoCalendar tr td.selected > div span {border: 1px solid #3dbaf0;border-radius: 4px;background-color: #3dbaf0;color: #fff !important}
+.calendar-weekly .calendar-hd, .calendar-monthly .calendar-hd, .calendar-weekly tbody td {height: 30px;}
+.calendar-weekly tr td div {margin-bottom: 2px;}
+.calendar-weekly tr td .week {width: 100%;height: 100%;line-height: 30px;color: #565656;text-align: center;}
+.calendar-weekly tr td .process {color: #999;margin-left: 20px;width: 57px;text-align: left;}
+.calendar-monthly td.tmonth .month {display: block;width: 55px;height: 30px;line-height: 30px;margin: 1px;text-align: center;border-radius: 4px;color: #565656;border: 1px solid transparent;}
+.calendar-monthly td.current-month .month {border: 1px solid #3dbaf0;}
+.calendar-weekly tr td.week1 div, .tmonth.month1 span, .tmonth.month2 span, .tmonth.month3 span, .tmonth.month4 span {margin-top: 10px !important;}
+
+
+
+
+
+
+
+

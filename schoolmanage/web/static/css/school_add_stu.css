@@ -1,0 +1,49 @@
+* {margin:0;padding:0;}
+.requireModule{min-height:700px;}
+.school_name {height:100px;background:#ffffff;margin-top:18px;}
+.school_name img {height:100px;}
+.class_nav {height:60px;position:relative;overflow:hidden;margin-top:18px;}
+.class_nav_opacity {width:100%;position:absolute;top:0;left:0;height:60px;background:#ffffff;opacity:0.8;filter:Alpha(opacity=80);}
+.class_nav_list {position:relative;float:left;top:18px;left:50%;}
+.class_nav_list .ac a {background:#11ADE6;border-radius:3px;color:#ffffff;}
+.class_nav_list li {float:left;position:relative;margin:0 50px;left:-50%;}
+.class_nav_list li a {display:block;width:70px;text-align:center;line-height:22px;height:22px;font-size:14px;color:#333333;}
+.mag_title {position:relative;height:42px;background-color:#ffffff;margin-top:18px;text-align:center;padding-top:18px;}
+.mag_title button {float:left;height:26px;width:70px;}
+.mag_title h4 {margin:auto;}
+.container {width:1065px;float:left;min-height:30px;margin-top:18px;background:#ffffff;padding-top:10px;padding-left:135px;}
+.container .add_stu_verification span {display:inline-block;height:25px;vertical-align:middle;padding-bottom:10px;}
+.req{color:red;}
+.lable{display:inline-block;width:100px;text-align:right;}
+.lable,.main #form_add_stu input{margin:15px 10px;}
+
+.verification p {margin:10px 0 10px 50px;}
+
+.add_stu_verification{display:none;}
+
+.add_stu_verification #message {margin:30px 0;}
+.add_stu_verification #message td {text-align:center;width:140px;}
+.add_stu_verification #message_header {background:#d7f2fc;height:35px;line-height:35px;}
+.add_stu_verification #message .short {width:80px;}
+.add_stu_verification .message_main {height:60px;line-height:60px;border-bottom:1px solid #dcdcdc;}
+button.btn {background-color:#11ADE6;margin:27px 0;}
+button.alter{background-color:#11ADE6;}
+button.btn{width:100px;height:35px;}
+.add_stu_verification button.btn:hover {background-color:#7bccff;}
+.add_stu_verification a#remove_1{display:inline-block;background:#ccc;width:100px;height:35px;line-height:35px;padding:0;}
+.add_stu_verification a#remove_1:hover{background:#7bccff;}
+.add_stu_verification button.btn#remove_1:hover{background:#7bccff;}
+hr {width:870px;}
+.btn_class {float:left;margin-left:350px;margin-bottom:20px;margin-top:30px;}
+.add_stu_verification .btn_class button {margin:0;}
+
+.form_add_stu_1{overflow:hidden;padding:30px 135px;background:white;display:none;margin-top:18px;}
+
+.form_add_stu_1 h4{background:#d7f2fc;text-indent:10px;font-weight:bold;padding:3px 0;margin-bottom:15px;}
+input[type=text]{width:260px;height:34px;}
+.form_add_stu_1 li{float:left;margin:15px 10px;}
+.form_add_stu_1 .posit{width:100px;text-align:right;}
+.parent_message {border-bottom:1px solid #ccc;padding-bottom:30px;}
+#submit{margin-left:0;}
+.gobackBtn { position: absolute;top: 15px;left: 0;}
+input[readonly]{color:#000;}

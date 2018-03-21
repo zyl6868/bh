@@ -1,0 +1,41 @@
+{
+    "name": "arara/process",
+    "type": "library",
+    "description": "Provides a better API to work with processes on Unix-like systems",
+    "keywords": ["fork", "daemon", "multitasking", "pcntl", "posix", "process", "spawn", "task", "command"],
+    "homepage": "https://github.com/Arara/Process",
+    "license" : "MIT",
+    "authors" : [
+        {
+            "name": "Henrique Moody",
+            "email": "henriquemoody@gmail.com"
+        }
+    ],
+    "require": {
+        "ext-pcntl": "*",
+        "ext-posix": "*",
+        "php": ">=5.4.0",
+        "phpfluent/callback": "~1.0"
+    },
+    "require-dev": {
+        "ext-uopz": "*",
+        "phpmd/phpmd" : "~2.2",
+        "phpunit/phpunit": "~4.6",
+        "squizlabs/php_codesniffer": "~2.3"
+    },
+    "autoload": {
+        "psr-0": {
+            "Arara\\Process": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-0": {
+            "Arara\\Test": "tests/src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.10-dev"
+        }
+    }
+}

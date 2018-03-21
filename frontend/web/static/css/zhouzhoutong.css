@@ -1,0 +1,48 @@
+body, p {
+  margin: 0;
+}
+
+body {
+  background-color: #290055;
+  font-family: '微软雅黑', '宋体';
+}
+
+img {
+  width: 100%;
+  vertical-align: bottom;
+}
+
+.center {
+  background-color: #290055;
+  padding: 20px 3.3%;
+}
+
+table {
+  padding: 3.5% 3.5% 1% 3.5%;
+  color: #3fdbdf;
+  width: 100%;
+  line-height: 28px;
+  font-size: 14px;
+  background-color: #5102c3;
+  text-align: center;
+  border-radius: 20px;
+  font-weight: normal;
+}
+
+thead {
+  background-color: #4b02b1;
+}
+
+tbody tr:not(.noBorder) td {
+  border-bottom: 1px dashed #2e55dd;
+}
+
+footer {
+  color: #44e9ee;
+  font-size: 14px;
+  text-align: center;
+  font-weight: normal;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  line-height: 1.7;
+}

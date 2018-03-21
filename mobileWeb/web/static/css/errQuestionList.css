@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+a {
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+}
+li {
+    list-style-type:none;
+}
+.clearfix:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+.wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #efeff4;
+    overflow: hidden;
+}
+.shadeBox {
+    display: none;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .6);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+}
+.header {
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    position: relative;
+    z-index: 15;
+}
+.header .nav {
+    text-align: center;
+}
+.header .back {
+    display: block;
+    float: left;
+    width: 15%;
+    height: 40px;
+    margin-top: 20px;
+}
+.header .headerTitle {
+    width: 80%;
+    margin-left: 16%;
+}
+.header .headerTitle div {
+    float: left;
+    width: 40%;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    margin-top: 30px;
+}
+.header .headerTitle div p {
+    font-size: 16px;
+}
+.header .headerTitle div .noSelected {
+    color: #999;
+}
+.header .headerTitle div img {
+    display: block;
+    margin: 8px auto 0;
+    width: 30px;
+}
+.header .headerTitle div .noShow {
+    display: none;
+}
+.header .back img{
+    margin-top: 10px;
+    width: 20px;
+    height: 20px;
+}
+.selectSubject .topOrange {
+    position: relative;
+    z-index: 15;
+    height: 45px;
+    line-height: 45px;
+    color: #fcb314;
+    background-color: #fffaef;
+}
+.selectSubject .topOrange .subjectSelected {
+    float: left;
+    font-size: 14px;
+    margin-left: 22px;
+}
+.selectSubject .topOrange .otherSubject {
+    font-size: 14px;
+    float: right;
+    margin-right: 22px;
+}
+.selectSubject .topOrange .otherSubject img {
+    width: 10px;
+    vertical-align: sub;
+}
+.selectSubject .options {
+    display: none;
+    background-color: #fff;
+    padding: 16px 22px;
+    position: absolute;
+    z-index: 20;
+    width: 100%;
+    box-sizing: border-box;
+}
+.selectSubject .options p {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+.selectSubject .options ul {
+    margin-bottom: 10px;
+}
+.selectSubject .options li {
+    width: 20%;
+    height: 30px;
+    margin: 2%;
+    line-height: 30px;
+    font-size: 14px;
+    color: #999;
+    float: left;
+    text-align: center;
+    border: 1px solid #999;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+.selectSubject .options li a {
+    color: #000;
+}
+.selectSubject .options li.isSelected {
+    color: #fff;
+    background-color: #fcb314;
+    border: 1px solid #fcb314;
+}
+.selectSubject .options li.isSelected a {
+    color: #fff;
+}
+.errWorkList {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.errWorkList .errWorkListTitle {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    font-size: 14px;
+    color: #555;
+}
+.errWorkList .errWorkBox {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 16px 10px 10px;
+    background-color: #fff;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+.errWorkList .errWorkBox * {
+    width: auto!important;
+    max-width: 100%!important;
+    word-wrap: break-word;
+    overflow: hidden;
+}
+.errWorkList .errWorkBox .gradeStart {
+    color: #999;
+    margin-top: 10px;
+}
+.errWorkList .errWorkBox .gradeStart span {
+    font-size: 14px;
+}
+.errWorkList .errWorkBox .gradeStart p {
+    font-size: 14px;
+    float: right;
+}
+.errWorkList .errWorkBox .gradeStart img {
+    height: 14px;
+    vertical-align: text-top;
+    margin-right: 4px;
+}
+.loadMore {
+    display:none;
+    text-align: center;
+}
+a {color: #000}
+.isFoot {
+    display: none;
+    width: 200px;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    background-color: #555;
+    color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    margin-left: -100px;
+    border-radius: 10px;
+}
+.noCtn {
+    height: 100%;
+    overflow: hidden;
+    background-color: #fff;
+    text-align: center;
+}
+.noCtn img {
+    margin-top: 100px;
+    width: 100px;
+}
+.noCtn p {
+    font-size: 16px;
+    margin-top: 20px;
+    color: #999;
+}
